@@ -6,11 +6,12 @@ https://developers.google.com/maps/documentation/places/web-service/search-nearb
 https://developers.google.com/maps/documentation/places/web-service/place-data-fields
 
 TO DO
-    -The Error handling Structure in exception_finder triggers on a no-phone or no-site
-    -Look at other programs that achieve the same objectives on github.
-    Store Exceptions in a different json
-    Learn what and how to use gitbash
-    convert to o
-    OOP -?
-    Comment
-    Prettify
+    - The Error handling Structure in exception_finder triggers on a no-phone or no-site
+    - Look at other programs that achieve the same objectives on github.
+    - Store Exceptions in a different json
+    - !convert to pandas!
+    option to delete data.json
+    - Learn what and how to use gitbash
+    - convert to OOP -?
+    - Comment
+    - Prettify

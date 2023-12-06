@@ -2,6 +2,8 @@ import os
 import requests
 import json
 import csv
+import pandas as pd
+
 
 # Load Google Maps API key from environment variable
 GOOGLE_MAPS_API_KEY = os.environ['GOOGLE_MAPS_API_KEY']
@@ -9,21 +11,21 @@ GOOGLE_MAPS_API_KEY = os.environ['GOOGLE_MAPS_API_KEY']
 
 keywords_file_path = 'keywords_short.csv'
 stored_data_file_path = "data.json"
-exceptions_data_file_path = "exceptions"
+exceptions_data_file_path = "exceptions.json"
 
+storage_frame = None
 
-def get_place_details(place_id):
-    base_url = 'https://maps.googleapis.com/maps/api/place/details/json'
-    params = {
+place_details_base_url = 'https://maps.googleapis.com/maps/api/place/details/json'
+place_detail_params = {
         'key': GOOGLE_MAPS_API_KEY,
-        'place_id': place_id,
+        'place_id': None,
         'fields': 'name,formatted_address,formatted_phone_number,website',
     }
-
+def get_place_details(place_id):
+    place_detail_params['place_id'] = place_id
     try:
-        response = requests.get(base_url, params=params)
+        response = requests.get(place_details_base_url, params=place_detail_params)
         response.raise_for_status()
-
         data = response.json()
 
         if data['status'] == 'OK' and 'result' in data:
@@ -222,45 +224,55 @@ longitude = -105.104759
 #         print(f'Error: {error}')
 #
 
-def search_for_place_details(place_ids):
-    for id in place_ids:
+def search_for_place_details(list_of_place_details):
+
+    output_dict = {
+        'Name': ['test'],
+        'Website': ['test'],
+        'Phone-number': ['test']
+    }
+    place_site_name = "No Data"
+    place_website = "No Data"
+    place_telephone_number = "No Data"
+
+
+    storage = pd.DataFrame(output_dict)
+
+    for place_details in list_of_place_details:
         try:
-            place_site_name = id['name']
-            place_website = id['website']
+            print("In try 1")
+            place_site_name = place_details['name']
+            place_website = place_details['website']
             try:
-                place_telephone_number = id['formatted_phone_number']
-            except ValueError("There do does appear to be a phone number for this Place"):
-                output = (f"Place Name: {place_site_name},"
-                          f"Place Website: {place_website}")
-                print(output)
+                print("In try 2")
+                place_telephone_number = place_details['formatted_phone_number']
+            except Exception("There do does appear to be a phone number for this Place"):
+                storage.loc[len(storage.index)] = [place_site_name, "NO WEBSITE", "NO NUMBER"]
             else:
-                output = (f"Place Name: {place_site_name},"
-                          f"Place Website: {place_website},"
-                          f"Place Phone-number: {place_telephone_number}")
-                print(output)
+                pass
         # except Exception:
-        except ValueError:
-            output = f"Place Name: id['name']"
-            print(output)
+        except Exception:
+            print("In Exception 1")
+            storage.loc[len(storage.index)] = [place_site_name, "NO WEBSITE", place_telephone_number]
         else:
-            place_telephone_number = id['formatted_phone_number']
-            output = (f"Place Name: {place_site_name},"
-                      f"Place Phone-number: {place_telephone_number},"
-                      f"Place Website: {place_website}")
-            print(output)
-        return output
+            print("In else 1")
+            place_telephone_number = place_details['formatted_phone_number']
+
+        storage.loc[len(storage.index)] = [place_site_name, place_website, place_telephone_number]
+
+    return storage
 
 
 def exception_finder(kfp, sdfp):
-    keyword_list = get_keyword_list(kfp)
-    for item in keyword_list:
-        [places] = find_nearby_businesses(latitude, longitude, item)
-        update_json_file([places], sdfp)
-        print("")
-    list_of_places = create_place_id_list(sdfp)
-    list_of_place_ids = [get_place_details(place_id) for place_id in list_of_places]
-    search_for_place_details(list_of_place_ids)
-
+    # keyword_list = get_keyword_list(kfp)
+    # for item in keyword_list:
+    #     list_of_places = find_nearby_businesses(latitude, longitude, item)
+    #     update_json_file(list_of_places, sdfp)
+    #     print("")
+    list_of_places_ids = create_place_id_list(sdfp)
+    list_of_place_details = [get_place_details(place_id) for place_id in list_of_places_ids]
+    frame = search_for_place_details(list_of_place_details)
+    print(frame)
     # previous main
 
 

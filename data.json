@@ -45,97 +45,6 @@
     "business_status": "OPERATIONAL",
     "geometry": {
       "location": {
-        "lat": 39.8863437,
-        "lng": -104.8295465
-      },
-      "viewport": {
-        "northeast": {
-          "lat": 39.88766727989272,
-          "lng": -104.8281963201073
-        },
-        "southwest": {
-          "lat": 39.88496762010728,
-          "lng": -104.8308959798927
-        }
-      }
-    },
-    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
-    "icon_background_color": "#7B9EB0",
-    "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
-    "name": "Quality Business Services",
-    "opening_hours": {
-      "open_now": false
-    },
-    "photos": [
-      {
-        "height": 1755,
-        "html_attributions": [
-          "<a href=\"https://maps.google.com/maps/contrib/106811130485647274032\">A Google User</a>"
-        ],
-        "photo_reference": "AWU5eFj6TflsC0z8VLVZcDozTcI8KGDpn3aMk0VuAVqH4mSUo_fcf6D-DZna2_8yc8FKRX2Koakop2SsZmaljY7mhRlvsJcpYWu4btR6qShblWnEcUC1j2TLrgj8RZ1okmML2mlz__loyEZtysUiYQwxis6R4D9HqzYyG47qAAyfsOujX1Fo",
-        "width": 3000
-      }
-    ],
-    "place_id": "ChIJNdZ-pA9vbIcRdP2Fxm1paLQ",
-    "plus_code": {
-      "compound_code": "V5PC+H5 Commerce City, Colorado",
-      "global_code": "85FQV5PC+H5"
-    },
-    "rating": 0,
-    "reference": "ChIJNdZ-pA9vbIcRdP2Fxm1paLQ",
-    "scope": "GOOGLE",
-    "types": [
-      "accounting",
-      "finance",
-      "point_of_interest",
-      "establishment"
-    ],
-    "user_ratings_total": 0,
-    "vicinity": "13599 E 104th Ave #200, Commerce City"
-  },
-  {
-    "business_status": "OPERATIONAL",
-    "geometry": {
-      "location": {
-        "lat": 39.585527,
-        "lng": -104.88213
-      },
-      "viewport": {
-        "northeast": {
-          "lat": 39.58660067989273,
-          "lng": -104.8809932701073
-        },
-        "southwest": {
-          "lat": 39.58390102010728,
-          "lng": -104.8836929298927
-        }
-      }
-    },
-    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
-    "icon_background_color": "#7B9EB0",
-    "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
-    "name": "Padgett Business Services",
-    "place_id": "ChIJG9agv9CFbIcRj1K6-I1Ca9A",
-    "plus_code": {
-      "compound_code": "H4M9+X4 Centennial, Colorado",
-      "global_code": "85FQH4M9+X4"
-    },
-    "rating": 0,
-    "reference": "ChIJG9agv9CFbIcRj1K6-I1Ca9A",
-    "scope": "GOOGLE",
-    "types": [
-      "accounting",
-      "finance",
-      "point_of_interest",
-      "establishment"
-    ],
-    "user_ratings_total": 0,
-    "vicinity": "7310 S Alton Way, Centennial"
-  },
-  {
-    "business_status": "OPERATIONAL",
-    "geometry": {
-      "location": {
         "lat": 39.7233677,
         "lng": -104.6928107
       },
@@ -155,7 +64,7 @@
     "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
     "name": "Mile High Business Solutions LLC",
     "opening_hours": {
-      "open_now": false
+      "open_now": true
     },
     "photos": [
       {
@@ -163,7 +72,7 @@
         "html_attributions": [
           "<a href=\"https://maps.google.com/maps/contrib/107051759630075740918\">A Google User</a>"
         ],
-        "photo_reference": "AWU5eFiQ6F8R7Ia7EhxUQgNkzH1X2jrgwnWOGZd5O2PurU3MG7RC20SAZ9pneRuxJsyknllmQ-Ll3wM5QcGffpNXOt0Jgit48LfCRVh8cZD06WAe46Ggopqtr188VWwI6dkJPDm-Mhc6_tE5ibfvvXH4MF5R7WfuXZMD4HbnkfjyumLrEjyR",
+        "photo_reference": "AWU5eFjTKldVon_YNFSkhJhIbH9C-fUY_qAm0afdyTnWvTsQsV1qk2U4AU_5r9UBu0Zhi1zSRQZzj09gz8ww7m1g6P27_ObYkOXoPQ6jawiVFF47182E13RlRYI1mkNIQNa0T1DAU-iI-cT62MxWwlSSRu_2e6qQnjncHWMIh8rchzwAw5mR",
         "width": 1280
       }
     ],
@@ -188,6 +97,58 @@
     "business_status": "OPERATIONAL",
     "geometry": {
       "location": {
+        "lat": 39.8856983,
+        "lng": -104.8242806
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 39.88720477989273,
+          "lng": -104.8228985701073
+        },
+        "southwest": {
+          "lat": 39.88450512010728,
+          "lng": -104.8255982298927
+        }
+      }
+    },
+    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+    "icon_background_color": "#7B9EB0",
+    "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+    "name": "Precise Business Services LLc",
+    "opening_hours": {
+      "open_now": true
+    },
+    "photos": [
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/107525078510021075874\">A Google User</a>"
+        ],
+        "photo_reference": "AWU5eFhD1uUnHdhUDHxrqEzniIuJgNCGLiEvGnCLWmI9YVLRXDehJ6LbpGyPgwIROunNC5eyKYuQxbzmLPEQu_lJSZzmEyR2tBmEosYcd2xnZJLV6j-FjmBQgqkNB2fKsNfyf-2764kwxtddlmdiQz7gbvKvv16baSovaLVBGCCE0I_sX8Mz",
+        "width": 3024
+      }
+    ],
+    "place_id": "ChIJZxFW2_RvbIcRuPnKDUx7nIU",
+    "plus_code": {
+      "compound_code": "V5PG+77 Commerce City, Colorado",
+      "global_code": "85FQV5PG+77"
+    },
+    "rating": 0,
+    "reference": "ChIJZxFW2_RvbIcRuPnKDUx7nIU",
+    "scope": "GOOGLE",
+    "types": [
+      "accounting",
+      "finance",
+      "point_of_interest",
+      "establishment"
+    ],
+    "user_ratings_total": 0,
+    "vicinity": "10410 Billings St, Commerce City"
+  },
+  {
+    "business_status": "OPERATIONAL",
+    "geometry": {
+      "location": {
         "lat": 39.88626259999999,
         "lng": -104.993788
       },
@@ -207,7 +168,7 @@
     "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
     "name": "A Small Business Solution Inc.",
     "opening_hours": {
-      "open_now": false
+      "open_now": true
     },
     "photos": [
       {
@@ -215,7 +176,7 @@
         "html_attributions": [
           "<a href=\"https://maps.google.com/maps/contrib/110096540925290608404\">A Small Business Solution Inc.</a>"
         ],
-        "photo_reference": "AWU5eFiVk2vK7hrVpFlRdl4bgg6D-A2MtZtbkiqGoLYssJp-FVShpYpWQjSoz7QyfdpYoA9W51bQBwXu85BGVMq2aszJsoo2RxvMPWQiN3REpRAOi6Gwvub3tIu0CCo8fWM1sZQCOpNhNp0MB1c9PEHDpZbOppAM4JMi0lWXYSn7gssqcg6D",
+        "photo_reference": "AWU5eFj_YgfjApoIzFKBiw9-ky9t9EuMlneBHvNiFiJkJM6AgoMR_zOQQKZvdUsRfo8QZn9biguyV7qQ2zlyaBL9qBPby8KTZHYCuAMM5cdwmb5-N6LLS78jEg3pI0m0dN4KcKZjY-rmQJZW0r0Gz2uUxrJ_2OIjuabjBUOY0qYNt9GWUtn1",
         "width": 1400
       }
     ],
@@ -240,92 +201,6 @@
     "business_status": "OPERATIONAL",
     "geometry": {
       "location": {
-        "lat": 40.0168679,
-        "lng": -105.2812057
-      },
-      "viewport": {
-        "northeast": {
-          "lat": 40.01819512989272,
-          "lng": -105.2798220701073
-        },
-        "southwest": {
-          "lat": 40.01549547010728,
-          "lng": -105.2825217298927
-        }
-      }
-    },
-    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
-    "icon_background_color": "#7B9EB0",
-    "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
-    "name": "Matrix Business Solutions",
-    "place_id": "ChIJ4zENiybsa4cRPAHx--65nPc",
-    "plus_code": {
-      "compound_code": "2P89+PF Boulder, Colorado",
-      "global_code": "85GP2P89+PF"
-    },
-    "rating": 5,
-    "reference": "ChIJ4zENiybsa4cRPAHx--65nPc",
-    "scope": "GOOGLE",
-    "types": [
-      "point_of_interest",
-      "establishment"
-    ],
-    "user_ratings_total": 1,
-    "vicinity": "1911 11th St #205, Boulder"
-  },
-  {
-    "business_status": "OPERATIONAL",
-    "geometry": {
-      "location": {
-        "lat": 39.9096553,
-        "lng": -105.0753424
-      },
-      "viewport": {
-        "northeast": {
-          "lat": 39.91096697989272,
-          "lng": -105.0738979201073
-        },
-        "southwest": {
-          "lat": 39.90826732010728,
-          "lng": -105.0765975798927
-        }
-      }
-    },
-    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
-    "icon_background_color": "#7B9EB0",
-    "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
-    "name": "Sesser Business Services Inc",
-    "photos": [
-      {
-        "height": 3024,
-        "html_attributions": [
-          "<a href=\"https://maps.google.com/maps/contrib/100709145520430411299\">A Google User</a>"
-        ],
-        "photo_reference": "AWU5eFiveIVZiiqsl4xBKmlVbUb3wEKPWeysw779tw3b58iV_jd5Aj70aPjyHITb-GSl9sl70NPk1H2o08pRSYZyHi5OsSwBIsGXB-J70-F-83MK2RoveyUXrFPBJqcQ1QnKM2Pw65XMtG4ePgaIHijisSt9cPeER-xQeNw10xq69LPRNqIf",
-        "width": 4032
-      }
-    ],
-    "place_id": "ChIJma6GT0qKa4cRrg7yUls_d9k",
-    "plus_code": {
-      "compound_code": "WW5F+VV Broomfield, Colorado",
-      "global_code": "85FPWW5F+VV"
-    },
-    "rating": 0,
-    "reference": "ChIJma6GT0qKa4cRrg7yUls_d9k",
-    "scope": "GOOGLE",
-    "types": [
-      "accounting",
-      "finance",
-      "point_of_interest",
-      "establishment"
-    ],
-    "user_ratings_total": 0,
-    "vicinity": "7130 W 117th Ave STE D2, Broomfield"
-  },
-  {
-    "business_status": "OPERATIONAL",
-    "geometry": {
-      "location": {
         "lat": 39.6334766,
         "lng": -104.8962446
       },
@@ -345,7 +220,7 @@
     "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
     "name": "Barrett Business Services Inc",
     "opening_hours": {
-      "open_now": false
+      "open_now": true
     },
     "place_id": "ChIJg9ukQviGbIcRIFEUToAYDWo",
     "plus_code": {
@@ -385,7 +260,7 @@
     "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
     "name": "Small Business Solutions",
     "opening_hours": {
-      "open_now": false
+      "open_now": true
     },
     "photos": [
       {
@@ -393,7 +268,7 @@
         "html_attributions": [
           "<a href=\"https://maps.google.com/maps/contrib/102352422095168607060\">A Google User</a>"
         ],
-        "photo_reference": "AWU5eFgkSnFvR3IWQseRjwNAix7CrH-zxYxFDek44iP7KeTD8njSbYEJYmJLvReKqjsPS1O0vTKz67z0zSa8JYdOYauQ9eR3oHpyTZ96el4gmcFzS__fsZQpO4dRtucIgQsROlttCdeLgRKlKfgDp41W68ystHwQpguNftIqjdqLBvcgPsec",
+        "photo_reference": "AWU5eFh95IRh5F9aHC5trwXF1DWFF4pu1jWQvpFlSnQsgx5083RSXd9dNaLjimI_bPpHLw5vKr58i7CtxU_EPmsJyQNCyamQbkiqTnsW4bCzDTiK2g7ba2iZBr1N73JBtBmLmuUUiZu0M4cC0H5z4KMIf9lYASZbCCEg1mFR4GZ7Uhvgiksh",
         "width": 2448
       }
     ],
@@ -437,7 +312,7 @@
     "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
     "name": "Ring Business Services",
     "opening_hours": {
-      "open_now": false
+      "open_now": true
     },
     "place_id": "ChIJrebplWR-a4cRauOTF7nZR6E",
     "plus_code": {
@@ -455,6 +330,56 @@
     ],
     "user_ratings_total": 1,
     "vicinity": "6793 W Canyon Ave # 13B, Littleton"
+  },
+  {
+    "business_status": "OPERATIONAL",
+    "geometry": {
+      "location": {
+        "lat": 39.8837655,
+        "lng": -104.9433344
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 39.88521762989272,
+          "lng": -104.9420828201073
+        },
+        "southwest": {
+          "lat": 39.88251797010728,
+          "lng": -104.9447824798927
+        }
+      }
+    },
+    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+    "icon_background_color": "#7B9EB0",
+    "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+    "name": "Keep it Simple Business Solutions, LLC.",
+    "opening_hours": {
+      "open_now": true
+    },
+    "photos": [
+      {
+        "height": 788,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/114896818850124780374\">A Google User</a>"
+        ],
+        "photo_reference": "AWU5eFjxwy8IAqsY43BwwP944sqbHPtUDq8ywKpczZNmBzEZN7dTmRylJ-jEKgEiQtubHyE_7Zv5amiBxU57kwB1GGDV0YG-Z8I8QJYZsRgw7qP6gKG2JoefKKCa7dTSoztA96njHaz6_PbjllqFlTFXc89p0StbVF2cszhDflmTsbu_1_F3",
+        "width": 940
+      }
+    ],
+    "place_id": "ChIJV7quTdl3bIcR5j0pLPpcsaQ",
+    "plus_code": {
+      "compound_code": "V3M4+GM Thornton, Colorado",
+      "global_code": "85FQV3M4+GM"
+    },
+    "rating": 5,
+    "reference": "ChIJV7quTdl3bIcR5j0pLPpcsaQ",
+    "scope": "GOOGLE",
+    "types": [
+      "point_of_interest",
+      "establishment"
+    ],
+    "user_ratings_total": 2,
+    "vicinity": "3758 E 104th Ave Suite 536, Thornton"
   },
   {
     "business_status": "OPERATIONAL",
@@ -479,7 +404,7 @@
     "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
     "name": "Pricewise Business Solutions",
     "opening_hours": {
-      "open_now": false
+      "open_now": true
     },
     "photos": [
       {
@@ -487,7 +412,7 @@
         "html_attributions": [
           "<a href=\"https://maps.google.com/maps/contrib/103295769316845617222\">Pricewise Business Solutions</a>"
         ],
-        "photo_reference": "AWU5eFhWcIR7zJCX627o5Ihb8rsKc7i_uPbIDChxx7Iu1J2Vl1cgdVGzDNG1zChteVBNgPw6QHC7tCYFy-jtlKoKCVqrZWG6ncKc9bSLW9kSxVp_7SfkZBPph9kZyQwW18L-xM4G0mRup4Vr64wpatdpJwJ_DG4VwlHsGhJijvan7ilJMjvS",
+        "photo_reference": "AWU5eFhNwis1hidxctLfE-ovSzdPvGufG4EtsTyQeA62d9DHBIlZcJIDn73HqGBmiDv2fTqzTzIWWIbs6wbjndd3mX5qtxC5y1VAYvv1XGpNu3oQyZBPU8eVCWADM4Omq_ORQzj7p0R93LckrFV5JFvRZSCyfI87hgeKEyTtv0P4f15AEiKs",
         "width": 828
       }
     ],
@@ -512,43 +437,6 @@
     "business_status": "OPERATIONAL",
     "geometry": {
       "location": {
-        "lat": 39.591126,
-        "lng": -104.817908
-      },
-      "viewport": {
-        "northeast": {
-          "lat": 39.59247992989272,
-          "lng": -104.8165439201073
-        },
-        "southwest": {
-          "lat": 39.58978027010728,
-          "lng": -104.8192435798927
-        }
-      }
-    },
-    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
-    "icon_background_color": "#7B9EB0",
-    "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
-    "name": "Certified Business Services Inc",
-    "place_id": "ChIJlXY4AzePbIcRcJ__Fm8FHbY",
-    "plus_code": {
-      "compound_code": "H5RJ+FR Englewood, Colorado",
-      "global_code": "85FQH5RJ+FR"
-    },
-    "rating": 5,
-    "reference": "ChIJlXY4AzePbIcRcJ__Fm8FHbY",
-    "scope": "GOOGLE",
-    "types": [
-      "point_of_interest",
-      "establishment"
-    ],
-    "user_ratings_total": 1,
-    "vicinity": "6920 S Jordan Rd Ste K, Englewood"
-  },
-  {
-    "business_status": "OPERATIONAL",
-    "geometry": {
-      "location": {
         "lat": 39.6207091,
         "lng": -104.9035714
       },
@@ -568,7 +456,7 @@
     "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
     "name": "Business & Financial Management Services",
     "opening_hours": {
-      "open_now": false
+      "open_now": true
     },
     "photos": [
       {
@@ -576,7 +464,7 @@
         "html_attributions": [
           "<a href=\"https://maps.google.com/maps/contrib/102626700825674592799\">A Google User</a>"
         ],
-        "photo_reference": "AWU5eFi7kb2aCPaHMSfsGF6TUYdJOEPwK6W81o6gfS1m7_dIBvzotYkju1FggaY2MZEpL0ds2zO51POOfDQCfkTyHO1Fc_O16pj7dKcsk5xR7Me-PLas0T9wcwk0atdJetzmFTRChAfmOtVjejX1ir3QAUIa-hNSWJ4S9cRCQexBWcsSiwbI",
+        "photo_reference": "AWU5eFgpNk_ha5Vu6yQWoni-deWfYpvkm4MokDG5dBxiERBVgSyFtNiQqmbi9a623BFB4pK-CNWaHEHtgtTQJo0K98RoGLZZbtCbtbHaLdaqjBUuJduC5U9sOwtXLu1dKzvJZqE5WXx3pkPKHq6PPgUF9--JgraKRyGJLaG5epVqj8zUyQSz",
         "width": 1678
       }
     ],
@@ -601,43 +489,6 @@
     "business_status": "OPERATIONAL",
     "geometry": {
       "location": {
-        "lat": 40.0138919,
-        "lng": -105.2388167
-      },
-      "viewport": {
-        "northeast": {
-          "lat": 40.01523482989271,
-          "lng": -105.2376304701073
-        },
-        "southwest": {
-          "lat": 40.01253517010727,
-          "lng": -105.2403301298927
-        }
-      }
-    },
-    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
-    "icon_background_color": "#7B9EB0",
-    "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
-    "name": "Diversified Business Services / DBSLists.com",
-    "place_id": "ChIJER9H--jta4cRjE8cywYaTZk",
-    "plus_code": {
-      "compound_code": "2Q76+HF Boulder, Colorado",
-      "global_code": "85GP2Q76+HF"
-    },
-    "rating": 0,
-    "reference": "ChIJER9H--jta4cRjE8cywYaTZk",
-    "scope": "GOOGLE",
-    "types": [
-      "point_of_interest",
-      "establishment"
-    ],
-    "user_ratings_total": 0,
-    "vicinity": "4450 Arapahoe Ave, Boulder"
-  },
-  {
-    "business_status": "OPERATIONAL",
-    "geometry": {
-      "location": {
         "lat": 39.6007842,
         "lng": -104.6973439
       },
@@ -657,7 +508,7 @@
     "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
     "name": "Phoenix business solutions",
     "opening_hours": {
-      "open_now": false
+      "open_now": true
     },
     "photos": [
       {
@@ -665,7 +516,7 @@
         "html_attributions": [
           "<a href=\"https://maps.google.com/maps/contrib/101750330828780326904\">A Google User</a>"
         ],
-        "photo_reference": "AWU5eFgKcEL-c8h2PcPJ8HDzS23eO5vNkqXfSrXymYbC6JP210h3-0jpXuxFm2uKH-2ow6lLpJG3WJNYiXxaNWONvTGqZuuZG3aTIVi2z4HEVBX2BI44ZZ8HFgD2piwPpfm_CeasJhviQC9Z67ZVZcE6sWNNdu8He18iUgIss8CHOev1CLKB",
+        "photo_reference": "AWU5eFgE7QJyKdc23UuwDJNR3ZiJ8GEU4iVv3sh5bOPO_JCjCQuPIBYCKSd4Ho7B7Y0psQ7CzZ3tgz08kjhm8R8bKwrjaQWnPLXOuR60sLr_dDeOV-jXDSEKpdC9CQBLT-Q_OlOIN6qH7NDsHr5UWCQQPF7_6Vv24KHslcCnnM6LcFxfKJlq",
         "width": 1260
       }
     ],
@@ -683,6 +534,109 @@
     ],
     "user_ratings_total": 5,
     "vicinity": "6373 S Irvington Way, Aurora"
+  },
+  {
+    "business_status": "OPERATIONAL",
+    "geometry": {
+      "location": {
+        "lat": 39.66367109999999,
+        "lng": -104.8592478
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 39.66492617989272,
+          "lng": -104.8578000201073
+        },
+        "southwest": {
+          "lat": 39.66222652010727,
+          "lng": -104.8604996798927
+        }
+      }
+    },
+    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+    "icon_background_color": "#7B9EB0",
+    "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+    "name": "Management Solutions for Businesses LLC",
+    "opening_hours": {
+      "open_now": true
+    },
+    "photos": [
+      {
+        "height": 500,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/114046603173262050077\">A Google User</a>"
+        ],
+        "photo_reference": "AWU5eFitUpB3f92CyOdG749Jyp3xXUk6dYosvRdnrTYOhGU932hctwxuYLfKQlIKahVkToVbTsNBOrC8bmWRcHik4QlaoHI8Y070KLPt35dya5jc8UD6BoO2urd2OYykxHQOsVvRqdU-IcFz3fFbGZ39EBuzc_EO4RQ1Cjp_k8RhvjcOUih6",
+        "width": 500
+      }
+    ],
+    "place_id": "ChIJF89fPWeHbIcRuirmSkFlSEs",
+    "plus_code": {
+      "compound_code": "M47R+F8 Aurora, Colorado",
+      "global_code": "85FQM47R+F8"
+    },
+    "rating": 5,
+    "reference": "ChIJF89fPWeHbIcRuirmSkFlSEs",
+    "scope": "GOOGLE",
+    "types": [
+      "finance",
+      "point_of_interest",
+      "establishment"
+    ],
+    "user_ratings_total": 1,
+    "vicinity": "2851 S Parker Rd #1040, Aurora"
+  },
+  {
+    "business_status": "OPERATIONAL",
+    "geometry": {
+      "location": {
+        "lat": 39.6523622,
+        "lng": -104.9966125
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 39.65384647989273,
+          "lng": -104.9951882701073
+        },
+        "southwest": {
+          "lat": 39.65114682010728,
+          "lng": -104.9978879298927
+        }
+      }
+    },
+    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+    "icon_background_color": "#7B9EB0",
+    "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+    "name": "RISE Business Services",
+    "opening_hours": {
+      "open_now": true
+    },
+    "photos": [
+      {
+        "height": 400,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/103126628858043297663\">A Google User</a>"
+        ],
+        "photo_reference": "AWU5eFhM0O2QoD50f8Kxas0ZiH3ztfiP6A-tn0074AF91-n4YG7c5oLiWZ5hoyyMpepibCbqySUqluUifh9vxKHNysi8QX_R5pbPLtHZci884juIz3V9xYE22ASkp7VbtULNWnfy0LTdsvt-h1g4lX3-7FDLW3ZP0qfM0Pzoh-ldXUnGw5J2",
+        "width": 1200
+      }
+    ],
+    "place_id": "ChIJM1JE6HmAbIcR00d3ydWqOjg",
+    "plus_code": {
+      "compound_code": "M223+W9 Englewood, Colorado",
+      "global_code": "85FQM223+W9"
+    },
+    "rating": 5,
+    "reference": "ChIJM1JE6HmAbIcR00d3ydWqOjg",
+    "scope": "GOOGLE",
+    "types": [
+      "storage",
+      "store",
+      "point_of_interest",
+      "establishment"
+    ],
+    "user_ratings_total": 2,
+    "vicinity": "750 W Hampden Ave Ste L-100, Englewood"
   },
   {
     "business_status": "OPERATIONAL",
@@ -707,7 +661,7 @@
     "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
     "name": "LBS TAXES",
     "opening_hours": {
-      "open_now": false
+      "open_now": true
     },
     "photos": [
       {
@@ -715,7 +669,7 @@
         "html_attributions": [
           "<a href=\"https://maps.google.com/maps/contrib/109846233675609504789\">A Google User</a>"
         ],
-        "photo_reference": "AWU5eFi_4UP1zEkaOZCscmopZyqAkdWNU3A9SEFVtzPXuh_m0aFK3tsJdK_dmo4aTdeWCzBRz9RWhqRQYGZ40jOo6TxY145phbQ2FZ7Kpu6HXuPX9FoJvq0dw6hBJAhp6vNHe8dxbFfU6Nyu7FZwCMBPmInqTUyeFUlSTjNLIgNhBy-yysiH",
+        "photo_reference": "AWU5eFiXfR8oX9lYUC2igfWOPlekr5UMTjmXuZC_iVHFhNTDF_zrHxypLj3AKYhr37cWN6OlX49HjGg4wqDKZZYbZ-LFv9cbFVUoqvyuebDEzQhODdHF0KA05x1TXUIaW5qEhAABDrvrLcAJDPxkgMISwVCwZOFkorf1KyP2oYuePBDjSAg1",
         "width": 800
       }
     ],
@@ -759,7 +713,7 @@
     "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
     "name": "Choice Business Opportunities, Ltd.",
     "opening_hours": {
-      "open_now": false
+      "open_now": true
     },
     "photos": [
       {
@@ -767,7 +721,7 @@
         "html_attributions": [
           "<a href=\"https://maps.google.com/maps/contrib/101992329091540966180\">A Google User</a>"
         ],
-        "photo_reference": "AWU5eFhqS8Ol8G_Z7-Fp7IcYlSVzrQf7W2KreiOSEOoY7lYzMtjVvyiz1QJzq5gbqg5PdhFGamZakO8IXsABmXKTN__h58J4C5XDlS2KdsoH41rhDEWnegU_aL1R8u4DHL9gKXBz97omRlXMHQXRtqWxg6mLIHNQjeHu8u2tJTDWKhVHrYe-",
+        "photo_reference": "AWU5eFhEoyCE1fZdoUx1tU24jnVqrKlvmHAJJSPF6PHcG1aUU2VF6wrmjRPdSC6sRTYk6PGQHlIjbArrNxBigV0gc0-JcJGgD1RUC-xthEiVHefIjzz45-kB9ntnuJW4AIQ8rgFHxsn5qiSPEjadHQC-Vb5VbvUAo0O7wejk-O2ApmlUnC2w",
         "width": 480
       }
     ],
@@ -809,7 +763,7 @@
     "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
     "name": "The Business Net",
     "opening_hours": {
-      "open_now": false
+      "open_now": true
     },
     "place_id": "ChIJy3Y0y_GHbIcRzmf6okkhZZI",
     "plus_code": {
@@ -851,7 +805,7 @@
     "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
     "name": "BBS Bonded Business Services, Ltd.",
     "opening_hours": {
-      "open_now": false
+      "open_now": true
     },
     "place_id": "ChIJ9_jdz-Dta4cRwLvNyxsJMb0",
     "plus_code": {
@@ -874,2671 +828,108 @@
     "business_status": "OPERATIONAL",
     "geometry": {
       "location": {
-        "lat": 39.7302,
-        "lng": -104.9853512
+        "lat": 39.61199879999999,
+        "lng": -105.0203493
       },
       "viewport": {
         "northeast": {
-          "lat": 39.73156432989272,
-          "lng": -104.9840197701073
+          "lat": 39.61334322989273,
+          "lng": -105.0190069201073
         },
         "southwest": {
-          "lat": 39.72886467010728,
-          "lng": -104.9867194298927
+          "lat": 39.61064357010729,
+          "lng": -105.0217065798927
         }
       }
     },
     "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
     "icon_background_color": "#7B9EB0",
     "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
-    "name": "All Day All Night Bail Bonds Denver",
+    "name": "Padgett Business Services",
     "opening_hours": {
       "open_now": true
     },
-    "photos": [
-      {
-        "height": 1512,
-        "html_attributions": [
-          "<a href=\"https://maps.google.com/maps/contrib/112929216296855191546\">All Day All Night Bail Bonding</a>"
-        ],
-        "photo_reference": "AWU5eFgOSMJIe9trbm154GqWjdIVMwh6Uk1lfKj3yRiWqzlduIkl-t6pV8hZbHYxJb4XkmU-H882LEmi5cV4Mh1UUICJwmUB8t6rSTIDCiGQ5rNHcnnBIJpL2NiJ-HF-WGGrPClNstwEncWQxA8p-PEpuHI6GFFFNnU_PeIY0QreH9-3ygdH",
-        "width": 2016
-      }
-    ],
-    "place_id": "ChIJYaSa0Nd-bIcR84AyIUAf5Ek",
+    "place_id": "ChIJmwApWs2BbIcRen7EoEz0Ujk",
     "plus_code": {
-      "compound_code": "P2J7+3W Denver, Colorado",
-      "global_code": "85FQP2J7+3W"
+      "compound_code": "JX6H+QV Littleton, Colorado",
+      "global_code": "85FPJX6H+QV"
     },
-    "rating": 4.6,
-    "reference": "ChIJYaSa0Nd-bIcR84AyIUAf5Ek",
+    "rating": 4.8,
+    "reference": "ChIJmwApWs2BbIcRen7EoEz0Ujk",
     "scope": "GOOGLE",
     "types": [
-      "point_of_interest",
-      "establishment"
-    ],
-    "user_ratings_total": 506,
-    "vicinity": "190 E 9th Ave, Denver"
-  },
-  {
-    "business_status": "OPERATIONAL",
-    "geometry": {
-      "location": {
-        "lat": 39.7406411,
-        "lng": -104.8684962
-      },
-      "viewport": {
-        "northeast": {
-          "lat": 39.74198462989272,
-          "lng": -104.8671467201073
-        },
-        "southwest": {
-          "lat": 39.73928497010728,
-          "lng": -104.8698463798927
-        }
-      }
-    },
-    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
-    "icon_background_color": "#7B9EB0",
-    "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
-    "name": "Five Star Bail Bonds",
-    "opening_hours": {
-      "open_now": true
-    },
-    "photos": [
-      {
-        "height": 960,
-        "html_attributions": [
-          "<a href=\"https://maps.google.com/maps/contrib/114140190766142337735\">A Google User</a>"
-        ],
-        "photo_reference": "AWU5eFi7k0fkDpMbBlj5LESyzJiK7dFmU459pq1ABAmC9YofLYDKoN4zrjnGEKrZyZZYvzrExcnPtLrk3URI7lH1qQ8XB5K4rAGTKEwksxqNKSj5_esAqE3J8H8zhjc2dmZuYM-4pwfmC3dZfeqlPqyKpzP0J3VzeD_HQz4Fq35VnTZQ_DAw",
-        "width": 1280
-      }
-    ],
-    "place_id": "ChIJA_cjhL18bIcRa88KETGPJTU",
-    "plus_code": {
-      "compound_code": "P4RJ+7J Aurora, Colorado",
-      "global_code": "85FQP4RJ+7J"
-    },
-    "rating": 4.7,
-    "reference": "ChIJA_cjhL18bIcRa88KETGPJTU",
-    "scope": "GOOGLE",
-    "types": [
-      "point_of_interest",
       "accounting",
       "finance",
+      "point_of_interest",
       "establishment"
     ],
-    "user_ratings_total": 196,
-    "vicinity": "1515 Geneva St, Aurora"
+    "user_ratings_total": 12,
+    "vicinity": "5797 S Rapp St, Littleton"
   },
   {
     "business_status": "OPERATIONAL",
     "geometry": {
       "location": {
-        "lat": 39.6999443,
-        "lng": -104.911176
+        "lat": 39.6625225,
+        "lng": -104.8629979
       },
       "viewport": {
         "northeast": {
-          "lat": 39.70129012989273,
-          "lng": -104.9097478701073
+          "lat": 39.66399062989272,
+          "lng": -104.8615505701073
         },
         "southwest": {
-          "lat": 39.69859047010728,
-          "lng": -104.9124475298927
+          "lat": 39.66129097010727,
+          "lng": -104.8642502298927
         }
       }
     },
     "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
     "icon_background_color": "#7B9EB0",
     "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
-    "name": "VIP Bail Bonds",
+    "name": "Premier Business Consulting, Inc",
     "opening_hours": {
       "open_now": true
     },
-    "photos": [
-      {
-        "height": 704,
-        "html_attributions": [
-          "<a href=\"https://maps.google.com/maps/contrib/101670311445634933325\">A Google User</a>"
-        ],
-        "photo_reference": "AWU5eFj7YVN0DCGnMtw-drd4tK9nSZWFvo-PZZhYO5zUNeaEPK-6qNOXQxQW8XJ3x5QyTtfbul2GaTSXcsfARzI_YTQFanEbbgkKt4szMjaCZTyxkus8gjizBAAJjCTI-CH2u1rqbcrmfHqtfd5Iyhxhey6DOsPTlRbMJnBOQ5r0w2IwuBt-",
-        "width": 1024
-      }
-    ],
-    "place_id": "ChIJi5haxt99bIcRDGy2XY4-06g",
+    "place_id": "ChIJIyUs4O2HbIcRYkj7AMAFSSY",
     "plus_code": {
-      "compound_code": "M3XQ+XG Denver, Colorado",
-      "global_code": "85FQM3XQ+XG"
-    },
-    "rating": 4.6,
-    "reference": "ChIJi5haxt99bIcRDGy2XY4-06g",
-    "scope": "GOOGLE",
-    "types": [
-      "point_of_interest",
-      "establishment"
-    ],
-    "user_ratings_total": 107,
-    "vicinity": "925 S Niagara St SUITE 160, Denver"
-  },
-  {
-    "business_status": "OPERATIONAL",
-    "geometry": {
-      "location": {
-        "lat": 39.6791101,
-        "lng": -104.9205886
-      },
-      "viewport": {
-        "northeast": {
-          "lat": 39.68039472989272,
-          "lng": -104.9191513701073
-        },
-        "southwest": {
-          "lat": 39.67769507010728,
-          "lng": -104.9218510298927
-        }
-      }
-    },
-    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
-    "icon_background_color": "#7B9EB0",
-    "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
-    "name": "A Class Bail Bonds",
-    "opening_hours": {
-      "open_now": true
-    },
-    "photos": [
-      {
-        "height": 1280,
-        "html_attributions": [
-          "<a href=\"https://maps.google.com/maps/contrib/108340953126777864959\">A Class Bail Bonds LLC</a>"
-        ],
-        "photo_reference": "AWU5eFhtcmw7E_wWruo2m6rdhsKFc2MNDW96OCxObDcpAYKIyjmO3hOoRQFv-YPXQDRs6moyha5nOH-fGEbCNHjvn3PdKWfVhQx4Hi6TdAkULAvdBw8ij_gJUyq3xHL0Ircv1WiSUBAjriIAzoKy7PNNFyestD4ZSAQZf-S31QzC3DJpc2UJ",
-        "width": 720
-      }
-    ],
-    "place_id": "ChIJpSsL_JB8bIcR2oIR5UVOudk",
-    "plus_code": {
-      "compound_code": "M3HH+JQ Denver, Colorado",
-      "global_code": "85FQM3HH+JQ"
-    },
-    "rating": 4.8,
-    "reference": "ChIJpSsL_JB8bIcR2oIR5UVOudk",
-    "scope": "GOOGLE",
-    "types": [
-      "point_of_interest",
-      "finance",
-      "establishment"
-    ],
-    "user_ratings_total": 138,
-    "vicinity": "5777 E Evans Ave Suite 204, Denver"
-  },
-  {
-    "business_status": "OPERATIONAL",
-    "geometry": {
-      "location": {
-        "lat": 39.7488397,
-        "lng": -104.9975976
-      },
-      "viewport": {
-        "northeast": {
-          "lat": 39.75018482989272,
-          "lng": -104.9962188701073
-        },
-        "southwest": {
-          "lat": 39.74748517010728,
-          "lng": -104.9989185298927
-        }
-      }
-    },
-    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
-    "icon_background_color": "#7B9EB0",
-    "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
-    "name": "All Day All Night Bail Bonds Colorado",
-    "opening_hours": {
-      "open_now": true
-    },
-    "photos": [
-      {
-        "height": 1333,
-        "html_attributions": [
-          "<a href=\"https://maps.google.com/maps/contrib/111398594330049870080\">All Day All Night Bail Bonds</a>"
-        ],
-        "photo_reference": "AWU5eFgSckY3gMIhoxXWLalzWU2vUzHlrC41svmULHv8Jx2EP8-SyXbBrdwm9e83nIIWb0nHiWjusukmf-70O-8Q2OLor1AHeEBpgKFnszWVwipH1rwly42noZ6wF3cIpJioqmF93Ebt_eOFM0iR9jtIwjsaYqedIgECWIXBp1e5q6Lr1dSQ",
-        "width": 1000
-      }
-    ],
-    "place_id": "ChIJkTXIOcV4bIcRePp4mU7jnBs",
-    "plus_code": {
-      "compound_code": "P2X2+GX Denver, Colorado",
-      "global_code": "85FQP2X2+GX"
-    },
-    "rating": 4.6,
-    "reference": "ChIJkTXIOcV4bIcRePp4mU7jnBs",
-    "scope": "GOOGLE",
-    "types": [
-      "point_of_interest",
-      "establishment"
-    ],
-    "user_ratings_total": 261,
-    "vicinity": "1550 Larimer St #461, Denver"
-  },
-  {
-    "business_status": "OPERATIONAL",
-    "geometry": {
-      "location": {
-        "lat": 39.7409989,
-        "lng": -104.8690635
-      },
-      "viewport": {
-        "northeast": {
-          "lat": 39.74234867989272,
-          "lng": -104.8678611701073
-        },
-        "southwest": {
-          "lat": 39.73964902010728,
-          "lng": -104.8705608298927
-        }
-      }
-    },
-    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
-    "icon_background_color": "#7B9EB0",
-    "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
-    "name": "ORANGE is the new BAIL BONDS",
-    "opening_hours": {
-      "open_now": true
-    },
-    "photos": [
-      {
-        "height": 568,
-        "html_attributions": [
-          "<a href=\"https://maps.google.com/maps/contrib/102960619326706450353\">A Google User</a>"
-        ],
-        "photo_reference": "AWU5eFjqhqla5RNZDXmAiKKUdYcMP0VCdDAx2glJyrjWQWUnXO2OsZw-d9Xv4j0K-S1Jdj9jJn_iJyhJ1UlOqTMJK-v0N8RoWZsInVVO9CSnWY5L0jAa2UfMxmwGpnU4-zEWcFHYzNcEtckP0OjPoBKIuALVSVM7rRN9e4tiAjJzZE0zspNB",
-        "width": 850
-      }
-    ],
-    "place_id": "ChIJ6V9WUcB9bIcRXQvQ_ZvAUPU",
-    "plus_code": {
-      "compound_code": "P4RJ+99 Aurora, Colorado",
-      "global_code": "85FQP4RJ+99"
-    },
-    "rating": 4.8,
-    "reference": "ChIJ6V9WUcB9bIcRXQvQ_ZvAUPU",
-    "scope": "GOOGLE",
-    "types": [
-      "point_of_interest",
-      "establishment"
-    ],
-    "user_ratings_total": 39,
-    "vicinity": "1540 Galena St, Aurora"
-  },
-  {
-    "business_status": "OPERATIONAL",
-    "geometry": {
-      "location": {
-        "lat": 39.6502185,
-        "lng": -105.077159
-      },
-      "viewport": {
-        "northeast": {
-          "lat": 39.65167377989273,
-          "lng": -105.0758094201073
-        },
-        "southwest": {
-          "lat": 39.64897412010728,
-          "lng": -105.0785090798927
-        }
-      }
-    },
-    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
-    "icon_background_color": "#7B9EB0",
-    "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
-    "name": "Tayler Made Bail Bonding",
-    "opening_hours": {
-      "open_now": true
-    },
-    "photos": [
-      {
-        "height": 369,
-        "html_attributions": [
-          "<a href=\"https://maps.google.com/maps/contrib/104772693817436962870\">A Google User</a>"
-        ],
-        "photo_reference": "AWU5eFg1yOk3um3CKW4zM82LxyGFnWKB3m91tlJ_4LgvKvPBGgO1QE8UuD5xv5KNuDqzH_P-wBvbEs3RA44O04ymRG0HGcwzoIuBzZ3b6GzdAq4O-1RHJUj26iQiJGFC8czjvDGH-TN1M0nfx9ZNzOggtF63z5w1hHA0j9_JPtRwfCnhzf5J",
-        "width": 300
-      }
-    ],
-    "place_id": "ChIJq6qqql1_bIcRJY4YcnhroBw",
-    "plus_code": {
-      "compound_code": "MW2F+34 Lakewood, Colorado",
-      "global_code": "85FPMW2F+34"
-    },
-    "rating": 4.8,
-    "reference": "ChIJq6qqql1_bIcRJY4YcnhroBw",
-    "scope": "GOOGLE",
-    "types": [
-      "point_of_interest",
-      "establishment"
-    ],
-    "user_ratings_total": 73,
-    "vicinity": "3595 S Teller St Suite 300A, Lakewood"
-  },
-  {
-    "business_status": "OPERATIONAL",
-    "geometry": {
-      "location": {
-        "lat": 40.0176559,
-        "lng": -105.2796
-      },
-      "viewport": {
-        "northeast": {
-          "lat": 40.01890547989272,
-          "lng": -105.2782150701073
-        },
-        "southwest": {
-          "lat": 40.01620582010727,
-          "lng": -105.2809147298927
-        }
-      }
-    },
-    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
-    "icon_background_color": "#7B9EB0",
-    "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
-    "name": "All Day All Night Bail Bonds - Boulder",
-    "opening_hours": {
-      "open_now": true
-    },
-    "photos": [
-      {
-        "height": 1333,
-        "html_attributions": [
-          "<a href=\"https://maps.google.com/maps/contrib/112769468671093317581\">A Google User</a>"
-        ],
-        "photo_reference": "AWU5eFiv3gGgEdqpmnEwXgMqK8wULHxnDV5O6UluYYVm_9M9kk2PWE5Xs9j1e-SfQfn_L8brxFoDlz9YyRwIHqAH6URxKTl0so7gmGAi9LOTu8F49gNvjr_gHZlLPFRrLsS1lb3cnS5X0UEQSur4tfkMDDLQMtYXMCxcllfUTMweG_qguUr-",
-        "width": 1000
-      }
-    ],
-    "place_id": "ChIJVVVVVeXxa4cRjils0Hu_bNg",
-    "plus_code": {
-      "compound_code": "2P9C+35 Boulder, Colorado",
-      "global_code": "85GP2P9C+35"
-    },
-    "rating": 4.8,
-    "reference": "ChIJVVVVVeXxa4cRjils0Hu_bNg",
-    "scope": "GOOGLE",
-    "types": [
-      "point_of_interest",
-      "establishment"
-    ],
-    "user_ratings_total": 104,
-    "vicinity": "1942 Broadway #314, Boulder"
-  },
-  {
-    "business_status": "OPERATIONAL",
-    "geometry": {
-      "location": {
-        "lat": 39.7401321,
-        "lng": -105.0454204
-      },
-      "viewport": {
-        "northeast": {
-          "lat": 39.74158712989271,
-          "lng": -105.0440699701073
-        },
-        "southwest": {
-          "lat": 39.73888747010727,
-          "lng": -105.0467696298927
-        }
-      }
-    },
-    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
-    "icon_background_color": "#7B9EB0",
-    "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
-    "name": "303 Bail Bonds",
-    "opening_hours": {
-      "open_now": true
-    },
-    "photos": [
-      {
-        "height": 900,
-        "html_attributions": [
-          "<a href=\"https://maps.google.com/maps/contrib/118441999046938814136\">A Google User</a>"
-        ],
-        "photo_reference": "AWU5eFj1pHctSU0RsOtGQRfB5QUJUdf9gzlSNH_QhJbCk4Up89tjAQttmL-jsBZqlT12FEGi9UHml_KhoUR3e7XzGwE3nVRZzKPMrjb78F0bavd6dIWLHtAZ4G7FOZPVpPFR5DruARvThWcfZmdAOArMW3XfxJyo0pIXaDVuctxKnA6cxnn5",
-        "width": 1600
-      }
-    ],
-    "place_id": "ChIJxYGfp1uPbIcR2smiFcru9Lw",
-    "plus_code": {
-      "compound_code": "PXR3+3R Denver, Colorado",
-      "global_code": "85FPPXR3+3R"
-    },
-    "rating": 4.7,
-    "reference": "ChIJxYGfp1uPbIcR2smiFcru9Lw",
-    "scope": "GOOGLE",
-    "types": [
-      "point_of_interest",
-      "establishment"
-    ],
-    "user_ratings_total": 93,
-    "vicinity": "4500 W Colfax Ave, Denver"
-  },
-  {
-    "business_status": "OPERATIONAL",
-    "geometry": {
-      "location": {
-        "lat": 39.7718135,
-        "lng": -105.0250265
-      },
-      "viewport": {
-        "northeast": {
-          "lat": 39.77316547989273,
-          "lng": -105.0237288701073
-        },
-        "southwest": {
-          "lat": 39.77046582010728,
-          "lng": -105.0264285298927
-        }
-      }
-    },
-    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
-    "icon_background_color": "#7B9EB0",
-    "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
-    "name": "Reliable Bail Bonds",
-    "opening_hours": {
-      "open_now": true
-    },
-    "photos": [
-      {
-        "height": 1287,
-        "html_attributions": [
-          "<a href=\"https://maps.google.com/maps/contrib/109073404653181111197\">Koe Joe</a>"
-        ],
-        "photo_reference": "AWU5eFjLZi_4f27kVtU0U2nnnOefDbY-OcxvOBQHzWqkrJ0fBEEqbN6Nia7tjkhVt-74_vfFGCAKSZMbW_dQCFDWsFdmRX7b2PLGio3PpgYRjLo3xw_yUrHqsjG7FRDeps90dilrY_klXmQQYfKGTiQcQGxNuTNmGuR95JrCq7paPqvbLBbN",
-        "width": 1231
-      }
-    ],
-    "place_id": "ChIJmwM2Fod4bIcR_41QpIl2--Y",
-    "plus_code": {
-      "compound_code": "QXCG+P2 Denver, Colorado",
-      "global_code": "85FPQXCG+P2"
-    },
-    "rating": 4.6,
-    "reference": "ChIJmwM2Fod4bIcR_41QpIl2--Y",
-    "scope": "GOOGLE",
-    "types": [
-      "point_of_interest",
-      "establishment"
-    ],
-    "user_ratings_total": 74,
-    "vicinity": "3934 Federal Blvd, Denver"
-  },
-  {
-    "business_status": "OPERATIONAL",
-    "geometry": {
-      "location": {
-        "lat": 39.737037,
-        "lng": -104.993951
-      },
-      "viewport": {
-        "northeast": {
-          "lat": 39.73839127989272,
-          "lng": -104.9926911701073
-        },
-        "southwest": {
-          "lat": 39.73569162010727,
-          "lng": -104.9953908298927
-        }
-      }
-    },
-    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
-    "icon_background_color": "#7B9EB0",
-    "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
-    "name": "Express Bail Bonds",
-    "opening_hours": {
-      "open_now": true
-    },
-    "photos": [
-      {
-        "height": 1080,
-        "html_attributions": [
-          "<a href=\"https://maps.google.com/maps/contrib/105455187338502281459\">A Google User</a>"
-        ],
-        "photo_reference": "AWU5eFgdTvu--LLNoE7Lra3cnq_h0v5IcYXzjgFGhcL7Lg7EpNfYRPKRn2026VAGDBfUUdVIWz1Z9fG4Gs2gxAtSxpqWPvJktaW-LQj23Qvc5ZGp55Ag6QqI-Aew3Ef4egCFG9Yak1HFszsmyQ9NmGO1gM3ZrV36kjS3HkeWup49vcm0xZau",
-        "width": 1920
-      }
-    ],
-    "place_id": "ChIJORLs0yx_bIcRpeov9N_jl2I",
-    "plus_code": {
-      "compound_code": "P2P4+RC Denver, Colorado",
-      "global_code": "85FQP2P4+RC"
-    },
-    "rating": 4.4,
-    "reference": "ChIJORLs0yx_bIcRpeov9N_jl2I",
-    "scope": "GOOGLE",
-    "types": [
-      "point_of_interest",
-      "establishment"
-    ],
-    "user_ratings_total": 106,
-    "vicinity": "1304 Elati St, Denver"
-  },
-  {
-    "business_status": "OPERATIONAL",
-    "geometry": {
-      "location": {
-        "lat": 39.6601367,
-        "lng": -104.8508545
-      },
-      "viewport": {
-        "northeast": {
-          "lat": 39.66139422989271,
-          "lng": -104.8494490701073
-        },
-        "southwest": {
-          "lat": 39.65869457010727,
-          "lng": -104.8521487298927
-        }
-      }
-    },
-    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
-    "icon_background_color": "#7B9EB0",
-    "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
-    "name": "Fast & Easy Bail Bonds",
-    "opening_hours": {
-      "open_now": true
-    },
-    "photos": [
-      {
-        "height": 340,
-        "html_attributions": [
-          "<a href=\"https://maps.google.com/maps/contrib/105725420381727419183\">Fast &amp; Easy Bail Bonds</a>"
-        ],
-        "photo_reference": "AWU5eFgQMk_zYGhYJaMEg5t-3sQ9Nz9Uynr9_BDtumv953aYMmGFZY-80Y3Chotxd0fLAl7lWFA0pzaSzCEpiF3d0HkzniK95ofOTinPy8WxqXuXuosuUI71VLA-kQduiiYSGdbJ9shmCj01CwYmwSNTvL8a998k5IRVmT8OT7bzuBE88qrE",
-        "width": 604
-      }
-    ],
-    "place_id": "ChIJzfhIK6RmbIcRGSuzPaOh7U8",
-    "plus_code": {
-      "compound_code": "M46X+3M Aurora, Colorado",
-      "global_code": "85FQM46X+3M"
-    },
-    "rating": 4.3,
-    "reference": "ChIJzfhIK6RmbIcRGSuzPaOh7U8",
-    "scope": "GOOGLE",
-    "types": [
-      "point_of_interest",
-      "establishment"
-    ],
-    "user_ratings_total": 39,
-    "vicinity": "3124 S Parker Rd Unit A2-256, Aurora"
-  },
-  {
-    "business_status": "OPERATIONAL",
-    "geometry": {
-      "location": {
-        "lat": 39.9649534,
-        "lng": -104.8325764
-      },
-      "viewport": {
-        "northeast": {
-          "lat": 39.96626892989272,
-          "lng": -104.8311689201073
-        },
-        "southwest": {
-          "lat": 39.96356927010728,
-          "lng": -104.8338685798927
-        }
-      }
-    },
-    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
-    "icon_background_color": "#7B9EB0",
-    "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
-    "name": "All Day All Night Bail Bonds Adams County",
-    "opening_hours": {
-      "open_now": true
-    },
-    "photos": [
-      {
-        "height": 287,
-        "html_attributions": [
-          "<a href=\"https://maps.google.com/maps/contrib/100448159600210375865\">A Google User</a>"
-        ],
-        "photo_reference": "AWU5eFic0BnzV89tawvLlSVnSk6IK1D8BPKd5HF5kucl-naq_Eo-d9_go8MbV74NOdeCcauyH0ZzNKLDARqVhWsHJpTQwju36hpOmhdIAlogT8vNVImfeKbUuxZ9bH-zfOg7vExWoWh6lrhxjV0Nd1TA3_8j9b_gv0Bo8yN5MJWiZqdeIvAM",
-        "width": 512
-      }
-    ],
-    "place_id": "ChIJJ6M9Ab91bIcRWqy8eLpRQJs",
-    "plus_code": {
-      "compound_code": "X578+XX Brighton, Colorado",
-      "global_code": "85FQX578+XX"
-    },
-    "rating": 4.6,
-    "reference": "ChIJJ6M9Ab91bIcRWqy8eLpRQJs",
-    "scope": "GOOGLE",
-    "types": [
-      "point_of_interest",
-      "establishment"
-    ],
-    "user_ratings_total": 228,
-    "vicinity": "14791 Brighton Rd, Brighton"
-  },
-  {
-    "business_status": "OPERATIONAL",
-    "geometry": {
-      "location": {
-        "lat": 39.74272939999999,
-        "lng": -105.1597347
-      },
-      "viewport": {
-        "northeast": {
-          "lat": 39.74393337989272,
-          "lng": -105.1585504701073
-        },
-        "southwest": {
-          "lat": 39.74123372010728,
-          "lng": -105.1612501298927
-        }
-      }
-    },
-    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
-    "icon_background_color": "#7B9EB0",
-    "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
-    "name": "All Day All Night Bail Bonds",
-    "opening_hours": {
-      "open_now": true
-    },
-    "photos": [
-      {
-        "height": 1041,
-        "html_attributions": [
-          "<a href=\"https://maps.google.com/maps/contrib/113537384314434298117\">A Google User</a>"
-        ],
-        "photo_reference": "AWU5eFipw-QmT8NSF5IQRSb-LfBMoABT54TFSn3pQyb50jdGI4xwp5ESVSeXbB1RpSWt61j_ccxNe9lFLla7EdRjH51Y32FpUXohWVMePCemixJtw76hH55kYmgA6h3mOhuKoiUQ8_8qgEcmZoCL3paMV_a5JppeOzQADLOX-oc7SBQLnqOm",
-        "width": 1858
-      }
-    ],
-    "place_id": "ChIJlyK6J0WEa4cRQ0nk1ZPdYtk",
-    "plus_code": {
-      "compound_code": "PRVR+34 Golden, Colorado",
-      "global_code": "85FPPRVR+34"
-    },
-    "rating": 4.5,
-    "reference": "ChIJlyK6J0WEa4cRQ0nk1ZPdYtk",
-    "scope": "GOOGLE",
-    "types": [
-      "point_of_interest",
-      "establishment"
-    ],
-    "user_ratings_total": 184,
-    "vicinity": "14143 Denver W Pkwy Suite 100-A, Golden"
-  },
-  {
-    "business_status": "OPERATIONAL",
-    "geometry": {
-      "location": {
-        "lat": 39.7825364,
-        "lng": -104.8914141
-      },
-      "viewport": {
-        "northeast": {
-          "lat": 39.78381152989272,
-          "lng": -104.8901254701073
-        },
-        "southwest": {
-          "lat": 39.78111187010728,
-          "lng": -104.8928251298927
-        }
-      }
-    },
-    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
-    "icon_background_color": "#7B9EB0",
-    "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
-    "name": "5280 Bail Bonds",
-    "opening_hours": {
-      "open_now": true
-    },
-    "photos": [
-      {
-        "height": 1552,
-        "html_attributions": [
-          "<a href=\"https://maps.google.com/maps/contrib/108295842996677469161\">5280 Bail Bonds</a>"
-        ],
-        "photo_reference": "AWU5eFjsbdcB7HV5ensSpH5sf6UAS4QyxUpp8LLOR_6HbnKhxMv6OCqiJ8tanQx6GrfVZ2uWB5cxEsRL6bkTFgkUvTjWZNDLPfz1jKd30etjOTZC9whzbwS6grCI8npq0tDIA00RSWDwGidKhh122gCeiFuL0qOkvOZIGZbmCsag8Lnfjmqd",
-        "width": 1169
-      }
-    ],
-    "place_id": "ChIJlcuNhM5kbIcRyz-AofsXnQc",
-    "plus_code": {
-      "compound_code": "Q4M5+2C Denver, Colorado",
-      "global_code": "85FQQ4M5+2C"
-    },
-    "rating": 4.8,
-    "reference": "ChIJlcuNhM5kbIcRyz-AofsXnQc",
-    "scope": "GOOGLE",
-    "types": [
-      "point_of_interest",
-      "finance",
-      "establishment"
-    ],
-    "user_ratings_total": 33,
-    "vicinity": "8354 Northfield Blvd Suite 347, Denver"
-  },
-  {
-    "business_status": "OPERATIONAL",
-    "geometry": {
-      "location": {
-        "lat": 39.9866363,
-        "lng": -104.8145056
-      },
-      "viewport": {
-        "northeast": {
-          "lat": 39.98806002989272,
-          "lng": -104.8131535201073
-        },
-        "southwest": {
-          "lat": 39.98536037010728,
-          "lng": -104.8158531798927
-        }
-      }
-    },
-    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
-    "icon_background_color": "#7B9EB0",
-    "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
-    "name": "Lucky Lucero\u2019s Bail Bonds",
-    "opening_hours": {
-      "open_now": true
-    },
-    "photos": [
-      {
-        "height": 2281,
-        "html_attributions": [
-          "<a href=\"https://maps.google.com/maps/contrib/100442137492381741110\">Jennifer Piotrowski</a>"
-        ],
-        "photo_reference": "AWU5eFiRAxoAU4irNOcSgD63Zzx-rhm7QbLJpjRTx8SuWkoTbL-Dnst92Q-nWSrwujblxWFJwb-5rsxERKKes4bNqDGByKYiaU-G0YXIjLGS5pX8blhPtpHwDEhI7aKb5P3Z3Aemt3Tp3_VGRRXVJvIc8cLP-bFnMtqw7NNZE7f6jNHVMsqf",
-        "width": 3239
-      }
-    ],
-    "place_id": "ChIJFXLVczxtbIcRwEHCxHFAFEM",
-    "plus_code": {
-      "compound_code": "X5PP+M5 Brighton, Colorado",
-      "global_code": "85FQX5PP+M5"
-    },
-    "rating": 4.2,
-    "reference": "ChIJFXLVczxtbIcRwEHCxHFAFEM",
-    "scope": "GOOGLE",
-    "types": [
-      "point_of_interest",
-      "establishment"
-    ],
-    "user_ratings_total": 44,
-    "vicinity": "636 E Bridge St, Brighton"
-  },
-  {
-    "business_status": "OPERATIONAL",
-    "geometry": {
-      "location": {
-        "lat": 39.7398892,
-        "lng": -105.189512
-      },
-      "viewport": {
-        "northeast": {
-          "lat": 39.74133102989272,
-          "lng": -105.1881666201073
-        },
-        "southwest": {
-          "lat": 39.73863137010728,
-          "lng": -105.1908662798927
-        }
-      }
-    },
-    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
-    "icon_background_color": "#7B9EB0",
-    "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
-    "name": "Any Highway Golden Colorado Jefferson County Bondsman",
-    "opening_hours": {
-      "open_now": true
-    },
-    "photos": [
-      {
-        "height": 2268,
-        "html_attributions": [
-          "<a href=\"https://maps.google.com/maps/contrib/108016467905567533740\">A Google User</a>"
-        ],
-        "photo_reference": "AWU5eFiH4RbVzdXphuenwDR0kUqjowCRsRjHIvMsuF8YNlBXJcASPRrNChCxnCjLmuMeyk9heIKQc6C8XZYLtNVGgEDO44o6nQhFhYReXkEPmyz58macShsqpwlDaubj9tzL9bzr82gax1i4Mu4jnwKIt4TcAKrkpJbslQyxIonpz8XNi6Qp",
-        "width": 4032
-      }
-    ],
-    "place_id": "ChIJE8cfbrSFa4cRZlVTDjIJM-w",
-    "plus_code": {
-      "compound_code": "PRQ6+X5 Golden, Colorado",
-      "global_code": "85FPPRQ6+X5"
-    },
-    "rating": 4.7,
-    "reference": "ChIJE8cfbrSFa4cRZlVTDjIJM-w",
-    "scope": "GOOGLE",
-    "types": [
-      "point_of_interest",
-      "establishment"
-    ],
-    "user_ratings_total": 22,
-    "vicinity": "16860 W 15th Ave, Golden"
-  },
-  {
-    "business_status": "OPERATIONAL",
-    "geometry": {
-      "location": {
-        "lat": 39.6917386,
-        "lng": -104.9983755
-      },
-      "viewport": {
-        "northeast": {
-          "lat": 39.69313717989272,
-          "lng": -104.9968577201073
-        },
-        "southwest": {
-          "lat": 39.69043752010728,
-          "lng": -104.9995573798927
-        }
-      }
-    },
-    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
-    "icon_background_color": "#7B9EB0",
-    "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
-    "name": "Colorado Bail Bondsman Walk Through Warrants",
-    "opening_hours": {
-      "open_now": true
-    },
-    "photos": [
-      {
-        "height": 3024,
-        "html_attributions": [
-          "<a href=\"https://maps.google.com/maps/contrib/106003580805691162565\">A Google User</a>"
-        ],
-        "photo_reference": "AWU5eFh__KAVE2SsA5YZGl376flPDtRUhAu0URamxiCCfCr-UO9VXR4XcvL_3jTAB_D2vNBzl5JPu63wHWoX7nUfqQyouWK1kgKQMF-cmJPFAmzwIzPZ1E2-SUByb-7ZZxbeKkye5iIUjL2wjA3pFsCcBqE_VEZDVSFFsaKXSy4ktXcFENY4",
-        "width": 4032
-      }
-    ],
-    "place_id": "ChIJZ8ULtNF9bIcRK4_SdH_APmk",
-    "plus_code": {
-      "compound_code": "M2R2+MJ Denver, Colorado",
-      "global_code": "85FQM2R2+MJ"
-    },
-    "rating": 4.8,
-    "reference": "ChIJZ8ULtNF9bIcRK4_SdH_APmk",
-    "scope": "GOOGLE",
-    "types": [
-      "point_of_interest",
-      "establishment"
-    ],
-    "user_ratings_total": 20,
-    "vicinity": "1379 S Inca St, Denver"
-  },
-  {
-    "business_status": "OPERATIONAL",
-    "geometry": {
-      "location": {
-        "lat": 39.7399511,
-        "lng": -104.8795217
-      },
-      "viewport": {
-        "northeast": {
-          "lat": 39.74137482989272,
-          "lng": -104.8781721201073
-        },
-        "southwest": {
-          "lat": 39.73867517010728,
-          "lng": -104.8808717798927
-        }
-      }
-    },
-    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
-    "icon_background_color": "#7B9EB0",
-    "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
-    "name": "Connection Line Bail Bonds",
-    "opening_hours": {
-      "open_now": true
-    },
-    "photos": [
-      {
-        "height": 2500,
-        "html_attributions": [
-          "<a href=\"https://maps.google.com/maps/contrib/111347535034785730772\">A Google User</a>"
-        ],
-        "photo_reference": "AWU5eFih6lOqJXJDnaGL18N4dHO8cdOdwIMrP-hmS1rmZh9KFAF23JGHGvFDkVkftWvFVh_cuuSNC8D7KmYiopfIikCH6piciLCysAwiuDAyvPm-MRwf_G0lA5RlmGEnF1M0uezo_1zFcA9iQVds0RyFyiH2OHU9x556tIYBgR0d7WK_JGSJ",
-        "width": 2500
-      }
-    ],
-    "place_id": "ChIJGZDDM5B8bIcRTMYit6cBYSA",
-    "plus_code": {
-      "compound_code": "P4QC+X5 Aurora, Colorado",
-      "global_code": "85FQP4QC+X5"
-    },
-    "rating": 4,
-    "reference": "ChIJGZDDM5B8bIcRTMYit6cBYSA",
-    "scope": "GOOGLE",
-    "types": [
-      "point_of_interest",
-      "establishment"
-    ],
-    "user_ratings_total": 32,
-    "vicinity": "9340 E Colfax Ave, Aurora"
-  },
-  {
-    "business_status": "OPERATIONAL",
-    "geometry": {
-      "location": {
-        "lat": 39.5981058,
-        "lng": -104.7767265
-      },
-      "viewport": {
-        "northeast": {
-          "lat": 39.59946087989272,
-          "lng": -104.7753936701073
-        },
-        "southwest": {
-          "lat": 39.59676122010728,
-          "lng": -104.7780933298927
-        }
-      }
-    },
-    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
-    "icon_background_color": "#7B9EB0",
-    "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
-    "name": "PDQ Bail Bonds",
-    "opening_hours": {
-      "open_now": true
-    },
-    "photos": [
-      {
-        "height": 467,
-        "html_attributions": [
-          "<a href=\"https://maps.google.com/maps/contrib/112800626243988733300\">A Google User</a>"
-        ],
-        "photo_reference": "AWU5eFjYatbf6map56AV5e62aujvKDaVWiPsQFSwjy6bNbDS8y76m8XukDAgC3mwJC_ogZQbG10Rc8GUq2Xfg8bZVa7j2CgJ09WW1iPqZOArsVXNNQeti-zn9mNzD04Q-whqXCJy5cc6ydKxzwYSqT1fExIs360-fXoMd1nXBo48iCaXEJs7",
-        "width": 700
-      }
-    ],
-    "place_id": "ChIJAQAAAPCFbIcRfQiJV88SHbA",
-    "plus_code": {
-      "compound_code": "H6XF+69 Aurora, Colorado",
-      "global_code": "85FQH6XF+69"
-    },
-    "rating": 4.8,
-    "reference": "ChIJAQAAAPCFbIcRfQiJV88SHbA",
-    "scope": "GOOGLE",
-    "types": [
-      "point_of_interest",
-      "establishment"
-    ],
-    "user_ratings_total": 16,
-    "vicinity": "6546 S Waco Ct, Aurora"
-  },
-  {
-    "business_status": "OPERATIONAL",
-    "geometry": {
-      "location": {
-        "lat": 39.8001371,
-        "lng": -105.4893899
-      },
-      "viewport": {
-        "northeast": {
-          "lat": 39.80184475,
-          "lng": -105.4881299
-        },
-        "southwest": {
-          "lat": 39.79895214999999,
-          "lng": -105.4910899
-        }
-      }
-    },
-    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
-    "icon_background_color": "#7B9EB0",
-    "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
-    "name": "Ameristar Black Hawk",
-    "opening_hours": {
-      "open_now": true
-    },
-    "photos": [
-      {
-        "height": 3024,
-        "html_attributions": [
-          "<a href=\"https://maps.google.com/maps/contrib/100413143843453962015\">A Google User</a>"
-        ],
-        "photo_reference": "AWU5eFgJrIetiDUxTzMTX7ms3Cv9_h9yP149PU5mRf61vx9L26kcKYflkO7WavB5Z-2IBAB65Qm2BK7-2-huAlB0H1EuudReoADdhjZavptzzwY8tlTLK2tAU0Pvkpz8RQsAYutVMBQsCPWL8tLepm8ioKdA3yBl1XLekGjjiGWgre9KDi1n",
-        "width": 4032
-      }
-    ],
-    "place_id": "ChIJgYzhzXq8a4cRQOMcVNZ5058",
-    "plus_code": {
-      "compound_code": "RG26+36 Black Hawk, Colorado",
-      "global_code": "85FPRG26+36"
-    },
-    "rating": 4.1,
-    "reference": "ChIJgYzhzXq8a4cRQOMcVNZ5058",
-    "scope": "GOOGLE",
-    "types": [
-      "casino",
-      "point_of_interest",
-      "establishment"
-    ],
-    "user_ratings_total": 12606,
-    "vicinity": "111 Richman St, Black Hawk"
-  },
-  {
-    "business_status": "OPERATIONAL",
-    "geometry": {
-      "location": {
-        "lat": 39.7985966,
-        "lng": -105.4835148
-      },
-      "viewport": {
-        "northeast": {
-          "lat": 39.79967007989271,
-          "lng": -105.47815735
-        },
-        "southwest": {
-          "lat": 39.79697042010727,
-          "lng": -105.48652995
-        }
-      }
-    },
-    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/lodging-71.png",
-    "icon_background_color": "#909CE1",
-    "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/hotel_pinlet",
-    "name": "Monarch Casino Resort Spa Black Hawk",
-    "opening_hours": {
-      "open_now": true
-    },
-    "photos": [
-      {
-        "height": 3640,
-        "html_attributions": [
-          "<a href=\"https://maps.google.com/maps/contrib/110077824276435585836\">A Google User</a>"
-        ],
-        "photo_reference": "AWU5eFjY7hoSN5NIttZ-W9Sfno99bMOq8NBEAoJewu-kvOrfg_8aHvF_TYDp6tMCpdia5KFwel4PNcn7B1oSgb-Wvg43umRLY9voaUhOylKakzFk2vNOeqxB_6jqxaEfaR2-mJvFU2GRuI4sospxh916Q48vadFpihwGV_EQNzVSEkEEst8l",
-        "width": 5464
-      }
-    ],
-    "place_id": "ChIJS5sIa2S8a4cR6XVZB2BM8xk",
-    "plus_code": {
-      "compound_code": "QGX8+CH Black Hawk, Colorado",
-      "global_code": "85FPQGX8+CH"
-    },
-    "rating": 4.2,
-    "reference": "ChIJS5sIa2S8a4cR6XVZB2BM8xk",
-    "scope": "GOOGLE",
-    "types": [
-      "casino",
-      "lodging",
-      "point_of_interest",
-      "establishment"
-    ],
-    "user_ratings_total": 7911,
-    "vicinity": "488 Main St, Black Hawk"
-  },
-  {
-    "business_status": "OPERATIONAL",
-    "geometry": {
-      "location": {
-        "lat": 39.80065,
-        "lng": -105.512545
-      },
-      "viewport": {
-        "northeast": {
-          "lat": 39.80183092989272,
-          "lng": -105.5108277201073
-        },
-        "southwest": {
-          "lat": 39.79913127010728,
-          "lng": -105.5135273798927
-        }
-      }
-    },
-    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
-    "icon_background_color": "#7B9EB0",
-    "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
-    "name": "Century Casino & Hotel Central City",
-    "opening_hours": {
-      "open_now": true
-    },
-    "photos": [
-      {
-        "height": 1365,
-        "html_attributions": [
-          "<a href=\"https://maps.google.com/maps/contrib/101307983303960603529\">A Google User</a>"
-        ],
-        "photo_reference": "AWU5eFihbSbaEV7_NM63ewLlA8nx8zXrKPnv44v6VcYbWMcPnqBxqd-yeMp1vYgL4f9xuUR54sMCUqIdFIwVp2TB-EFIhebqPuo8Jx10V_rO1ygOPfLlHVptcNypQu-hbp8lOkKjH0FG7rak71LwakdMkZxImoibpUqoWKnZYfqHRmxxd7pg",
-        "width": 2048
-      }
-    ],
-    "place_id": "ChIJsY7ZKJC7a4cR06_xtfZ3WHM",
-    "plus_code": {
-      "compound_code": "RF2P+7X Central City, Colorado",
-      "global_code": "85FPRF2P+7X"
-    },
-    "rating": 4.2,
-    "reference": "ChIJsY7ZKJC7a4cR06_xtfZ3WHM",
-    "scope": "GOOGLE",
-    "types": [
-      "casino",
-      "lodging",
-      "point_of_interest",
-      "establishment"
-    ],
-    "user_ratings_total": 2900,
-    "vicinity": "102 Main St, Central City"
-  },
-  {
-    "business_status": "OPERATIONAL",
-    "geometry": {
-      "location": {
-        "lat": 39.80093979999999,
-        "lng": -105.4931558
-      },
-      "viewport": {
-        "northeast": {
-          "lat": 39.80234542989271,
-          "lng": -105.4917034701073
-        },
-        "southwest": {
-          "lat": 39.79964577010727,
-          "lng": -105.4944031298927
-        }
-      }
-    },
-    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
-    "icon_background_color": "#7B9EB0",
-    "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
-    "name": "The Gilpin Casino",
-    "opening_hours": {
-      "open_now": true
-    },
-    "photos": [
-      {
-        "height": 3264,
-        "html_attributions": [
-          "<a href=\"https://maps.google.com/maps/contrib/113436904212806740364\">T Cook</a>"
-        ],
-        "photo_reference": "AWU5eFhA-7Lstd-DPg_JiU9bn8-8GqlE7PjH9THjMVRF0XGG4rFsuKlBAJql_jZnfyLHe5a4yWKlVeroWrMH-CH-uAIZ8fWCLcvSK-AacfAr5f_VrbQ297CP3HfLVw8GHauntX3_EAO9hXSnjF8SK26PGrzyw94ytx4EQ2EBuukLYxlOZIaA",
-        "width": 1836
-      }
-    ],
-    "place_id": "ChIJWUZKC3q8a4cR4xM99MDtxsU",
-    "plus_code": {
-      "compound_code": "RG24+9P Black Hawk, Colorado",
-      "global_code": "85FPRG24+9P"
-    },
-    "rating": 4.1,
-    "reference": "ChIJWUZKC3q8a4cR4xM99MDtxsU",
-    "scope": "GOOGLE",
-    "types": [
-      "casino",
-      "tourist_attraction",
-      "point_of_interest",
-      "establishment"
-    ],
-    "user_ratings_total": 1357,
-    "vicinity": "111 Main St, Black Hawk"
-  },
-  {
-    "business_status": "OPERATIONAL",
-    "geometry": {
-      "location": {
-        "lat": 39.7994243,
-        "lng": -105.4899123
-      },
-      "viewport": {
-        "northeast": {
-          "lat": 39.80094367989272,
-          "lng": -105.48883675
-        },
-        "southwest": {
-          "lat": 39.79824402010727,
-          "lng": -105.49162015
-        }
-      }
-    },
-    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/lodging-71.png",
-    "icon_background_color": "#909CE1",
-    "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/hotel_pinlet",
-    "name": "The Lodge Casino (must be 21+)",
-    "opening_hours": {
-      "open_now": true
-    },
-    "photos": [
-      {
-        "height": 3000,
-        "html_attributions": [
-          "<a href=\"https://maps.google.com/maps/contrib/115149612988269068192\">Gary</a>"
-        ],
-        "photo_reference": "AWU5eFhKoZ4FmYnH-88r4kdGJprvAf8y6Sjj78QNKiZAGcORwFdPGEJkDSGljCj967yQm2Uatfp1wjavs9W5yLefCYwOKiDOfvVfWt3Zc66klQpGnEhuhbdiNRiGUr147h4cxr07zVTJnKAoNxKwmF3GJ3DklZoadTNTIMk4oixLxFK1DXU-",
-        "width": 4000
-      }
-    ],
-    "place_id": "ChIJcT_A2Hq8a4cRjf1WXhyQpcg",
-    "plus_code": {
-      "compound_code": "QGX6+Q2 Black Hawk, Colorado",
-      "global_code": "85FPQGX6+Q2"
-    },
-    "rating": 4.2,
-    "reference": "ChIJcT_A2Hq8a4cRjf1WXhyQpcg",
-    "scope": "GOOGLE",
-    "types": [
-      "casino",
-      "lodging",
-      "point_of_interest",
-      "establishment"
-    ],
-    "user_ratings_total": 4029,
-    "vicinity": "240 Main St, Black Hawk"
-  },
-  {
-    "business_status": "OPERATIONAL",
-    "geometry": {
-      "location": {
-        "lat": 39.8002732,
-        "lng": -105.5114089
-      },
-      "viewport": {
-        "northeast": {
-          "lat": 39.80164802989272,
-          "lng": -105.5102320701073
-        },
-        "southwest": {
-          "lat": 39.79894837010728,
-          "lng": -105.5129317298927
-        }
-      }
-    },
-    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
-    "icon_background_color": "#7B9EB0",
-    "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
-    "name": "Century Casino",
-    "opening_hours": {
-      "open_now": true
-    },
-    "photos": [
-      {
-        "height": 3072,
-        "html_attributions": [
-          "<a href=\"https://maps.google.com/maps/contrib/110254804164759007636\">Bhargava Puli</a>"
-        ],
-        "photo_reference": "AWU5eFgP1sqmY1GcmI78BGHO1I9EWZblL-iEOY_F5Gt77WzYQWj4Guz8VgO4lW7L5aLg2h3c5d8H4bDFn_L9KGvXBmn24A55TMi30_CMFF4xamN_DszyQI7YC2C2Or2WRWnGMYsLrX23e62NjTrHfSm6TIjofvbHGv0KHKzvSJtpl2bq20V4",
-        "width": 4080
-      }
-    ],
-    "place_id": "ChIJtykSw4-7a4cRGFl3RYMqKTk",
-    "plus_code": {
-      "compound_code": "RF2Q+4C Central City, Colorado",
-      "global_code": "85FPRF2Q+4C"
-    },
-    "rating": 3.8,
-    "reference": "ChIJtykSw4-7a4cRGFl3RYMqKTk",
-    "scope": "GOOGLE",
-    "types": [
-      "casino",
-      "point_of_interest",
-      "establishment"
-    ],
-    "user_ratings_total": 16,
-    "vicinity": "Gregory St, Central City"
-  },
-  {
-    "business_status": "OPERATIONAL",
-    "geometry": {
-      "location": {
-        "lat": 39.7997773,
-        "lng": -105.5090408
-      },
-      "viewport": {
-        "northeast": {
-          "lat": 39.80121062989272,
-          "lng": -105.5076518701073
-        },
-        "southwest": {
-          "lat": 39.79851097010728,
-          "lng": -105.5103515298927
-        }
-      }
-    },
-    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/lodging-71.png",
-    "icon_background_color": "#909CE1",
-    "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/hotel_pinlet",
-    "name": "Grand Z Hotel Casino by Red Lion Hotels",
-    "opening_hours": {
-      "open_now": true
-    },
-    "photos": [
-      {
-        "height": 3966,
-        "html_attributions": [
-          "<a href=\"https://maps.google.com/maps/contrib/113766957791879198728\">A Google User</a>"
-        ],
-        "photo_reference": "AWU5eFiEu8Y9WDzOlYNVAuzrElvzsK_tqg6TmeXjtQcaF4g50c-9U7fW3Xosl8-I_ChCr3GWWfOAl3JwHlPPMobm4Y_WLPhiA_4ph65SMq7Er5_4rPtxpP0081gS6wJjcUEw8jONlOiL3Dk_ffPK7JKf4vkR2pptZ2i9WfpT4bt_xUEOlk_W",
-        "width": 5945
-      }
-    ],
-    "place_id": "ChIJPdVrdo-7a4cRpp87cqa_940",
-    "plus_code": {
-      "compound_code": "QFXR+W9 Central City, Colorado",
-      "global_code": "85FPQFXR+W9"
-    },
-    "rating": 4,
-    "reference": "ChIJPdVrdo-7a4cRpp87cqa_940",
-    "scope": "GOOGLE",
-    "types": [
-      "casino",
-      "lodging",
-      "point_of_interest",
-      "establishment"
-    ],
-    "user_ratings_total": 2737,
-    "vicinity": "321 Gregory St, Central City"
-  },
-  {
-    "business_status": "OPERATIONAL",
-    "geometry": {
-      "location": {
-        "lat": 39.7985965,
-        "lng": -105.4835149
-      },
-      "viewport": {
-        "northeast": {
-          "lat": 39.79998822989272,
-          "lng": -105.4825959701073
-        },
-        "southwest": {
-          "lat": 39.79728857010728,
-          "lng": -105.4852956298927
-        }
-      }
-    },
-    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
-    "icon_background_color": "#7B9EB0",
-    "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
-    "name": "Blackhawk",
-    "photos": [
-      {
-        "height": 3264,
-        "html_attributions": [
-          "<a href=\"https://maps.google.com/maps/contrib/117581785367759428508\">Carolina Mavares</a>"
-        ],
-        "photo_reference": "AWU5eFjJy0ldLdak2XhNaoYXMwdC0r9vvDDr8CW-6DXw5neVpC2DiiUs03u3kRmMrtIdS8nh2ub_RA85V0nactdQdDA4bifimxdqmg08ZFGjKvRBlevPSNRKVwAhH9Yv1nF3QuVaEZTRQ1PISEmK_aUYhs3cXcc4j5jAPM-fAyH4t0UpmR0e",
-        "width": 2448
-      }
-    ],
-    "place_id": "ChIJg2e-Goa9a4cRcPeA8o1dgcU",
-    "plus_code": {
-      "compound_code": "QGX8+CH Black Hawk, Colorado",
-      "global_code": "85FPQGX8+CH"
-    },
-    "rating": 4.6,
-    "reference": "ChIJg2e-Goa9a4cRcPeA8o1dgcU",
-    "scope": "GOOGLE",
-    "types": [
-      "casino",
-      "point_of_interest",
-      "establishment"
-    ],
-    "user_ratings_total": 244,
-    "vicinity": "488 Main St, Black Hawk"
-  },
-  {
-    "business_status": "OPERATIONAL",
-    "geometry": {
-      "location": {
-        "lat": 39.7986522,
-        "lng": -105.4866215
-      },
-      "viewport": {
-        "northeast": {
-          "lat": 39.79996847989272,
-          "lng": -105.4851844201073
-        },
-        "southwest": {
-          "lat": 39.79726882010728,
-          "lng": -105.4878840798927
-        }
-      }
-    },
-    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
-    "icon_background_color": "#7B9EB0",
-    "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
-    "name": "Colorado Central Station",
-    "photos": [
-      {
-        "height": 3000,
-        "html_attributions": [
-          "<a href=\"https://maps.google.com/maps/contrib/118019435390340400523\">Priscila Godoy</a>"
-        ],
-        "photo_reference": "AWU5eFgDYmShjOOi1FNLIKHPPewXf3koLHZl-GyRrDwS6C7NJkNxa9NOPVpMlvhw1sqEDJgKA12lgCKbwYVTDDIrhhNEJyGgOwRpL9JNrOgzEyFMkEN6YUBbjdEonMqwBnweeGt_rn9ko--g4p5vxjTagMNaiXHrY9vPWujVZdsS7ZymCA_l",
-        "width": 4000
-      }
-    ],
-    "place_id": "ChIJOeUK8mS8a4cRrASpb3vFTNo",
-    "plus_code": {
-      "compound_code": "QGX7+F9 Black Hawk, Colorado",
-      "global_code": "85FPQGX7+F9"
-    },
-    "rating": 4.4,
-    "reference": "ChIJOeUK8mS8a4cRrASpb3vFTNo",
-    "scope": "GOOGLE",
-    "types": [
-      "casino",
-      "point_of_interest",
-      "establishment"
-    ],
-    "user_ratings_total": 5,
-    "vicinity": "340 Main St, Black Hawk"
-  },
-  {
-    "business_status": "OPERATIONAL",
-    "geometry": {
-      "location": {
-        "lat": 39.798919,
-        "lng": -105.4891639
-      },
-      "viewport": {
-        "northeast": {
-          "lat": 39.80031637989272,
-          "lng": -105.4877599201073
-        },
-        "southwest": {
-          "lat": 39.79761672010727,
-          "lng": -105.4904595798927
-        }
-      }
-    },
-    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
-    "icon_background_color": "#7B9EB0",
-    "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
-    "name": "Bally's Black Hawk West",
-    "opening_hours": {
-      "open_now": false
-    },
-    "photos": [
-      {
-        "height": 3072,
-        "html_attributions": [
-          "<a href=\"https://maps.google.com/maps/contrib/111583135141190977406\">Ugly Ed Johnson</a>"
-        ],
-        "photo_reference": "AWU5eFhByt3CmwW1x64d0c2fdV1IcovzYwY3NiNe83eZJBJPdHloHnypfyjk33fzNpql-uNtVRuP5sYkIjrD1-DyYvuvS6CMcTS0jiQ4oF1TN3c1xTps9jfXu2EqcyxFerhi6Kzk7ceGFLq-9c6Y7-BsNMALvZZfLBuH1x1UZKp7oBCdJ8pw",
-        "width": 4080
-      }
-    ],
-    "place_id": "ChIJz0F8amS8a4cRUwupr846htE",
-    "plus_code": {
-      "compound_code": "QGX6+GC Black Hawk, Colorado",
-      "global_code": "85FPQGX6+GC"
-    },
-    "rating": 4.1,
-    "reference": "ChIJz0F8amS8a4cRUwupr846htE",
-    "scope": "GOOGLE",
-    "types": [
-      "casino",
-      "tourist_attraction",
-      "bar",
-      "cafe",
-      "food",
-      "point_of_interest",
-      "establishment"
-    ],
-    "user_ratings_total": 1539,
-    "vicinity": "261 Main St, Black Hawk"
-  },
-  {
-    "business_status": "OPERATIONAL",
-    "geometry": {
-      "location": {
-        "lat": 39.7980222,
-        "lng": -105.4834251
-      },
-      "viewport": {
-        "northeast": {
-          "lat": 39.79952557989272,
-          "lng": -105.4816969701073
-        },
-        "southwest": {
-          "lat": 39.79682592010727,
-          "lng": -105.4843966298927
-        }
-      }
-    },
-    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/lodging-71.png",
-    "icon_background_color": "#909CE1",
-    "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/hotel_pinlet",
-    "name": "Horseshoe Black Hawk",
-    "photos": [
-      {
-        "height": 460,
-        "html_attributions": [
-          "<a href=\"https://maps.google.com/maps/contrib/113562326639215751318\">Isle Casino Hotel Black Hawk</a>"
-        ],
-        "photo_reference": "AWU5eFgei4UK_xehG9JXbnbBYp8W65m-mhnB1K3_z6rZRa-vkNgkxX9vic_o8uDWSgfBGerrZSfDeYaUrzgCb9sVae2xQH-YB0HJEuIPgRjY_2u7UaeHnXAfhHzYVJar22C7BdS7yFQgEIwlOg6UAvgl8ydReGo-_36yJccmUzn94B1Jf6OZ",
-        "width": 817
-      }
-    ],
-    "place_id": "ChIJ9dHFhZ_Ca4cR3LlniKXkPTI",
-    "plus_code": {
-      "compound_code": "QGX8+6J Black Hawk, Colorado",
-      "global_code": "85FPQGX8+6J"
-    },
-    "rating": 4,
-    "reference": "ChIJ9dHFhZ_Ca4cR3LlniKXkPTI",
-    "scope": "GOOGLE",
-    "types": [
-      "lodging",
-      "point_of_interest",
-      "establishment"
-    ],
-    "user_ratings_total": 6836,
-    "vicinity": "401 Main St, Black Hawk"
-  },
-  {
-    "business_status": "OPERATIONAL",
-    "geometry": {
-      "location": {
-        "lat": 39.7996401,
-        "lng": -105.5124874
-      },
-      "viewport": {
-        "northeast": {
-          "lat": 39.80099707989272,
-          "lng": -105.5112049201073
-        },
-        "southwest": {
-          "lat": 39.79829742010728,
-          "lng": -105.5139045798927
-        }
-      }
-    },
-    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
-    "icon_background_color": "#7B9EB0",
-    "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
-    "name": "Rick\u2019s Cabaret Steakhouse & Casino - coming soon",
-    "photos": [
-      {
-        "height": 4032,
-        "html_attributions": [
-          "<a href=\"https://maps.google.com/maps/contrib/117376244220580619716\">Johnathan leary</a>"
-        ],
-        "photo_reference": "AWU5eFjeboRPVucqOyiLtWXd37Ybp-ySnr_ok1JF0lYgqeThT4oPTs8XgU7YODu7wf9pQ5Ec4c98pyfWzo_jC_9_9ft4dP9L05IetxeAEZnNkIIklSIUr_vJOl8LCKs_lBPSmo5LQDv8NFb5UhNF46BEpkh_EkHpGVY1kbR7Kji3tO83UOve",
-        "width": 3024
-      }
-    ],
-    "place_id": "ChIJn1MN7uO7a4cRi4DavblARuo",
-    "plus_code": {
-      "compound_code": "QFXQ+V2 Central City, Colorado",
-      "global_code": "85FPQFXQ+V2"
-    },
-    "rating": 3.5,
-    "reference": "ChIJn1MN7uO7a4cRi4DavblARuo",
-    "scope": "GOOGLE",
-    "types": [
-      "casino",
-      "point_of_interest",
-      "establishment"
-    ],
-    "user_ratings_total": 2,
-    "vicinity": "130 Main St, Central City"
-  },
-  {
-    "business_status": "OPERATIONAL",
-    "geometry": {
-      "location": {
-        "lat": 40.013865,
-        "lng": -105.3754073
-      },
-      "viewport": {
-        "northeast": {
-          "lat": 40.01523292989272,
-          "lng": -105.3740911201073
-        },
-        "southwest": {
-          "lat": 40.01253327010727,
-          "lng": -105.3767907798927
-        }
-      }
-    },
-    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
-    "icon_background_color": "#7B9EB0",
-    "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
-    "name": "electric voodoo gaming",
-    "opening_hours": {
-      "open_now": true
-    },
-    "photos": [
-      {
-        "height": 266,
-        "html_attributions": [
-          "<a href=\"https://maps.google.com/maps/contrib/102431017871961076811\">A Google User</a>"
-        ],
-        "photo_reference": "AWU5eFgqXqzZtz6mCc57hAnZ5OWnYXnfycB2xC5YRNmXg5H5y3xhF5NyAnnrKfxEz3akuKq1oN6XqwaPXMn79S6u-lD_XCx4xnrMpi6NXNeeyAVaurYt23kpSeqfPvyiaSe7BuVJcWSv-z696xJjj4MWfo0F0BRpFhmTE3n6vRtDm8OhTxJC",
-        "width": 474
-      }
-    ],
-    "place_id": "ChIJuZBTNRvpa4cRsxcSCf4j5NU",
-    "plus_code": {
-      "compound_code": "2J7F+GR Boulder, Colorado",
-      "global_code": "85GP2J7F+GR"
+      "compound_code": "M47P+2R Aurora, Colorado",
+      "global_code": "85FQM47P+2R"
     },
     "rating": 0,
-    "reference": "ChIJuZBTNRvpa4cRsxcSCf4j5NU",
+    "reference": "ChIJIyUs4O2HbIcRYkj7AMAFSSY",
     "scope": "GOOGLE",
     "types": [
-      "casino",
+      "accounting",
+      "finance",
       "point_of_interest",
       "establishment"
     ],
     "user_ratings_total": 0,
-    "vicinity": "1000 Millionaire Dr W, Boulder"
+    "vicinity": "10730 E Bethany Dr STE 125, Aurora"
   },
   {
     "business_status": "OPERATIONAL",
     "geometry": {
       "location": {
-        "lat": 39.8005033,
-        "lng": -105.5127474
+        "lat": 39.7824377,
+        "lng": -105.0615539
       },
       "viewport": {
         "northeast": {
-          "lat": 39.80186997989272,
-          "lng": -105.5113280701073
+          "lat": 39.78353642989271,
+          "lng": -105.0602258201073
         },
         "southwest": {
-          "lat": 39.79917032010727,
-          "lng": -105.5140277298927
+          "lat": 39.78083677010727,
+          "lng": -105.0629254798927
         }
       }
     },
     "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
     "icon_background_color": "#7B9EB0",
     "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
-    "name": "The Famous Bonanza Casino",
-    "opening_hours": {
-      "open_now": false
-    },
-    "photos": [
-      {
-        "height": 3024,
-        "html_attributions": [
-          "<a href=\"https://maps.google.com/maps/contrib/111026198598243770320\">A Google User</a>"
-        ],
-        "photo_reference": "AWU5eFgibVTJYM-hB5xJYB2SAS-XVIBaaLAj-VWzJWEYr5kfJCnPul3Vsdx-rRjt6JbILwa4gaFbJC5NZj9EqiY4mEiYag4nwwl0CVjSLYX1LCl2kg1TVO0U-GE6QXPbFb4hP0m7n0euaSIBOj-gzoHaAfunvZFEsbSQeHIQn6qa7h4tUBiT",
-        "width": 4032
-      }
-    ],
-    "place_id": "ChIJ0R2rKJC7a4cREEXB6iEmQnw",
-    "plus_code": {
-      "compound_code": "RF2P+6W Central City, Colorado",
-      "global_code": "85FPRF2P+6W"
-    },
-    "rating": 4.2,
-    "reference": "ChIJ0R2rKJC7a4cREEXB6iEmQnw",
-    "scope": "GOOGLE",
-    "types": [
-      "casino",
-      "point_of_interest",
-      "establishment"
-    ],
-    "user_ratings_total": 358,
-    "vicinity": "107 Main St, Central City"
-  },
-  {
-    "business_status": "OPERATIONAL",
-    "geometry": {
-      "location": {
-        "lat": 39.8017044,
-        "lng": -105.4945486
-      },
-      "viewport": {
-        "northeast": {
-          "lat": 39.80304862989272,
-          "lng": -105.4930986201073
-        },
-        "southwest": {
-          "lat": 39.80034897010727,
-          "lng": -105.4957982798927
-        }
-      }
-    },
-    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
-    "icon_background_color": "#7B9EB0",
-    "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
-    "name": "Sasquatch Casino",
-    "opening_hours": {
-      "open_now": false
-    },
-    "photos": [
-      {
-        "height": 3036,
-        "html_attributions": [
-          "<a href=\"https://maps.google.com/maps/contrib/111451755156844990576\">Troy Heber</a>"
-        ],
-        "photo_reference": "AWU5eFiT26A83tGQoE7WN6votuQRf-YeFhbw0douHe0AiMuUkHBAya72_lhIrVkpMp7jv7S7wPaJvx0mdI9_LWVhzz0Fs9HWoYoUA2i3TOzYif8qD2pM_q48Td95SugxOO6LcUYpB69sSDWRQ3mBK8f0LOysdR15HbkZvU8DXcynRd2FI9lG",
-        "width": 4048
-      }
-    ],
-    "place_id": "ChIJSRcpWne8a4cRxJJIfYCcFJY",
-    "plus_code": {
-      "compound_code": "RG24+M5 Black Hawk, Colorado",
-      "global_code": "85FPRG24+M5"
-    },
-    "rating": 4.2,
-    "reference": "ChIJSRcpWne8a4cRxJJIfYCcFJY",
-    "scope": "GOOGLE",
-    "types": [
-      "casino",
-      "tourist_attraction",
-      "meal_takeaway",
-      "restaurant",
-      "food",
-      "point_of_interest",
-      "establishment"
-    ],
-    "user_ratings_total": 839,
-    "vicinity": "125 Gregory St, Black Hawk"
-  },
-  {
-    "business_status": "OPERATIONAL",
-    "geometry": {
-      "location": {
-        "lat": 39.8007996,
-        "lng": -105.5112744
-      },
-      "viewport": {
-        "northeast": {
-          "lat": 39.80207177989273,
-          "lng": -105.5099214701073
-        },
-        "southwest": {
-          "lat": 39.79937212010729,
-          "lng": -105.5126211298927
-        }
-      }
-    },
-    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
-    "icon_background_color": "#7B9EB0",
-    "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
-    "name": "Dragon Tiger Casino",
-    "opening_hours": {
-      "open_now": false
-    },
-    "photos": [
-      {
-        "height": 4032,
-        "html_attributions": [
-          "<a href=\"https://maps.google.com/maps/contrib/110093888174019681844\">Erin Wilson</a>"
-        ],
-        "photo_reference": "AWU5eFg8oZTNf2jijtjvUh7fqxxfIjf-lLVjpKkWW_haeawiz3pqGaziPUfGjkHxyoKRuWIktkgfz3Fyp0cQdby1NynUIblY5_3ItoINLGwhR-y3_5r74q2n8dZM214j-KvD91VcG1j2VylHlJPxte9CfptMR9jXZkLx8xnLdMs8ZAsCjfY5",
-        "width": 3024
-      }
-    ],
-    "place_id": "ChIJqdIyKJC7a4cRQSb7rtZCQ8s",
-    "plus_code": {
-      "compound_code": "RF2Q+8F Central City, Colorado",
-      "global_code": "85FPRF2Q+8F"
-    },
-    "rating": 4,
-    "reference": "ChIJqdIyKJC7a4cRQSb7rtZCQ8s",
-    "scope": "GOOGLE",
-    "types": [
-      "casino",
-      "bar",
-      "restaurant",
-      "food",
-      "point_of_interest",
-      "establishment"
-    ],
-    "user_ratings_total": 935,
-    "vicinity": "132 Lawrence St, Central City"
-  },
-  {
-    "business_status": "OPERATIONAL",
-    "geometry": {
-      "location": {
-        "lat": 39.8021141,
-        "lng": -105.4942647
-      },
-      "viewport": {
-        "northeast": {
-          "lat": 39.80344932989272,
-          "lng": -105.4928992701073
-        },
-        "southwest": {
-          "lat": 39.80074967010728,
-          "lng": -105.4955989298927
-        }
-      }
-    },
-    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
-    "icon_background_color": "#7B9EB0",
-    "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
-    "name": "Z Casino",
-    "opening_hours": {
-      "open_now": false
-    },
-    "photos": [
-      {
-        "height": 787,
-        "html_attributions": [
-          "<a href=\"https://maps.google.com/maps/contrib/110209836492504995225\">Z Casino</a>"
-        ],
-        "photo_reference": "AWU5eFhshcburFAUnp6dc1ZESbNfK6HWrK5-c7J99J4NPIpNZfdy9gnjHEhkQCL8_Q20vqhsBowxFau0yXVS3cza6rWEsbqacoXwu6UcN1245mKGg42VBU7Gd22W8EreYNgKIzZ8lCNcUa6sTfnwphm21uMOKl3lGEIgoak05mokYs5nvzL_",
-        "width": 1200
-      }
-    ],
-    "place_id": "ChIJSXvgs3C8a4cRe7JYoxiDcus",
-    "plus_code": {
-      "compound_code": "RG24+R8 Black Hawk, Colorado",
-      "global_code": "85FPRG24+R8"
-    },
-    "rating": 4.1,
-    "reference": "ChIJSXvgs3C8a4cRe7JYoxiDcus",
-    "scope": "GOOGLE",
-    "types": [
-      "casino",
-      "bar",
-      "restaurant",
-      "food",
-      "point_of_interest",
-      "establishment"
-    ],
-    "user_ratings_total": 1448,
-    "vicinity": "101 Gregory St, Black Hawk"
-  },
-  {
-    "business_status": "OPERATIONAL",
-    "geometry": {
-      "location": {
-        "lat": 39.8014404,
-        "lng": -105.493866
-      },
-      "viewport": {
-        "northeast": {
-          "lat": 39.80284592989272,
-          "lng": -105.4925237201073
-        },
-        "southwest": {
-          "lat": 39.80014627010728,
-          "lng": -105.4952233798927
-        }
-      }
-    },
-    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
-    "icon_background_color": "#7B9EB0",
-    "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
-    "name": "Saratoga Casino Black Hawk",
-    "opening_hours": {
-      "open_now": false
-    },
-    "photos": [
-      {
-        "height": 1360,
-        "html_attributions": [
-          "<a href=\"https://maps.google.com/maps/contrib/117039473891257778432\">Saratoga Casino</a>"
-        ],
-        "photo_reference": "AWU5eFh7GR92AbIO3D4trchieyqZH9A75hZVRTg1Cd5_vPEEcULmNdmvxaiVmS2drAEoGxo1Rdea8QGRbB7BAF1obbgiz2MoaxRexG3itydAj3iweCy5S2CuOs6zyyi_H-del6ZshS6NpH_7USnFwDpKXMrgDjD0aIt1Fyr3sbKChsffG1bj",
-        "width": 2048
-      }
-    ],
-    "place_id": "ChIJH59UrnC8a4cRKoHkhlnk7Aw",
-    "plus_code": {
-      "compound_code": "RG24+HF Black Hawk, Colorado",
-      "global_code": "85FPRG24+HF"
-    },
-    "rating": 4.1,
-    "reference": "ChIJH59UrnC8a4cRKoHkhlnk7Aw",
-    "scope": "GOOGLE",
-    "types": [
-      "casino",
-      "cafe",
-      "store",
-      "food",
-      "point_of_interest",
-      "establishment"
-    ],
-    "user_ratings_total": 1093,
-    "vicinity": "101 Main St, Black Hawk"
-  },
-  {
-    "business_status": "OPERATIONAL",
-    "geometry": {
-      "location": {
-        "lat": 39.7998956,
-        "lng": -105.5125269
-      },
-      "viewport": {
-        "northeast": {
-          "lat": 39.80124227989273,
-          "lng": -105.5111933701073
-        },
-        "southwest": {
-          "lat": 39.79854262010728,
-          "lng": -105.5138930298927
-        }
-      }
-    },
-    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
-    "icon_background_color": "#7B9EB0",
-    "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
-    "name": "Easy Street Casino",
-    "opening_hours": {
-      "open_now": false
-    },
-    "photos": [
-      {
-        "height": 3024,
-        "html_attributions": [
-          "<a href=\"https://maps.google.com/maps/contrib/114270767093193596866\">A Google User</a>"
-        ],
-        "photo_reference": "AWU5eFjmrqlyG8T_qEsLlhMa3SoWz_jCGtT1IxF6wCnTbmBs5z7OqCIzNfp9lrO4ChfrJMcTAq6qap1EX06Qd0XynuouSB73CenUaqFU95ytR1Gq3G3llmBQ3HFDanhVxMdjahcb2hN2vzcAfRefZm6hCtAD8B3oLMacirJ_3QWHC6xcWybs",
-        "width": 4032
-      }
-    ],
-    "place_id": "ChIJjSKEH5C7a4cRCB2WWo045wc",
-    "plus_code": {
-      "compound_code": "QFXQ+X2 Central City, Colorado",
-      "global_code": "85FPQFXQ+X2"
-    },
-    "rating": 4.3,
-    "reference": "ChIJjSKEH5C7a4cRCB2WWo045wc",
-    "scope": "GOOGLE",
-    "types": [
-      "casino",
-      "tourist_attraction",
-      "point_of_interest",
-      "establishment"
-    ],
-    "user_ratings_total": 326,
-    "vicinity": "120 Main St, Central City"
-  },
-  {
-    "business_status": "OPERATIONAL",
-    "geometry": {
-      "location": {
-        "lat": 39.7485816,
-        "lng": -104.9976901
-      },
-      "viewport": {
-        "northeast": {
-          "lat": 39.75002292989272,
-          "lng": -104.9963992201073
-        },
-        "southwest": {
-          "lat": 39.74732327010728,
-          "lng": -104.9990988798927
-        }
-      }
-    },
-    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
-    "icon_background_color": "#7B9EB0",
-    "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
-    "name": "Denver Casino & Poker Rentals",
-    "opening_hours": {
-      "open_now": false
-    },
-    "photos": [
-      {
-        "height": 567,
-        "html_attributions": [
-          "<a href=\"https://maps.google.com/maps/contrib/117453983398135904075\">Denver Casino &amp; Poker Rentals, Casino Party Planning</a>"
-        ],
-        "photo_reference": "AWU5eFiuS1g3CjbefAhrruatTyNRoJgMWt5yJhoCACJGIp95K3_-8VEjR5auKUGjXvFD8yFbnrgMy1425KOyttt9l85wMjvBpBElE1TZhwKn_dXVuuvX29kNQDvPTEjWs5KbLMR1wm-hVGahNIv7zD9rgDDf313hYJvUI6hA6eUiiDjLS0DP",
-        "width": 850
-      }
-    ],
-    "place_id": "ChIJIX98McV4bIcRFaGpfj5wCgI",
-    "plus_code": {
-      "compound_code": "P2X2+CW Denver, Colorado",
-      "global_code": "85FQP2X2+CW"
-    },
-    "rating": 3.3,
-    "reference": "ChIJIX98McV4bIcRFaGpfj5wCgI",
-    "scope": "GOOGLE",
-    "types": [
-      "casino",
-      "point_of_interest",
-      "establishment"
-    ],
-    "user_ratings_total": 13,
-    "vicinity": "1550 Larimer St, Denver"
-  },
-  {
-    "business_status": "OPERATIONAL",
-    "geometry": {
-      "location": {
-        "lat": 39.710694,
-        "lng": -104.827849
-      },
-      "viewport": {
-        "northeast": {
-          "lat": 39.71209152989272,
-          "lng": -104.8266277701073
-        },
-        "southwest": {
-          "lat": 39.70939187010728,
-          "lng": -104.8293274298927
-        }
-      }
-    },
-    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
-    "icon_background_color": "#7B9EB0",
-    "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
-    "name": "Bachus & Schanker, Personal Injury Lawyers | Aurora Office",
-    "opening_hours": {
-      "open_now": true
-    },
-    "photos": [
-      {
-        "height": 642,
-        "html_attributions": [
-          "<a href=\"https://maps.google.com/maps/contrib/102592970903309871710\">A Google User</a>"
-        ],
-        "photo_reference": "AWU5eFiwfYFdd7fJNCQS6UDH0qprLwsqX_vr1UYA-gzeDwPvERTihokITcH_BKMAPckYXXYqg-fAmpniJqUxI_HN_8QsqnPBoqZQUB7PM_8veS8TVstzulh4TJQ4boPkeADtbH8cJ8M8JrTa4iqs426xmjGtGLtL07hfZqrdwNvoL_-WBGU9",
-        "width": 856
-      }
-    ],
-    "place_id": "ChIJmRsg0yNjbIcRIQtfCmnwQcc",
-    "plus_code": {
-      "compound_code": "P56C+7V Aurora, Colorado",
-      "global_code": "85FQP56C+7V"
-    },
-    "rating": 4.9,
-    "reference": "ChIJmRsg0yNjbIcRIQtfCmnwQcc",
-    "scope": "GOOGLE",
-    "types": [
-      "lawyer",
-      "point_of_interest",
-      "establishment"
-    ],
-    "user_ratings_total": 110,
-    "vicinity": "13700 E Alameda Ave, Aurora"
-  },
-  {
-    "business_status": "OPERATIONAL",
-    "geometry": {
-      "location": {
-        "lat": 39.6139713,
-        "lng": -105.0195344
-      },
-      "viewport": {
-        "northeast": {
-          "lat": 39.61525367989272,
-          "lng": -105.0181211701073
-        },
-        "southwest": {
-          "lat": 39.61255402010728,
-          "lng": -105.0208208298927
-        }
-      }
-    },
-    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
-    "icon_background_color": "#7B9EB0",
-    "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
-    "name": "AGG Law Firm",
-    "opening_hours": {
-      "open_now": true
-    },
-    "photos": [
-      {
-        "height": 765,
-        "html_attributions": [
-          "<a href=\"https://maps.google.com/maps/contrib/102039816019321648203\">A Google User</a>"
-        ],
-        "photo_reference": "AWU5eFgzb-Lb3b5RXyE3XxhyulAeZA-gpphR3OzV3f70h7Bq4t4GnNUbDU0q7uM8RCUv-z80hQBrmCIFlRQlUQKz0r2O2QgarZ4J2I7XrBdL-2B384Ur3NUPk6F7te7esGekfRoKFr479I2rWmRUcPFWWMl8ohgm1nJ-ElcB4pW0IPzTnBmZ",
-        "width": 1360
-      }
-    ],
-    "place_id": "ChIJb6ifJIN_bIcRDkJME2QxGO0",
-    "plus_code": {
-      "compound_code": "JX7J+H5 Littleton, Colorado",
-      "global_code": "85FPJX7J+H5"
-    },
-    "rating": 4.9,
-    "reference": "ChIJb6ifJIN_bIcRDkJME2QxGO0",
-    "scope": "GOOGLE",
-    "types": [
-      "lawyer",
-      "point_of_interest",
-      "establishment"
-    ],
-    "user_ratings_total": 70,
-    "vicinity": "2679 Main St Suite 300-733, Littleton"
-  },
-  {
-    "business_status": "OPERATIONAL",
-    "geometry": {
-      "location": {
-        "lat": 39.6042638,
-        "lng": -104.7092125
-      },
-      "viewport": {
-        "northeast": {
-          "lat": 39.60543172989272,
-          "lng": -104.7076744701073
-        },
-        "southwest": {
-          "lat": 39.60273207010727,
-          "lng": -104.7103741298927
-        }
-      }
-    },
-    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
-    "icon_background_color": "#7B9EB0",
-    "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
-    "name": "CNL Law Firm PLLC",
-    "opening_hours": {
-      "open_now": true
-    },
-    "photos": [
-      {
-        "height": 683,
-        "html_attributions": [
-          "<a href=\"https://maps.google.com/maps/contrib/106024286551019339736\">A Google User</a>"
-        ],
-        "photo_reference": "AWU5eFg-CvhQD6NnFb1erlVyAb7cZCJhZ3qC61eAN2IdOO_y8_c4nDDya4O_m_OyHltOJJgIHnXyAOlc4cgEgE9xvXVQoVOlZVGOU48NVa0p_zbGDEyVqi1-ySj2kRDJ63dGij_uP2_j7GVTOALEBhryvohkE9n9X1SAuNjuf88t7yyf99iz",
-        "width": 1024
-      }
-    ],
-    "place_id": "ChIJiVIZJjWNbIcRT0uihpFoKss",
-    "plus_code": {
-      "compound_code": "J73R+P8 Aurora, Colorado",
-      "global_code": "85FQJ73R+P8"
-    },
-    "rating": 4.9,
-    "reference": "ChIJiVIZJjWNbIcRT0uihpFoKss",
-    "scope": "GOOGLE",
-    "types": [
-      "lawyer",
-      "point_of_interest",
-      "establishment"
-    ],
-    "user_ratings_total": 81,
-    "vicinity": "6205 S Main St #255, Aurora"
-  },
-  {
-    "business_status": "OPERATIONAL",
-    "geometry": {
-      "location": {
-        "lat": 39.652917,
-        "lng": -104.9939706
-      },
-      "viewport": {
-        "northeast": {
-          "lat": 39.65430427989272,
-          "lng": -104.9925171201073
-        },
-        "southwest": {
-          "lat": 39.65160462010728,
-          "lng": -104.9952167798927
-        }
-      }
-    },
-    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
-    "icon_background_color": "#7B9EB0",
-    "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
-    "name": "Bachus & Schanker, Personal Injury Lawyers | Englewood Office",
-    "opening_hours": {
-      "open_now": true
-    },
-    "photos": [
-      {
-        "height": 540,
-        "html_attributions": [
-          "<a href=\"https://maps.google.com/maps/contrib/102245045991474022767\">A Google User</a>"
-        ],
-        "photo_reference": "AWU5eFhC2VqpeEpFaBVP6cXuUXm60Vccgl3ZHpYUGp6jGvGFmxBMofCEgWCYUH0b_knOsksNBsFlcwaQ2YQJ8mMqz8WMnevAxso9gp-m0K-3a3wOlZPDFq3fj9yWkdQr5x53FiVycmyNSwHbdvs8_yqRrALn-tB6lYZX_tUaxxhM3JJrjuMC",
-        "width": 720
-      }
-    ],
-    "place_id": "ChIJDx7X736BbIcRnJohGLizlCQ",
-    "plus_code": {
-      "compound_code": "M234+5C Englewood, Colorado",
-      "global_code": "85FQM234+5C"
-    },
-    "rating": 4.9,
-    "reference": "ChIJDx7X736BbIcRnJohGLizlCQ",
-    "scope": "GOOGLE",
-    "types": [
-      "lawyer",
-      "point_of_interest",
-      "establishment"
-    ],
-    "user_ratings_total": 145,
-    "vicinity": "500 W Hampden Ave Suite 100, Englewood"
-  },
-  {
-    "business_status": "OPERATIONAL",
-    "geometry": {
-      "location": {
-        "lat": 39.7321945,
-        "lng": -104.9907056
-      },
-      "viewport": {
-        "northeast": {
-          "lat": 39.73356627989273,
-          "lng": -104.9891318201073
-        },
-        "southwest": {
-          "lat": 39.73086662010728,
-          "lng": -104.9918314798927
-        }
-      }
-    },
-    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
-    "icon_background_color": "#7B9EB0",
-    "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
-    "name": "Denver Personal Injury Lawyers\u00ae",
-    "opening_hours": {
-      "open_now": true
-    },
-    "photos": [
-      {
-        "height": 6336,
-        "html_attributions": [
-          "<a href=\"https://maps.google.com/maps/contrib/109518289052401978751\">A Google User</a>"
-        ],
-        "photo_reference": "AWU5eFisdP_HgKsBLSwa09uUbLQ2KYbdjJu7lLdGlZKpSoWr4Q0pIijHi5XcVCIH_NEgsNehvLJiTxN-HJGD7DVQ9Z2GHlR9l3q47slhxigRdx0k-9J0oxsQFsSyCikH_nBgZjjVYoBgBZak09xjxQNcDs6htibwxmOgvgMlphWoZ7_9ZTdl",
-        "width": 9504
-      }
-    ],
-    "place_id": "ChIJQ0ETWZZ5bIcRc8jtOo-H5Gg",
-    "plus_code": {
-      "compound_code": "P2J5+VP Denver, Colorado",
-      "global_code": "85FQP2J5+VP"
-    },
-    "rating": 5,
-    "reference": "ChIJQ0ETWZZ5bIcRc8jtOo-H5Gg",
-    "scope": "GOOGLE",
-    "types": [
-      "lawyer",
-      "point_of_interest",
-      "establishment"
-    ],
-    "user_ratings_total": 146,
-    "vicinity": "1001 Bannock St #8, Denver"
-  },
-  {
-    "business_status": "OPERATIONAL",
-    "geometry": {
-      "location": {
-        "lat": 39.7116443,
-        "lng": -105.1411772
-      },
-      "viewport": {
-        "northeast": {
-          "lat": 39.71282597989272,
-          "lng": -105.1397393201073
-        },
-        "southwest": {
-          "lat": 39.71012632010728,
-          "lng": -105.1424389798927
-        }
-      }
-    },
-    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
-    "icon_background_color": "#7B9EB0",
-    "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
-    "name": "Gold Law, L.L.C.",
-    "opening_hours": {
-      "open_now": true
-    },
-    "photos": [
-      {
-        "height": 2160,
-        "html_attributions": [
-          "<a href=\"https://maps.google.com/maps/contrib/109867287778896024865\">A Google User</a>"
-        ],
-        "photo_reference": "AWU5eFg5twfXt27I5CKry_VkrVPdgGriZjslE6NEvwxzHovnFuICA6QrUsToTt_6L8NJEMPb2xw8wX1rjV9e6o13rnnmqGQg_pamawdaWZEwgbOf1TeaStHJxkZEJ63CK1s9CTm2JGbTMcjBdVaaQ5eYu_1zFncc8UPZ4h9MSunBMs9w_2rU",
-        "width": 3840
-      }
-    ],
-    "place_id": "ChIJT3AXYMGDa4cRrB4TWpLNO08",
-    "plus_code": {
-      "compound_code": "PV65+MG Lakewood, Colorado",
-      "global_code": "85FPPV65+MG"
-    },
-    "rating": 5,
-    "reference": "ChIJT3AXYMGDa4cRrB4TWpLNO08",
-    "scope": "GOOGLE",
-    "types": [
-      "lawyer",
-      "point_of_interest",
-      "establishment"
-    ],
-    "user_ratings_total": 46,
-    "vicinity": "12640 W Cedar Dr Suite 100 #11, Lakewood"
-  },
-  {
-    "business_status": "OPERATIONAL",
-    "geometry": {
-      "location": {
-        "lat": 39.67814,
-        "lng": -104.81982
-      },
-      "viewport": {
-        "northeast": {
-          "lat": 39.67964517989272,
-          "lng": -104.8185047701073
-        },
-        "southwest": {
-          "lat": 39.67694552010728,
-          "lng": -104.8212044298927
-        }
-      }
-    },
-    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
-    "icon_background_color": "#7B9EB0",
-    "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
-    "name": "Franklin D. Azar & Associates, P.C.",
-    "opening_hours": {
-      "open_now": true
-    },
-    "photos": [
-      {
-        "height": 576,
-        "html_attributions": [
-          "<a href=\"https://maps.google.com/maps/contrib/106770574768238479893\">Franklin D. Azar &amp; Associates, P.C.</a>"
-        ],
-        "photo_reference": "AWU5eFjOVmeizM6Q2Pc2pgzEs1FYM0hwxioOZ8YmdLH8vo5pQx8r6Iaqvs4OEajsjv3UvXxtY1Ho1792cEm7g0zQ3MpMmbnOXj_J8ecFzYdtJ2wOitpVDOooshtXdw25sYQ6njXlZeWfWnjilUlodpFN8qE7YDNLCgGjnpCXFXjFMjHV2oJ2",
-        "width": 1024
-      }
-    ],
-    "place_id": "ChIJoYiRZyCIbIcRakvv7KNLosQ",
-    "plus_code": {
-      "compound_code": "M5HJ+73 Aurora, Colorado",
-      "global_code": "85FQM5HJ+73"
-    },
-    "rating": 4.3,
-    "reference": "ChIJoYiRZyCIbIcRakvv7KNLosQ",
-    "scope": "GOOGLE",
-    "types": [
-      "lawyer",
-      "point_of_interest",
-      "establishment"
-    ],
-    "user_ratings_total": 1410,
-    "vicinity": "14426 E Evans Ave, Aurora"
-  },
-  {
-    "business_status": "OPERATIONAL",
-    "geometry": {
-      "location": {
-        "lat": 39.6111022,
-        "lng": -104.9018835
-      },
-      "viewport": {
-        "northeast": {
-          "lat": 39.61253897989273,
-          "lng": -104.9006471201073
-        },
-        "southwest": {
-          "lat": 39.60983932010728,
-          "lng": -104.9033467798927
-        }
-      }
-    },
-    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
-    "icon_background_color": "#7B9EB0",
-    "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
-    "name": "Colorado Lawyer Team",
-    "opening_hours": {
-      "open_now": true
-    },
-    "photos": [
-      {
-        "height": 6000,
-        "html_attributions": [
-          "<a href=\"https://maps.google.com/maps/contrib/100062589077469188836\">A Google User</a>"
-        ],
-        "photo_reference": "AWU5eFjF09IvXkJjLi05ClPEEsYl3BTgfBnqtOSyP8u0NI8zIz1FccFr6oEB6NDZY13Kgdq-Ls1rDOhG3ffkM3aidBDSmn5JlhFM4UgJcnRd-bP9UBV0bGplO1mITMmi4btDDP-sFx8sotXRdhIhW6IgsAtDNCZFYP1meo0YlN_4CClzDmzT",
-        "width": 4000
-      }
-    ],
-    "place_id": "ChIJbcs4isqHbIcRCJVJpNwIrfk",
-    "plus_code": {
-      "compound_code": "J36X+C6 Greenwood Village, Colorado",
-      "global_code": "85FQJ36X+C6"
-    },
-    "rating": 5,
-    "reference": "ChIJbcs4isqHbIcRCJVJpNwIrfk",
-    "scope": "GOOGLE",
-    "types": [
-      "lawyer",
-      "point_of_interest",
-      "establishment"
-    ],
-    "user_ratings_total": 30,
-    "vicinity": "7375 E Orchard Rd Ste 600, Greenwood Village"
-  },
-  {
-    "business_status": "OPERATIONAL",
-    "geometry": {
-      "location": {
-        "lat": 39.60802,
-        "lng": -104.89077
-      },
-      "viewport": {
-        "northeast": {
-          "lat": 39.60932367989272,
-          "lng": -104.8895041701073
-        },
-        "southwest": {
-          "lat": 39.60662402010727,
-          "lng": -104.8922038298927
-        }
-      }
-    },
-    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
-    "icon_background_color": "#7B9EB0",
-    "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
-    "name": "Legal Help In Colorado",
-    "opening_hours": {
-      "open_now": true
-    },
-    "photos": [
-      {
-        "height": 4820,
-        "html_attributions": [
-          "<a href=\"https://maps.google.com/maps/contrib/106269530537062215615\">A Google User</a>"
-        ],
-        "photo_reference": "AWU5eFhsdqjk9o4FIWAbDEqzAHLEIP4AdYEJby--L7Bo7olwlJj5pTK4a3meSk9SHgV3cXaj55uVWoUoyKDKgD9-fFi4HT-6gh6u3FgnVC97wfrwAqk6EEApVeO3NUg_fb0QDAMhh2KijkLNqxaVgDq5iaCBmEL8Q2bZJlfonZcLKqB-mbG0",
-        "width": 3459
-      }
-    ],
-    "place_id": "ChIJ6QAk2ll9bIcRKdAUlNE6BPU",
-    "plus_code": {
-      "compound_code": "J455+6M Greenwood Village, Colorado",
-      "global_code": "85FQJ455+6M"
-    },
-    "rating": 5,
-    "reference": "ChIJ6QAk2ll9bIcRKdAUlNE6BPU",
-    "scope": "GOOGLE",
-    "types": [
-      "lawyer",
-      "point_of_interest",
-      "establishment"
-    ],
-    "user_ratings_total": 81,
-    "vicinity": "8480 E Orchard Rd # 2400, Greenwood Village"
-  },
-  {
-    "business_status": "OPERATIONAL",
-    "geometry": {
-      "location": {
-        "lat": 39.56310970000001,
-        "lng": -104.866897
-      },
-      "viewport": {
-        "northeast": {
-          "lat": 39.56433577989272,
-          "lng": -104.8655107701073
-        },
-        "southwest": {
-          "lat": 39.56163612010728,
-          "lng": -104.8682104298927
-        }
-      }
-    },
-    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
-    "icon_background_color": "#7B9EB0",
-    "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
-    "name": "Justice for Colorado",
-    "opening_hours": {
-      "open_now": true
-    },
-    "photos": [
-      {
-        "height": 675,
-        "html_attributions": [
-          "<a href=\"https://maps.google.com/maps/contrib/116706347867329926299\">A Google User</a>"
-        ],
-        "photo_reference": "AWU5eFhLGHfmdyXu-v5yVMy-MBJU9gEVa76lEw_Hl8UxHDlCULmtWl3B97MQlJjRWqGhlWpdsbO1mYXhaCSFvRp5bxJ8g-Hx3oqMIEMKbODLoaDcv-6QRvepK1pw3bZcD02DmCiSRmO-UTuj5rhqXyc9BtAuuME7or9HIePF2iAltlXsuFJ2",
-        "width": 1200
-      }
-    ],
-    "place_id": "ChIJcUBWnON-bIcRIX9wAcfGOcs",
-    "plus_code": {
-      "compound_code": "H47M+66 Englewood, Colorado",
-      "global_code": "85FQH47M+66"
-    },
-    "rating": 4.9,
-    "reference": "ChIJcUBWnON-bIcRIX9wAcfGOcs",
-    "scope": "GOOGLE",
-    "types": [
-      "lawyer",
-      "point_of_interest",
-      "establishment"
-    ],
-    "user_ratings_total": 77,
-    "vicinity": "385 Inverness Pkwy # 160, Englewood"
-  },
-  {
-    "business_status": "OPERATIONAL",
-    "geometry": {
-      "location": {
-        "lat": 39.6329422,
-        "lng": -104.893956
-      },
-      "viewport": {
-        "northeast": {
-          "lat": 39.63410767989271,
-          "lng": -104.8928316701073
-        },
-        "southwest": {
-          "lat": 39.63140802010727,
-          "lng": -104.8955313298927
-        }
-      }
-    },
-    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
-    "icon_background_color": "#7B9EB0",
-    "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
-    "name": "Denver Trial Lawyers",
-    "opening_hours": {
-      "open_now": true
-    },
-    "photos": [
-      {
-        "height": 761,
-        "html_attributions": [
-          "<a href=\"https://maps.google.com/maps/contrib/110196699099003504437\">A Google User</a>"
-        ],
-        "photo_reference": "AWU5eFjzCtVY6gtUSfg8bKWy7-c7jtdaxINDRW_KBxC-BjkYkYZqLfVpqNStSElR_3-M56GaizVcSXgOS3Pog8WmdUvTrWu18RYgsxB1sKuTL1xzKY0HPBHyxM9vpBMEflVMBDIh5g3R9-qFJ-LcbWEfFbK-za6bQwoUPmxWwGuE9ZD14mqd",
-        "width": 1920
-      }
-    ],
-    "place_id": "ChIJX3mI7QCHbIcRuz7K8wVIrqM",
-    "plus_code": {
-      "compound_code": "J4M4+5C Denver, Colorado",
-      "global_code": "85FQJ4M4+5C"
-    },
-    "rating": 4.6,
-    "reference": "ChIJX3mI7QCHbIcRuz7K8wVIrqM",
-    "scope": "GOOGLE",
-    "types": [
-      "lawyer",
-      "point_of_interest",
-      "establishment"
-    ],
-    "user_ratings_total": 46,
-    "vicinity": "4601 DTC Blvd #950, Denver"
-  },
-  {
-    "business_status": "OPERATIONAL",
-    "geometry": {
-      "location": {
-        "lat": 39.7347825,
-        "lng": -104.993079
-      },
-      "viewport": {
-        "northeast": {
-          "lat": 39.73613142989272,
-          "lng": -104.9917034201073
-        },
-        "southwest": {
-          "lat": 39.73343177010728,
-          "lng": -104.9944030798927
-        }
-      }
-    },
-    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
-    "icon_background_color": "#7B9EB0",
-    "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
-    "name": "Daniels Law Firm",
-    "opening_hours": {
-      "open_now": true
-    },
-    "photos": [
-      {
-        "height": 274,
-        "html_attributions": [
-          "<a href=\"https://maps.google.com/maps/contrib/112152223039421965351\">Daniels Law Firm</a>"
-        ],
-        "photo_reference": "AWU5eFiOHYIG6_ebanhw3MtRSjpJXEE_XVqJhh8ZIl_jcSrzQpz6bGeoTdSLRzJwhIMDFJ0xwohMFNRWd4foLnprEVHpO5paKEJnAvHkwfXbBxF_VGOm3QYTBrpTIoFYUyItEQArTbC4ISs2J6k_guSKwDWZthys259N9jn-HUGcoQRPXTC1",
-        "width": 274
-      }
-    ],
-    "place_id": "ChIJ39A5INZ-bIcRI0nK9InUMDQ",
-    "plus_code": {
-      "compound_code": "P2M4+WP Denver, Colorado",
-      "global_code": "85FQP2M4+WP"
-    },
-    "rating": 4.8,
-    "reference": "ChIJ39A5INZ-bIcRI0nK9InUMDQ",
-    "scope": "GOOGLE",
-    "types": [
-      "lawyer",
-      "point_of_interest",
-      "establishment"
-    ],
-    "user_ratings_total": 49,
-    "vicinity": "1159 Delaware St, Denver"
-  },
-  {
-    "business_status": "OPERATIONAL",
-    "geometry": {
-      "location": {
-        "lat": 39.57243,
-        "lng": -104.857181
-      },
-      "viewport": {
-        "northeast": {
-          "lat": 39.57368152989272,
-          "lng": -104.8557312201073
-        },
-        "southwest": {
-          "lat": 39.57098187010727,
-          "lng": -104.8584308798927
-        }
-      }
-    },
-    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
-    "icon_background_color": "#7B9EB0",
-    "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
-    "name": "Burg Simpson Personal Injury Lawyers",
+    "name": "4Corner Business Services",
     "opening_hours": {
       "open_now": true
     },
@@ -3546,1261 +937,27 @@
       {
         "height": 285,
         "html_attributions": [
-          "<a href=\"https://maps.google.com/maps/contrib/110465559399933000864\">Burg Simpson Eldredge Hersh Jardine PC</a>"
+          "<a href=\"https://maps.google.com/maps/contrib/110346880358958570631\">A Google User</a>"
         ],
-        "photo_reference": "AWU5eFjJPwgORH8BCY6Yt0mKPgZWqOP4J7KIOdxlLgBRdiB_W0UfZQI7tHQjyocHjVH3Y9Oa4Zbh0Kd_NWN-dsEwL_GL_2wB6okUIq_wJajQ2d19HPFjULKEXCV7b3HhoVwC5FgrT3xZaXFqMcIdSBvgddmN4YMXVW3kmG4ZxBopb9T8XDvY",
-        "width": 345
+        "photo_reference": "AWU5eFin6BWBOS1bgF_mSVOQiHIjoiJuXs_uKx20NNaUzfPYb4tw-VsGI-UWbDWXZpIx8fduo4-lenwVrdAt2yhAGgVkbzCR2wtkMhYrSKSBv4MbL3wihG4ygsrUhKiLXveseasjtKKb_aJ4_1sHLuf77f9FZ-qYiFcvJadbYDc3ar74zyz1",
+        "width": 284
       }
     ],
-    "place_id": "ChIJre81oJKFbIcR6wLuxNd01po",
+    "place_id": "ChIJKUq8NtaGa4cRJUzKHGiTOtA",
     "plus_code": {
-      "compound_code": "H4CV+X4 Englewood, Colorado",
-      "global_code": "85FQH4CV+X4"
-    },
-    "rating": 4.3,
-    "reference": "ChIJre81oJKFbIcR6wLuxNd01po",
-    "scope": "GOOGLE",
-    "types": [
-      "lawyer",
-      "point_of_interest",
-      "establishment"
-    ],
-    "user_ratings_total": 116,
-    "vicinity": "40 Inverness Dr E, Englewood"
-  },
-  {
-    "business_status": "OPERATIONAL",
-    "geometry": {
-      "location": {
-        "lat": 39.715539,
-        "lng": -104.949567
-      },
-      "viewport": {
-        "northeast": {
-          "lat": 39.71682492989272,
-          "lng": -104.9480725201073
-        },
-        "southwest": {
-          "lat": 39.71412527010727,
-          "lng": -104.9507721798927
-        }
-      }
-    },
-    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
-    "icon_background_color": "#7B9EB0",
-    "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
-    "name": "Cliff Enten Law",
-    "opening_hours": {
-      "open_now": true
-    },
-    "photos": [
-      {
-        "height": 300,
-        "html_attributions": [
-          "<a href=\"https://maps.google.com/maps/contrib/111332645259156907942\">A Google User</a>"
-        ],
-        "photo_reference": "AWU5eFhVVXEwL_DVqYhpLdZYDOLz7_bxHgqNFiy-FfiqSsp0snapZbjJ7UVwnPhdzc3CEsdbbSoFGcVGXjmikHeELM6iimIE6Y733voXiiMHN7RISuI9fNAgzx1yBQrmncjDWARDpoD3jLY3tdnn0nuDM4b0ut23oYNNfxIZ2Dk-vjy9ZbQO",
-        "width": 340
-      }
-    ],
-    "place_id": "ChIJHQ1uYpp-bIcR4RUsa3rmsZM",
-    "plus_code": {
-      "compound_code": "P382+65 Denver, Colorado",
-      "global_code": "85FQP382+65"
-    },
-    "rating": 4.8,
-    "reference": "ChIJHQ1uYpp-bIcR4RUsa3rmsZM",
-    "scope": "GOOGLE",
-    "types": [
-      "lawyer",
-      "point_of_interest",
-      "establishment"
-    ],
-    "user_ratings_total": 211,
-    "vicinity": "50 S Steele St #875, Denver"
-  },
-  {
-    "business_status": "OPERATIONAL",
-    "geometry": {
-      "location": {
-        "lat": 39.7065052,
-        "lng": -105.0810002
-      },
-      "viewport": {
-        "northeast": {
-          "lat": 39.70776082989272,
-          "lng": -105.0794964201073
-        },
-        "southwest": {
-          "lat": 39.70506117010728,
-          "lng": -105.0821960798927
-        }
-      }
-    },
-    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
-    "icon_background_color": "#7B9EB0",
-    "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
-    "name": "Matos Personal Injury Lawyers",
-    "opening_hours": {
-      "open_now": true
-    },
-    "photos": [
-      {
-        "height": 5760,
-        "html_attributions": [
-          "<a href=\"https://maps.google.com/maps/contrib/107228804299323180829\">The Matos Law Firm, LLC</a>"
-        ],
-        "photo_reference": "AWU5eFgfpkf_lS89jgeK3r6dwbALJj9QpjZAt4kzCgMagGoFIUEdwSIgvJDevQjPEYUVKBHgwfTBFXDCuFWbrFURjFdr0Pg03B7P3eiwAIKLJtG_ldtFobhSY2BL30nf-KI6xjAKwvZZueSUatFceXiChx3td_TAwVJ7I7jbMIs0IvvXlwdc",
-        "width": 3840
-      }
-    ],
-    "place_id": "ChIJDxBAL7GDa4cRBLOrbxcc4bo",
-    "plus_code": {
-      "compound_code": "PW49+JH Lakewood, Colorado",
-      "global_code": "85FPPW49+JH"
-    },
-    "rating": 4.7,
-    "reference": "ChIJDxBAL7GDa4cRBLOrbxcc4bo",
-    "scope": "GOOGLE",
-    "types": [
-      "lawyer",
-      "point_of_interest",
-      "establishment"
-    ],
-    "user_ratings_total": 32,
-    "vicinity": "550 S Wadsworth Blvd STE 300, Lakewood"
-  },
-  {
-    "business_status": "OPERATIONAL",
-    "geometry": {
-      "location": {
-        "lat": 39.7196592,
-        "lng": -104.9501271
-      },
-      "viewport": {
-        "northeast": {
-          "lat": 39.72088432989273,
-          "lng": -104.9488724201073
-        },
-        "southwest": {
-          "lat": 39.71818467010728,
-          "lng": -104.9515720798927
-        }
-      }
-    },
-    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
-    "icon_background_color": "#7B9EB0",
-    "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
-    "name": "Law Office of Jill M. Jackson",
-    "opening_hours": {
-      "open_now": true
-    },
-    "photos": [
-      {
-        "height": 608,
-        "html_attributions": [
-          "<a href=\"https://maps.google.com/maps/contrib/117960005522152379942\">A Google User</a>"
-        ],
-        "photo_reference": "AWU5eFjs702joJPe3SgUm7b1oAfDxhUQ0pO2UlMP6RgigeaEGeSXEe8eb4kExUxr4g44g-5NYL3uGCdOiXy5bnQIVt8j4qgAtRFulPNY518kZJ7wLu2uKLgzfqkpolM9TTAbVin4QjPNideY3odnuPzc14Xuaeu1ybb0nls36naLCBmwV0t7",
-        "width": 1080
-      }
-    ],
-    "place_id": "ChIJnzUujXZ-bIcR3IVt1delfEw",
-    "plus_code": {
-      "compound_code": "P29X+VW Denver, Colorado",
-      "global_code": "85FQP29X+VW"
-    },
-    "rating": 4.9,
-    "reference": "ChIJnzUujXZ-bIcR3IVt1delfEw",
-    "scope": "GOOGLE",
-    "types": [
-      "lawyer",
-      "point_of_interest",
-      "establishment"
-    ],
-    "user_ratings_total": 39,
-    "vicinity": "201 Steele St Suite 300, Denver"
-  },
-  {
-    "business_status": "OPERATIONAL",
-    "geometry": {
-      "location": {
-        "lat": 39.746478,
-        "lng": -104.9917747
-      },
-      "viewport": {
-        "northeast": {
-          "lat": 39.74789732989272,
-          "lng": -104.9905809201073
-        },
-        "southwest": {
-          "lat": 39.74519767010728,
-          "lng": -104.9932805798927
-        }
-      }
-    },
-    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
-    "icon_background_color": "#7B9EB0",
-    "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
-    "name": "Brad Freedberg Attorney at Law",
-    "opening_hours": {
-      "open_now": true
-    },
-    "photos": [
-      {
-        "height": 3024,
-        "html_attributions": [
-          "<a href=\"https://maps.google.com/maps/contrib/100457961479497410272\">A Google User</a>"
-        ],
-        "photo_reference": "AWU5eFj9ZK8A_KIIjML7ScilQj4olDWuA-WqB8ydbwfGAOY7VNGzVcBjQqgbg8oQvLa5JUIQasJlkVHKHe_wNbmhvLvwVnQz7ydRhZIDxJ9l7jsd0RE3Uv_1n4S-Jdie_CTxj_dmfyPlfcZBCOlgtAMccpvEBhccjSDGe5ATIxghQQI6tqA0",
-        "width": 3024
-      }
-    ],
-    "place_id": "ChIJqbucyyl5bIcRDSRNwoUDGNo",
-    "plus_code": {
-      "compound_code": "P2W5+H7 Denver, Colorado",
-      "global_code": "85FQP2W5+H7"
-    },
-    "rating": 4.9,
-    "reference": "ChIJqbucyyl5bIcRDSRNwoUDGNo",
-    "scope": "GOOGLE",
-    "types": [
-      "lawyer",
-      "point_of_interest",
-      "establishment"
-    ],
-    "user_ratings_total": 36,
-    "vicinity": "900 Historic Equitable Building, 730 17th St, Denver"
-  },
-  {
-    "business_status": "OPERATIONAL",
-    "geometry": {
-      "location": {
-        "lat": 39.6829383,
-        "lng": -104.9377215
-      },
-      "viewport": {
-        "northeast": {
-          "lat": 39.68415397989272,
-          "lng": -104.9361912201073
-        },
-        "southwest": {
-          "lat": 39.68145432010727,
-          "lng": -104.9388908798927
-        }
-      }
-    },
-    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
-    "icon_background_color": "#7B9EB0",
-    "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
-    "name": "Fife Luneau, P.C.",
-    "opening_hours": {
-      "open_now": true
-    },
-    "photos": [
-      {
-        "height": 960,
-        "html_attributions": [
-          "<a href=\"https://maps.google.com/maps/contrib/102819345843014516717\">Fife Luneau, P.C.</a>"
-        ],
-        "photo_reference": "AWU5eFjqIusIZ3DPHyghIuJMJ1k3LqZdfkpdJ4pHvJ_2GZmWmj3SzHsPBdUkHwOMQFlotKXkXPhlXgz2We5dc-PHqWprrJm4VGQ0qPslAkghiirZemzChiLI4gg6tCBD_7Ca14RYw8iWvz0fjfK9RfR8oN6xHF1NQMTt82sV35eMorGxYDhq",
-        "width": 1237
-      }
-    ],
-    "place_id": "ChIJAcs_QOB9bIcRML3lj7GhlWU",
-    "plus_code": {
-      "compound_code": "M3M6+5W Denver, Colorado",
-      "global_code": "85FQM3M6+5W"
-    },
-    "rating": 4.9,
-    "reference": "ChIJAcs_QOB9bIcRML3lj7GhlWU",
-    "scope": "GOOGLE",
-    "types": [
-      "lawyer",
-      "point_of_interest",
-      "establishment"
-    ],
-    "user_ratings_total": 234,
-    "vicinity": "1873 S Bellaire St #200-A, Denver"
-  },
-  {
-    "business_status": "OPERATIONAL",
-    "geometry": {
-      "location": {
-        "lat": 39.70525749999999,
-        "lng": -104.9329029
-      },
-      "viewport": {
-        "northeast": {
-          "lat": 39.70651312989271,
-          "lng": -104.9314453201073
-        },
-        "southwest": {
-          "lat": 39.70381347010726,
-          "lng": -104.9341449798927
-        }
-      }
-    },
-    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
-    "icon_background_color": "#7B9EB0",
-    "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
-    "name": "Bovo Law, LLC",
-    "opening_hours": {
-      "open_now": true
-    },
-    "photos": [
-      {
-        "height": 4800,
-        "html_attributions": [
-          "<a href=\"https://maps.google.com/maps/contrib/111688855568747596079\">Bovo Law, LLC</a>"
-        ],
-        "photo_reference": "AWU5eFjzmjum9JEiW-pevvXkKcHE_ePSoH3ulsbkivdN1gqOCwwyBLj4NOUe2PwgVNYnz1C6wBZb6Ijx4ALwj6eTBLVKX5iwmLaACCft5K5XF0E-0WlHgM4JFlp_IhLybKBfRW-4vFi-ZFQUcHLVfShIS1m5jgc5zBt5Q9Er7XlD_NRJXFFW",
-        "width": 7200
-      }
-    ],
-    "place_id": "ChIJGaQYVyt8bIcR7LdIqKDLDgk",
-    "plus_code": {
-      "compound_code": "P348+4R Denver, Colorado",
-      "global_code": "85FQP348+4R"
+      "compound_code": "QWJQ+X9 Denver, Colorado",
+      "global_code": "85FPQWJQ+X9"
     },
     "rating": 4.6,
-    "reference": "ChIJGaQYVyt8bIcR7LdIqKDLDgk",
+    "reference": "ChIJKUq8NtaGa4cRJUzKHGiTOtA",
     "scope": "GOOGLE",
     "types": [
-      "lawyer",
-      "point_of_interest",
-      "establishment"
-    ],
-    "user_ratings_total": 40,
-    "vicinity": "650 S Cherry St # 1400, Denver"
-  },
-  {
-    "business_status": "OPERATIONAL",
-    "geometry": {
-      "location": {
-        "lat": 39.880931,
-        "lng": -104.9889608
-      },
-      "viewport": {
-        "northeast": {
-          "lat": 39.88211947989272,
-          "lng": -104.9876109201073
-        },
-        "southwest": {
-          "lat": 39.87941982010727,
-          "lng": -104.9903105798927
-        }
-      }
-    },
-    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
-    "icon_background_color": "#7B9EB0",
-    "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
-    "name": "Matthew R. Osborne, JD",
-    "opening_hours": {
-      "open_now": true
-    },
-    "photos": [
-      {
-        "height": 4032,
-        "html_attributions": [
-          "<a href=\"https://maps.google.com/maps/contrib/110509271019973418927\">A Google User</a>"
-        ],
-        "photo_reference": "AWU5eFgE2poC_61MKLnjHcKV_tFHO7Ky0Cjz916lvC2ORhkRK1og5r7FZVjltBHKrLBjd3W6u_uzwv5FR462N1Fp9Y2mi17OWCRJNkzQx05smTRfmwkV1wk5nXs_SKIahpbVebrOgg0JOF3VwklfKHbIZQSaiz1t9ELcquXyyJ_D1hG47Lk2",
-        "width": 3024
-      }
-    ],
-    "place_id": "ChIJzaDxxpF9bIcRuwpq1Zuzs6M",
-    "plus_code": {
-      "compound_code": "V2J6+9C Northglenn, Colorado",
-      "global_code": "85FQV2J6+9C"
-    },
-    "rating": 4.7,
-    "reference": "ChIJzaDxxpF9bIcRuwpq1Zuzs6M",
-    "scope": "GOOGLE",
-    "types": [
-      "lawyer",
-      "point_of_interest",
-      "establishment"
-    ],
-    "user_ratings_total": 28,
-    "vicinity": "10190 Bannock St #200, Northglenn"
-  },
-  {
-    "business_status": "OPERATIONAL",
-    "geometry": {
-      "location": {
-        "lat": 39.7471181,
-        "lng": -104.9988548
-      },
-      "viewport": {
-        "northeast": {
-          "lat": 39.74843867989271,
-          "lng": -104.9974231201073
-        },
-        "southwest": {
-          "lat": 39.74573902010727,
-          "lng": -105.0001227798927
-        }
-      }
-    },
-    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
-    "icon_background_color": "#7B9EB0",
-    "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
-    "name": "First Ascent Asset Management, LLC",
-    "place_id": "ChIJKzAabuJ4bIcRiTF1mmftR4s",
-    "plus_code": {
-      "compound_code": "P2W2+RF Denver, Colorado",
-      "global_code": "85FQP2W2+RF"
-    },
-    "rating": 5,
-    "reference": "ChIJKzAabuJ4bIcRiTF1mmftR4s",
-    "scope": "GOOGLE",
-    "types": [
+      "accounting",
       "finance",
       "point_of_interest",
       "establishment"
     ],
-    "user_ratings_total": 1,
-    "vicinity": "1401 Lawrence St, Denver"
-  },
-  {
-    "business_status": "OPERATIONAL",
-    "geometry": {
-      "location": {
-        "lat": 39.70525749999999,
-        "lng": -104.9329029
-      },
-      "viewport": {
-        "northeast": {
-          "lat": 39.70651312989271,
-          "lng": -104.9314453201073
-        },
-        "southwest": {
-          "lat": 39.70381347010726,
-          "lng": -104.9341449798927
-        }
-      }
-    },
-    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
-    "icon_background_color": "#7B9EB0",
-    "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
-    "name": "Insight Asset Management",
-    "photos": [
-      {
-        "height": 1384,
-        "html_attributions": [
-          "<a href=\"https://maps.google.com/maps/contrib/104101978375293739382\">A Google User</a>"
-        ],
-        "photo_reference": "AWU5eFj--fOd5qP1OVuC3dwpFBCr2ntY0RrGHqm03uxnWSvwugPvBkzA02C3EfwK5iDWwoDcLxw5A9RyQJ4JXvvSv7ThvXeAK62b0vyDsMHnWao5h3uWs1Hi_oCzwV4U6lOahgkWDJ-TH7xiSkjuTqqR9YhfgC1X19fLWm_gNFMjCCczNHlr",
-        "width": 3249
-      }
-    ],
-    "place_id": "ChIJAcs_QOB9bIcRy__ZgOslagA",
-    "plus_code": {
-      "compound_code": "P348+4R Denver, Colorado",
-      "global_code": "85FQP348+4R"
-    },
-    "rating": 0,
-    "reference": "ChIJAcs_QOB9bIcRy__ZgOslagA",
-    "scope": "GOOGLE",
-    "types": [
-      "finance",
-      "point_of_interest",
-      "establishment"
-    ],
-    "user_ratings_total": 0,
-    "vicinity": "650 S Cherry St Ste 840, Denver"
-  },
-  {
-    "business_status": "OPERATIONAL",
-    "geometry": {
-      "location": {
-        "lat": 39.7499842,
-        "lng": -104.9989928
-      },
-      "viewport": {
-        "northeast": {
-          "lat": 39.75142397989271,
-          "lng": -104.9978317701073
-        },
-        "southwest": {
-          "lat": 39.74872432010727,
-          "lng": -105.0005314298927
-        }
-      }
-    },
-    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
-    "icon_background_color": "#7B9EB0",
-    "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
-    "name": "McLean Asset Management Corporation",
-    "place_id": "ChIJldXk6MR4bIcRGa1WxkHaRXk",
-    "plus_code": {
-      "compound_code": "P2X2+XC Denver, Colorado",
-      "global_code": "85FQP2X2+XC"
-    },
-    "rating": 0,
-    "reference": "ChIJldXk6MR4bIcRGa1WxkHaRXk",
-    "scope": "GOOGLE",
-    "types": [
-      "finance",
-      "point_of_interest",
-      "establishment"
-    ],
-    "user_ratings_total": 0,
-    "vicinity": "1400 16th St Mall, Denver"
-  },
-  {
-    "business_status": "OPERATIONAL",
-    "geometry": {
-      "location": {
-        "lat": 39.9155586,
-        "lng": -105.0651229
-      },
-      "viewport": {
-        "northeast": {
-          "lat": 39.91683732989272,
-          "lng": -105.0638669201073
-        },
-        "southwest": {
-          "lat": 39.91413767010727,
-          "lng": -105.0665665798927
-        }
-      }
-    },
-    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
-    "icon_background_color": "#7B9EB0",
-    "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
-    "name": "James Morgan Asset Management",
-    "place_id": "ChIJOf0Rt0WKa4cRtq42IECUAxc",
-    "plus_code": {
-      "compound_code": "WW8M+6X Broomfield, Colorado",
-      "global_code": "85FPWW8M+6X"
-    },
-    "rating": 0,
-    "reference": "ChIJOf0Rt0WKa4cRtq42IECUAxc",
-    "scope": "GOOGLE",
-    "types": [
-      "finance",
-      "point_of_interest",
-      "establishment"
-    ],
-    "user_ratings_total": 0,
-    "vicinity": "340 E 1st Ave #250a, Broomfield"
-  },
-  {
-    "business_status": "OPERATIONAL",
-    "geometry": {
-      "location": {
-        "lat": 39.7442096,
-        "lng": -104.9887162
-      },
-      "viewport": {
-        "northeast": {
-          "lat": 39.74559967989271,
-          "lng": -104.9873100201073
-        },
-        "southwest": {
-          "lat": 39.74290002010727,
-          "lng": -104.9900096798927
-        }
-      }
-    },
-    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
-    "icon_background_color": "#7B9EB0",
-    "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
-    "name": "Capital Asset Management",
-    "opening_hours": {
-      "open_now": false
-    },
-    "photos": [
-      {
-        "height": 4032,
-        "html_attributions": [
-          "<a href=\"https://maps.google.com/maps/contrib/113261151144854532785\">A Google User</a>"
-        ],
-        "photo_reference": "AWU5eFgk3hXcZPGKoczdZLayG1_bn8Z4u4jPqmxR9m_klUg2OR0rFV873ocMrn7thAR81vaO0Mggzjs_GpKuXDjJdnJPHxlsLbJqTT7NJtmm8Eu2yqIy53vFF2wfwNyiiIPrAQ9EzJB8hmOj0MMEQe6qOypFyu81O_q4YLXAihXl6y8t-MbM",
-        "width": 3024
-      }
-    ],
-    "place_id": "ChIJZxErjNZ4bIcR2rSG89Crqac",
-    "plus_code": {
-      "compound_code": "P2V6+MG Denver, Colorado",
-      "global_code": "85FQP2V6+MG"
-    },
-    "rating": 0,
-    "reference": "ChIJZxErjNZ4bIcR2rSG89Crqac",
-    "scope": "GOOGLE",
-    "types": [
-      "finance",
-      "point_of_interest",
-      "establishment"
-    ],
-    "user_ratings_total": 0,
-    "vicinity": "1800 Glenarm Pl, Denver"
-  },
-  {
-    "business_status": "OPERATIONAL",
-    "geometry": {
-      "location": {
-        "lat": 39.7114723,
-        "lng": -104.9491645
-      },
-      "viewport": {
-        "northeast": {
-          "lat": 39.71258932989272,
-          "lng": -104.9479276701073
-        },
-        "southwest": {
-          "lat": 39.70988967010727,
-          "lng": -104.9506273298927
-        }
-      }
-    },
-    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
-    "icon_background_color": "#7B9EB0",
-    "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
-    "name": "Rio Asset Management",
-    "place_id": "ChIJB623FIV-bIcR5gmHanYGIDU",
-    "plus_code": {
-      "compound_code": "P362+H8 Denver, Colorado",
-      "global_code": "85FQP362+H8"
-    },
-    "rating": 1,
-    "reference": "ChIJB623FIV-bIcR5gmHanYGIDU",
-    "scope": "GOOGLE",
-    "types": [
-      "finance",
-      "point_of_interest",
-      "establishment"
-    ],
-    "user_ratings_total": 2,
-    "vicinity": "3200 Cherry Creek S Dr UNIT 130, Denver"
-  },
-  {
-    "business_status": "OPERATIONAL",
-    "geometry": {
-      "location": {
-        "lat": 39.5916082,
-        "lng": -104.9590332
-      },
-      "viewport": {
-        "northeast": {
-          "lat": 39.59296502989273,
-          "lng": -104.9576525701073
-        },
-        "southwest": {
-          "lat": 39.59026537010728,
-          "lng": -104.9603522298927
-        }
-      }
-    },
-    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
-    "icon_background_color": "#7B9EB0",
-    "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
-    "name": "PVG Asset Management Corporation",
-    "place_id": "ChIJPUeOhY6ba4cRV_xrkserBGU",
-    "plus_code": {
-      "compound_code": "H2RR+J9 Centennial, Colorado",
-      "global_code": "85FQH2RR+J9"
-    },
-    "rating": 0,
-    "reference": "ChIJPUeOhY6ba4cRV_xrkserBGU",
-    "scope": "GOOGLE",
-    "types": [
-      "finance",
-      "point_of_interest",
-      "establishment"
-    ],
-    "user_ratings_total": 0,
-    "vicinity": "6898 S University Blvd, Centennial"
-  },
-  {
-    "business_status": "OPERATIONAL",
-    "geometry": {
-      "location": {
-        "lat": 39.7031979,
-        "lng": -104.9390668
-      },
-      "viewport": {
-        "northeast": {
-          "lat": 39.70458667989272,
-          "lng": -104.9377171701073
-        },
-        "southwest": {
-          "lat": 39.70188702010727,
-          "lng": -104.9404168298927
-        }
-      }
-    },
-    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
-    "icon_background_color": "#7B9EB0",
-    "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
-    "name": "Frontier Asset Management",
-    "opening_hours": {
-      "open_now": false
-    },
-    "place_id": "ChIJVVVVVdp4bIcRodrn2P1JqCw",
-    "plus_code": {
-      "compound_code": "P336+89 Denver, Colorado",
-      "global_code": "85FQP336+89"
-    },
-    "rating": 0,
-    "reference": "ChIJVVVVVdp4bIcRodrn2P1JqCw",
-    "scope": "GOOGLE",
-    "types": [
-      "finance",
-      "point_of_interest",
-      "establishment"
-    ],
-    "user_ratings_total": 0,
-    "vicinity": "720 S Colorado Blvd Suite 540-S, Denver"
-  },
-  {
-    "business_status": "OPERATIONAL",
-    "geometry": {
-      "location": {
-        "lat": 40.1894398,
-        "lng": -105.1050875
-      },
-      "viewport": {
-        "northeast": {
-          "lat": 40.19075417989272,
-          "lng": -105.1037378201073
-        },
-        "southwest": {
-          "lat": 40.18805452010728,
-          "lng": -105.1064374798927
-        }
-      }
-    },
-    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
-    "icon_background_color": "#7B9EB0",
-    "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
-    "name": "Oliver Asset Management",
-    "opening_hours": {
-      "open_now": false
-    },
-    "photos": [
-      {
-        "height": 611,
-        "html_attributions": [
-          "<a href=\"https://maps.google.com/maps/contrib/118037199260086946209\">A Google User</a>"
-        ],
-        "photo_reference": "AWU5eFgnD7oQ5TQxnbzdX-fzaoOttZydqGt9FT6DUmCFK57A5-vzs2_gl55Mbftu7vLsUUvxEduNqgcBVmGeKjT4_mJeOV4bmmA05K5FMC-Ut-VHxsXXWzMUQCzRjPmrU6cd2decezXJg_85JOHtSgpYS688CvPf_uwEKT1kliceR6jw4o7o",
-        "width": 1253
-      }
-    ],
-    "place_id": "ChIJz2_btAr5a4cRCg5evdua9Bg",
-    "plus_code": {
-      "compound_code": "5VQV+RX Longmont, Colorado",
-      "global_code": "85GP5VQV+RX"
-    },
-    "rating": 4.4,
-    "reference": "ChIJz2_btAr5a4cRCg5evdua9Bg",
-    "scope": "GOOGLE",
-    "types": [
-      "finance",
-      "point_of_interest",
-      "establishment"
-    ],
-    "user_ratings_total": 7,
-    "vicinity": "1729 Terry St, Longmont"
-  },
-  {
-    "business_status": "OPERATIONAL",
-    "geometry": {
-      "location": {
-        "lat": 39.9901725,
-        "lng": -105.1252802
-      },
-      "viewport": {
-        "northeast": {
-          "lat": 39.99135332989272,
-          "lng": -105.1237314201073
-        },
-        "southwest": {
-          "lat": 39.98865367010728,
-          "lng": -105.1264310798927
-        }
-      }
-    },
-    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
-    "icon_background_color": "#7B9EB0",
-    "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
-    "name": "Peak Asset Management LLC",
-    "opening_hours": {
-      "open_now": false
-    },
-    "photos": [
-      {
-        "height": 683,
-        "html_attributions": [
-          "<a href=\"https://maps.google.com/maps/contrib/108109474396036461957\">A Google User</a>"
-        ],
-        "photo_reference": "AWU5eFhGIR1F3__6bdvdIiqoPwxIR_oFgmK0CA6O1u3ijatAfwps18cIrRCNjAJUWQ1WEQKwNEh83atwZZ1023yv2-3raXm75neiDrEE6UPJrhJ6mX-LOdy1jxDHiS_8u3DswFkBc55ZMBvd9Nrql3pcGgvwwL6puqeKKO7fG9XhKugyewcg",
-        "width": 1214
-      }
-    ],
-    "place_id": "ChIJUYf1b530a4cRao3Jm_FVUn0",
-    "plus_code": {
-      "compound_code": "XVRF+3V Louisville, Colorado",
-      "global_code": "85FPXVRF+3V"
-    },
-    "rating": 5,
-    "reference": "ChIJUYf1b530a4cRao3Jm_FVUn0",
-    "scope": "GOOGLE",
-    "types": [
-      "finance",
-      "point_of_interest",
-      "establishment"
-    ],
-    "user_ratings_total": 1,
-    "vicinity": "1371 E Hecla Dr STE A, Louisville"
-  },
-  {
-    "business_status": "OPERATIONAL",
-    "geometry": {
-      "location": {
-        "lat": 39.7195295,
-        "lng": -104.9517076
-      },
-      "viewport": {
-        "northeast": {
-          "lat": 39.72081802989272,
-          "lng": -104.9503893201073
-        },
-        "southwest": {
-          "lat": 39.71811837010727,
-          "lng": -104.9530889798927
-        }
-      }
-    },
-    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
-    "icon_background_color": "#7B9EB0",
-    "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
-    "name": "Helm Investment Management LLC",
-    "place_id": "ChIJW5XowNV4bIcRQDVEU98HDnA",
-    "plus_code": {
-      "compound_code": "P29X+R8 Denver, Colorado",
-      "global_code": "85FQP29X+R8"
-    },
-    "rating": 3,
-    "reference": "ChIJW5XowNV4bIcRQDVEU98HDnA",
-    "scope": "GOOGLE",
-    "types": [
-      "finance",
-      "point_of_interest",
-      "establishment"
-    ],
-    "user_ratings_total": 1,
-    "vicinity": "3017 E 2nd Ave, Denver"
-  },
-  {
-    "business_status": "OPERATIONAL",
-    "geometry": {
-      "location": {
-        "lat": 39.5989752,
-        "lng": -104.9031608
-      },
-      "viewport": {
-        "northeast": {
-          "lat": 39.60037242989272,
-          "lng": -104.9018108201073
-        },
-        "southwest": {
-          "lat": 39.59767277010728,
-          "lng": -104.9045104798927
-        }
-      }
-    },
-    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
-    "icon_background_color": "#7B9EB0",
-    "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
-    "name": "Arapaho Asset Management LLC",
-    "opening_hours": {
-      "open_now": false
-    },
-    "photos": [
-      {
-        "height": 472,
-        "html_attributions": [
-          "<a href=\"https://maps.google.com/maps/contrib/113241442425342407374\">Arapaho Asset Management LLC</a>"
-        ],
-        "photo_reference": "AWU5eFiNKe9Z7KCtzqzvkiEfn3PnHrbnK4oG3OCm_txyebjvqFVx1gpjwrxLte_JtYhoJ74iZwQocgG169p4h3mHRPX13n68MRZJhWtIh67wj7b18Y8nCcBEEqYSUBqMOOnIjwpLcmgm-W4BQeA6Jzq5uwRjek7dSazTrNil0W6EFzVJGT4W",
-        "width": 940
-      }
-    ],
-    "place_id": "ChIJ4em4GHV-bIcR38lG4whw9Gk",
-    "plus_code": {
-      "compound_code": "H3XW+HP Centennial, Colorado",
-      "global_code": "85FQH3XW+HP"
-    },
-    "rating": 0,
-    "reference": "ChIJ4em4GHV-bIcR38lG4whw9Gk",
-    "scope": "GOOGLE",
-    "types": [
-      "finance",
-      "point_of_interest",
-      "establishment"
-    ],
-    "user_ratings_total": 0,
-    "vicinity": "7385 E Peakview Ave, Centennial"
-  },
-  {
-    "business_status": "OPERATIONAL",
-    "geometry": {
-      "location": {
-        "lat": 39.7063093,
-        "lng": -105.2830594
-      },
-      "viewport": {
-        "northeast": {
-          "lat": 39.70763567989272,
-          "lng": -105.2816564201073
-        },
-        "southwest": {
-          "lat": 39.70493602010728,
-          "lng": -105.2843560798927
-        }
-      }
-    },
-    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
-    "icon_background_color": "#7B9EB0",
-    "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
-    "name": "Pvg Asset Management Corp",
-    "place_id": "ChIJhZdliI6ba4cRX1RyhbJp3y0",
-    "plus_code": {
-      "compound_code": "PP48+GQ Golden, Colorado",
-      "global_code": "85FPPP48+GQ"
-    },
-    "rating": 0,
-    "reference": "ChIJhZdliI6ba4cRX1RyhbJp3y0",
-    "scope": "GOOGLE",
-    "types": [
-      "finance",
-      "point_of_interest",
-      "establishment"
-    ],
-    "user_ratings_total": 0,
-    "vicinity": "24918 Genesee Trail Rd, Golden"
-  },
-  {
-    "business_status": "OPERATIONAL",
-    "geometry": {
-      "location": {
-        "lat": 39.5425201,
-        "lng": -104.8593592
-      },
-      "viewport": {
-        "northeast": {
-          "lat": 39.54386567989272,
-          "lng": -104.8580348701073
-        },
-        "southwest": {
-          "lat": 39.54116602010728,
-          "lng": -104.8607345298927
-        }
-      }
-    },
-    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
-    "icon_background_color": "#7B9EB0",
-    "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
-    "name": "Blue Sky Asset Management",
-    "place_id": "ChIJVVVV1GKGbIcREvFcQbV0TKg",
-    "plus_code": {
-      "compound_code": "G4VR+28 Englewood, Colorado",
-      "global_code": "85FQG4VR+28"
-    },
-    "rating": 1,
-    "reference": "ChIJVVVV1GKGbIcREvFcQbV0TKg",
-    "scope": "GOOGLE",
-    "types": [
-      "finance",
-      "point_of_interest",
-      "establishment"
-    ],
-    "user_ratings_total": 1,
-    "vicinity": "9635 Maroon Cir #440, Englewood"
-  },
-  {
-    "business_status": "OPERATIONAL",
-    "geometry": {
-      "location": {
-        "lat": 39.5665655,
-        "lng": -105.111005
-      },
-      "viewport": {
-        "northeast": {
-          "lat": 39.56780622989272,
-          "lng": -105.1096555701073
-        },
-        "southwest": {
-          "lat": 39.56510657010728,
-          "lng": -105.1123552298927
-        }
-      }
-    },
-    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
-    "icon_background_color": "#7B9EB0",
-    "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
-    "name": "Asset Property Management",
-    "photos": [
-      {
-        "height": 1200,
-        "html_attributions": [
-          "<a href=\"https://maps.google.com/maps/contrib/113336298346703355468\">Asset Property Management</a>"
-        ],
-        "photo_reference": "AWU5eFgSl_CP2pwrOwJcAUTkgjakwjGZ_P1yxJs3E3L3MuOKPjIVocNIp3R7nWTpKJK9AxIbI4tvFQHe48gQfkcrq3Fdfhi3RJso67ttVa-bwyRrsn033tKMcJERuoud1Ku_FiYXuEfT6p-1tNsO-pm6vJkF81by1TzlmwU5YemqnYrJ0YTt",
-        "width": 1200
-      }
-    ],
-    "place_id": "ChIJychuBKd-a4cR6pTEAdTGvLk",
-    "plus_code": {
-      "compound_code": "HV8Q+JH Littleton, Colorado",
-      "global_code": "85FPHV8Q+JH"
-    },
-    "rating": 2.4,
-    "reference": "ChIJychuBKd-a4cR6pTEAdTGvLk",
-    "scope": "GOOGLE",
-    "types": [
-      "real_estate_agency",
-      "point_of_interest",
-      "establishment"
-    ],
-    "user_ratings_total": 18,
-    "vicinity": "10268 W Centennial Rd #103, Littleton"
-  },
-  {
-    "business_status": "OPERATIONAL",
-    "geometry": {
-      "location": {
-        "lat": 39.6250905,
-        "lng": -104.8972455
-      },
-      "viewport": {
-        "northeast": {
-          "lat": 39.62642842989272,
-          "lng": -104.8958828701073
-        },
-        "southwest": {
-          "lat": 39.62372877010728,
-          "lng": -104.8985825298927
-        }
-      }
-    },
-    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
-    "icon_background_color": "#7B9EB0",
-    "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
-    "name": "Wakefield Asset Management",
-    "opening_hours": {
-      "open_now": false
-    },
-    "place_id": "ChIJ2SkzPIyGbIcR9p-5us4uj_8",
-    "plus_code": {
-      "compound_code": "J4G3+35 Englewood, Colorado",
-      "global_code": "85FQJ4G3+35"
-    },
-    "rating": 2,
-    "reference": "ChIJ2SkzPIyGbIcR9p-5us4uj_8",
-    "scope": "GOOGLE",
-    "types": [
-      "atm",
-      "finance",
-      "point_of_interest",
-      "establishment"
-    ],
-    "user_ratings_total": 1,
-    "vicinity": "7887 E Belleview Ave #800, Englewood"
-  },
-  {
-    "business_status": "OPERATIONAL",
-    "geometry": {
-      "location": {
-        "lat": 39.6062564,
-        "lng": -104.9045294
-      },
-      "viewport": {
-        "northeast": {
-          "lat": 39.60767687989272,
-          "lng": -104.9030519701073
-        },
-        "southwest": {
-          "lat": 39.60497722010728,
-          "lng": -104.9057516298927
-        }
-      }
-    },
-    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
-    "icon_background_color": "#7B9EB0",
-    "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
-    "name": "Team Asset Management Corporation",
-    "opening_hours": {
-      "open_now": false
-    },
-    "photos": [
-      {
-        "height": 4000,
-        "html_attributions": [
-          "<a href=\"https://maps.google.com/maps/contrib/101602192946596336301\">Shelley Dock</a>"
-        ],
-        "photo_reference": "AWU5eFhCl1YDAxgtVBY_Q-dEoITjUQfkbFqPYWhgcUFy23GM1Jf-rzW3Jlj1SLDWmkpWmC8_tXq5WCjiWsFoywwnS05xvTGA_hk816LyL--QojJ_zU4C7UCGFrm4lZXIxjlDy_2qMxzFB7iF_dh8hxsod9uMIj3btQK34fzxbDPc9FhprZEg",
-        "width": 1800
-      }
-    ],
-    "place_id": "ChIJTSmTWHGHbIcRfWvuZ-6IXuU",
-    "plus_code": {
-      "compound_code": "J34W+G5 Centennial, Colorado",
-      "global_code": "85FQJ34W+G5"
-    },
-    "rating": 1,
-    "reference": "ChIJTSmTWHGHbIcRfWvuZ-6IXuU",
-    "scope": "GOOGLE",
-    "types": [
-      "point_of_interest",
-      "establishment"
-    ],
-    "user_ratings_total": 5,
-    "vicinity": "6099 S Quebec St #103, Centennial"
-  },
-  {
-    "business_status": "OPERATIONAL",
-    "geometry": {
-      "location": {
-        "lat": 40.0374668,
-        "lng": -105.2474522
-      },
-      "viewport": {
-        "northeast": {
-          "lat": 40.03881512989271,
-          "lng": -105.2462391701073
-        },
-        "southwest": {
-          "lat": 40.03611547010727,
-          "lng": -105.2489388298927
-        }
-      }
-    },
-    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
-    "icon_background_color": "#7B9EB0",
-    "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
-    "name": "Diversified Asset Management, Inc.",
-    "opening_hours": {
-      "open_now": false
-    },
-    "photos": [
-      {
-        "height": 3024,
-        "html_attributions": [
-          "<a href=\"https://maps.google.com/maps/contrib/100626857211942155624\">Diversified Asset Management, Inc.</a>"
-        ],
-        "photo_reference": "AWU5eFhpuB1gSs6rjr9qm41LNCnpah6a_AJ7L0FyYlkwnopYf2vev34uUvNX9m0aFP1zK4hl9D3xXqURunvgfGQIPVocycoSZlqq9xOlUcvSRIcYYEoK467jqqwMJayg0z1MUpk9iCfKtwgYiKQXflET4KVllCMBWy9KnRIGvzdPUImAGGF_",
-        "width": 4032
-      }
-    ],
-    "place_id": "ChIJXU11Bifsa4cRXVVh4v0CBwE",
-    "plus_code": {
-      "compound_code": "2QP3+X2 Boulder, Colorado",
-      "global_code": "85GP2QP3+X2"
-    },
-    "rating": 0,
-    "reference": "ChIJXU11Bifsa4cRXVVh4v0CBwE",
-    "scope": "GOOGLE",
-    "types": [
-      "finance",
-      "point_of_interest",
-      "establishment"
-    ],
-    "user_ratings_total": 0,
-    "vicinity": "3450 Penrose Pl STE 160, Boulder"
-  },
-  {
-    "business_status": "OPERATIONAL",
-    "geometry": {
-      "location": {
-        "lat": 39.717346,
-        "lng": -104.9476098
-      },
-      "viewport": {
-        "northeast": {
-          "lat": 39.71869797989272,
-          "lng": -104.9461485201073
-        },
-        "southwest": {
-          "lat": 39.71599832010727,
-          "lng": -104.9488481798927
-        }
-      }
-    },
-    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
-    "icon_background_color": "#7B9EB0",
-    "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
-    "name": "Spence Asset Management",
-    "opening_hours": {
-      "open_now": false
-    },
-    "place_id": "ChIJa1U8HGZ_bIcRgRcACB6mNiI",
-    "plus_code": {
-      "compound_code": "P382+WX Denver, Colorado",
-      "global_code": "85FQP382+WX"
-    },
-    "rating": 0,
-    "reference": "ChIJa1U8HGZ_bIcRgRcACB6mNiI",
-    "scope": "GOOGLE",
-    "types": [
-      "finance",
-      "point_of_interest",
-      "establishment"
-    ],
-    "user_ratings_total": 0,
-    "vicinity": "3300 E 1st Ave #200, Denver"
-  },
-  {
-    "business_status": "OPERATIONAL",
-    "geometry": {
-      "location": {
-        "lat": 39.811184,
-        "lng": -104.873564
-      },
-      "viewport": {
-        "northeast": {
-          "lat": 39.81260062989272,
-          "lng": -104.8721139201073
-        },
-        "southwest": {
-          "lat": 39.80990097010728,
-          "lng": -104.8748135798927
-        }
-      }
-    },
-    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
-    "icon_background_color": "#7B9EB0",
-    "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
-    "name": "Ryakai Asset Management",
-    "photos": [
-      {
-        "height": 927,
-        "html_attributions": [
-          "<a href=\"https://maps.google.com/maps/contrib/110301643138598783858\">A Google User</a>"
-        ],
-        "photo_reference": "AWU5eFiTh5QyZGNXaG3fKggW3XJn9GEqQ8ynuAPsTIdn-dyeHy-PxsYufRDubQ0F-d_SNkeZApF0c_9_b0dSOUh6-3QWYvBcpre1cAwGtR8ZYhSotaYY_tAZeuyMXbipNB9T97D05UpiuqRbf1hrWXwfL1kn1ftBXCLr6VwAasV90uAWb3bz",
-        "width": 1392
-      }
-    ],
-    "place_id": "ChIJo34Ub-B7bIcR27pMerYJWTs",
-    "plus_code": {
-      "compound_code": "R46G+FH Denver, Colorado",
-      "global_code": "85FQR46G+FH"
-    },
-    "rating": 0,
-    "reference": "ChIJo34Ub-B7bIcR27pMerYJWTs",
-    "scope": "GOOGLE",
-    "types": [
-      "insurance_agency",
-      "finance",
-      "point_of_interest",
-      "establishment"
-    ],
-    "user_ratings_total": 0,
-    "vicinity": "9838 E 63rd Pl, Denver"
+    "user_ratings_total": 91,
+    "vicinity": "4704 N Harlan St # 300, Denver"
   }
 ]
