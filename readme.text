@@ -1,0 +1,15 @@
+REMOVE THE GOOGLE API KEY BEFORE COMMITTING
+
+Documentation
+https://developers.google.com/maps/documentation/places/web-service/search-find-place
+https://developers.google.com/maps/documentation/places/web-service/search-nearby#Place
+https://developers.google.com/maps/documentation/places/web-service/place-data-fields
+
+TO DO
+    Website Exception just triggers on no phone or no site
+    Store Exceptions in a different json
+    Learn what and how to use gitbash
+    convert to o
+    OOP -?
+    Comment
+    Prettify
