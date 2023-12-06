@@ -5,24 +5,19 @@ import csv
 
 # Load Google Maps API key from environment variable
 GOOGLE_MAPS_API_KEY = os.environ['GOOGLE_MAPS_API_KEY']
-#read up on python interpretors
+# read up on python interpretors
 
-keywords_file_path = 'keywords.csv'
+keywords_file_path = 'keywords_short.csv'
 stored_data_file_path = "data.json"
 exceptions_data_file_path = "exceptions"
-
-
-
-
-
 
 
 def get_place_details(place_id):
     base_url = 'https://maps.googleapis.com/maps/api/place/details/json'
     params = {
-    'key': GOOGLE_MAPS_API_KEY,
-    'place_id': place_id,
-    'fields': 'name,formatted_address,formatted_phone_number,website',
+        'key': GOOGLE_MAPS_API_KEY,
+        'place_id': place_id,
+        'fields': 'name,formatted_address,formatted_phone_number,website',
     }
 
     try:
@@ -32,15 +27,12 @@ def get_place_details(place_id):
         data = response.json()
 
         if data['status'] == 'OK' and 'result' in data:
-          place_details = data['result']
-          return place_details
+            place_details = data['result']
+            return place_details
         else:
-          return None
+            return None
     except requests.exceptions.RequestException as error:
         print(f'Error getting place details: {error}')
-
-
-
 
 
 def create_place_id_list(json_file_path):
@@ -55,8 +47,7 @@ def create_place_id_list(json_file_path):
     return return_list
 
 
-
-def update_json_file(data_list, json_file_path = "data.json"):
+def update_json_file(data_list, json_file_path="data.json"):
     """
     Update a JSON file with data from a list.
 
@@ -98,8 +89,8 @@ def print_data_names(json_file_path):
 def get_keyword_list(file_path):
     keyword_list = []
     # opening the CSV file
-    with open(file_path, mode ='r')as file:
-    # reading the CSV file
+    with open(file_path, mode='r') as file:
+        # reading the CSV file
         csvFile = csv.reader(file)
         # displaying the contents of the CSV file
         keyword_list = [lines[0] for lines in csvFile]
@@ -109,7 +100,7 @@ def get_keyword_list(file_path):
 def find_nearby_businesses(latitude, longitude, keyword):
     try:
 
-        radius = 50000 # 1 mile in meters
+        radius = 50000  # 1 mile in meters
         local_keyword = keyword  # Adjust this keyword based on your criteria
         print(local_keyword)
         response = requests.get(
@@ -166,7 +157,7 @@ def find_nearby_businesses(latitude, longitude, keyword):
 
 
 # Finds a place based on specific keywords
-def find_place(input_text,lat,long):
+def find_place(input_text, lat, long):
     base_url = 'https://maps.googleapis.com/maps/api/place/findplacefromtext/json'
     radius = 1600
     params = {
@@ -175,9 +166,8 @@ def find_place(input_text,lat,long):
         'inputtype': 'textquery',
         'fields': 'name,formatted_address,place_id',
         # 'fields': 'name,formatted_address,formatted_phone_number,website',
-        'circular':f"{radius}@{lat}.{long}"
+        'circular': f"{radius}@{lat}.{long}"
     }
-
 
     try:
         response = requests.get(base_url, params=params)
@@ -193,7 +183,6 @@ def find_place(input_text,lat,long):
     except requests.exceptions.RequestException as error:
         print(f'Error finding place: {error}')
         raise
-
 
 
 # # Example usage:
@@ -214,11 +203,11 @@ def find_place(input_text,lat,long):
 #     print(f'Error: {error}')
 
 
-
-
-#Broomfield:
+# Broomfield:
 latitude = 39.890240  # Example latitude
 longitude = -105.104759
+
+
 # # San Fran
 # latitude = 37.7749  # Example latitude
 # longitude = -122.4194  # Example longitude
@@ -233,31 +222,55 @@ longitude = -105.104759
 #         print(f'Error: {error}')
 #
 
+def search_for_place_details(place_ids):
+    for id in place_ids:
+        try:
+            place_site_name = id['name']
+            place_website = id['website']
+            try:
+                place_telephone_number = id['formatted_phone_number']
+            except ValueError("There do does appear to be a phone number for this Place"):
+                output = (f"Place Name: {place_site_name},"
+                          f"Place Website: {place_website}")
+                print(output)
+            else:
+                output = (f"Place Name: {place_site_name},"
+                          f"Place Website: {place_website},"
+                          f"Place Phone-number: {place_telephone_number}")
+                print(output)
+        # except Exception:
+        except ValueError:
+            output = f"Place Name: id['name']"
+            print(output)
+        else:
+            place_telephone_number = id['formatted_phone_number']
+            output = (f"Place Name: {place_site_name},"
+                      f"Place Phone-number: {place_telephone_number},"
+                      f"Place Website: {place_website}")
+            print(output)
+        return output
 
 
-#previous main
+def exception_finder(kfp, sdfp):
+    keyword_list = get_keyword_list(kfp)
+    for item in keyword_list:
+        [places] = find_nearby_businesses(latitude, longitude, item)
+        update_json_file([places], sdfp)
+        print("")
+    list_of_places = create_place_id_list(sdfp)
+    list_of_place_ids = [get_place_details(place_id) for place_id in list_of_places]
+    search_for_place_details(list_of_place_ids)
+
+    # previous main
+
+
 def big_search():
     try:
-        keyword_list = get_keyword_list(keywords_file_path)
-        for item in keyword_list:
-            businesses = find_nearby_businesses(latitude, longitude, item)
-            update_json_file(businesses, stored_data_file_path)
-            print("")
-        place_id_list = create_place_id_list(stored_data_file_path)
-        place_details = [get_place_details(place_id)for place_id in place_id_list]
-        # print(place_details)
-        for item in place_details:
-            try:
-                place_site_name = item['name']
-                place_telephone_number = item['formatted_phone_number']
-                place_website = item['website']
-            except Exception:
-                print(f"Place Name: {item['name']}")
-            else:
-                print(f"Place Name: {place_site_name}, Place Number: {place_telephone_number}, Place Website: {place_website}")
+        exception_finder(keywords_file_path, stored_data_file_path)
+
     except Exception as error:
         print(f'Error: {error}')
 
 
-if input("Are you sure you want to run big search? (y/n)")=="y":
+if input("Are you sure you want to run big search? (y/n)") == "y":
     big_search()
