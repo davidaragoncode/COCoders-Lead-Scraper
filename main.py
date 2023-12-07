@@ -3,6 +3,7 @@ import requests
 import json
 import csv
 import pandas as pd
+import place
 
 
 # Load Google Maps API key from environment variable
@@ -224,61 +225,93 @@ longitude = -105.104759
 #         print(f'Error: {error}')
 #
 
-def search_for_place_details(list_of_place_details):
+def exception_finder(list_of_place_details):
 
     output_dict = {
-        'Name': ['test'],
-        'Website': ['test'],
-        'Phone-number': ['test']
+        'Name': [''],
+        'Website': [''],
+        'Phone-number': ['']
     }
+
     place_site_name = "No Data"
     place_website = "No Data"
     place_telephone_number = "No Data"
-
 
     storage = pd.DataFrame(output_dict)
 
     for place_details in list_of_place_details:
         try:
-            print("In try 1")
             place_site_name = place_details['name']
             place_website = place_details['website']
             try:
-                print("In try 2")
                 place_telephone_number = place_details['formatted_phone_number']
             except Exception("There do does appear to be a phone number for this Place"):
                 storage.loc[len(storage.index)] = [place_site_name, "NO WEBSITE", "NO NUMBER"]
             else:
                 pass
-        # except Exception:
         except Exception:
-            print("In Exception 1")
             storage.loc[len(storage.index)] = [place_site_name, "NO WEBSITE", place_telephone_number]
         else:
-            print("In else 1")
             place_telephone_number = place_details['formatted_phone_number']
 
-        storage.loc[len(storage.index)] = [place_site_name, place_website, place_telephone_number]
+        # Line below adds non exceptions to return data frame
+        # storage.loc[len(storage.index)] = [place_site_name, place_website, place_telephone_number]
 
     return storage
 
 
-def exception_finder(kfp, sdfp):
+def main(kfp, sdfp):
     # keyword_list = get_keyword_list(kfp)
     # for item in keyword_list:
     #     list_of_places = find_nearby_businesses(latitude, longitude, item)
     #     update_json_file(list_of_places, sdfp)
     #     print("")
+
+
+
+    with open(sdfp, 'r') as json_file:
+        existing_data = json.load(json_file)
+        print(len(existing_data))
+        print(existing_data[0])
+        ind = 0
+        holder = place.Place()
+        holder.business_status = existing_data[ind]['business_status']
+        holder.geometry = existing_data[ind]['geometry']
+        holder.icon = existing_data[ind]['icon']
+        holder.icon_background_color = existing_data[ind]['icon_background_color']
+        holder.icon_mask_base_uri = existing_data[ind]['icon_mask_base_uri']
+        holder.name = existing_data[ind]['name']
+        holder.opening_hours = existing_data[ind]['opening_hours']
+        holder.place_id = existing_data[ind]['place_id']
+        holder.plus_code = existing_data[ind]['plus_code']
+        holder.rating = existing_data[ind]['rating']
+        holder.reference = existing_data[ind]['reference']
+        holder.scope = existing_data[ind]['scope']
+        holder.types = existing_data[ind]['types']
+        holder.user_ratings_total = existing_data[ind]['user_ratings_total']
+        holder.vicinity = existing_data[ind]['vicinity']
+        print(holder)
+        # for index in existing_data:
+        #     print(index['name'])
+
+
     list_of_places_ids = create_place_id_list(sdfp)
+
+
+    # print(get_place_details(list_of_places_ids[0]))
+    # test_frame = pd.DataFrame(get_place_details(list_of_places_ids[0]))
+    # print(test_frame)
+
+
     list_of_place_details = [get_place_details(place_id) for place_id in list_of_places_ids]
-    frame = search_for_place_details(list_of_place_details)
+    frame = exception_finder(list_of_place_details)
     print(frame)
     # previous main
 
 
 def big_search():
     try:
-        exception_finder(keywords_file_path, stored_data_file_path)
+        main(keywords_file_path, stored_data_file_path)
 
     except Exception as error:
         print(f'Error: {error}')
