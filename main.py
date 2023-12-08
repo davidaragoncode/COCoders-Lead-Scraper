@@ -3,7 +3,8 @@ import requests
 import json
 import csv
 import pandas as pd
-import place
+from pandas import json_normalize
+
 
 
 # Load Google Maps API key from environment variable
@@ -118,41 +119,135 @@ def find_nearby_businesses(latitude, longitude, keyword):
         # data2 = response.text
         # print(data2[0])
         data = response.json()
+        # data_frame = pd.DataFrame(data)
         print(f"Results Length: {len(data['results'])}")
 
         # filtered_businesses = [
-        #     place for place in data['results'] if (
-        #         place.get('business_status') == 'OPERATIONAL' and
-        #         'establishment' in place.get('types', []) and
-        #         'point_of_interest' in place.get('types', []) and
-        #         'store' in place.get('types', []) and
-        #         'restaurant' in place.get('types', []) and
-        #         'food' in place.get('types', []) and
-        #         'bar' in place.get('types', []) and
-        #         'cafe' in place.get('types', []) and
-        #         'lodging' in place.get('types', []) and
-        #         place.get('employees', 0) < 10 and
-        #         not place.get('website') and
-        #         place.get('formatted_phone_number')
+        #     pd.DataFrame(place) for place in data['results'] if (
+        #             place.get('business_status') == 'OPERATIONAL' and
+        #             not place.get('website')
         #     )
         # ]
-        # filtered_businesses = [
-        #     place for place in data['results'] if (
-        #             place.get('business_status') == 'OPERATIONAL'and
-        #             not place.get('website') and
-        #             place.get('formatted_phone_number')
-        #     )
+        dict = {"business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 39.7233677,
+                    "lng": -104.6928107
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 39.72471752989272,
+                        "lng": -104.6915810701073
+                    },
+                    "southwest": {
+                        "lat": 39.72201787010728,
+                        "lng": -104.6942807298927
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+            "icon_background_color": "#7B9EB0",
+            "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+            "name": "Mile High Business Solutions LLC",
+            "opening_hours": {
+                "open_now": True
+            },
+            "photos": [
+                {
+                    "height": 1280,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/107051759630075740918\">A Google User</a>"
+                    ],
+                    "photo_reference": "AWU5eFjTKldVon_YNFSkhJhIbH9C-fUY_qAm0afdyTnWvTsQsV1qk2U4AU_5r9UBu0Zhi1zSRQZzj09gz8ww7m1g6P27_ObYkOXoPQ6jawiVFF47182E13RlRYI1mkNIQNa0T1DAU-iI-cT62MxWwlSSRu_2e6qQnjncHWMIh8rchzwAw5mR",
+                    "width": 1280
+                }
+            ],
+            "place_id": "ChIJsWd3b_9hbIcRHbHCIBjpFJA",
+            "plus_code": {
+                "compound_code": "P8F4+8V Aurora, Colorado",
+                "global_code": "85FQP8F4+8V"
+            },
+            "rating": 0,
+            "reference": "ChIJsWd3b_9hbIcRHbHCIBjpFJA",
+            "scope": "GOOGLE",
+            "types": [
+                "accounting",
+                "finance",
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 0,
+            "vicinity": "452 N Jackson Gap Way 344 S 4th Ct, 452 N Jackson Gap Way, Aurora"
+        }
+        print("0")
+        place_dataframe = {"business_status": None,
+            "geometry": None ,
+            "icon": None,
+            "icon_background_color": None,
+            "icon_mask_base_uri": None,
+            "name": None,
+            "opening_hours": None,
+            "photos": None,
+            "place_id": None,
+            "plus_code": None,
+            "rating": None,
+            "reference": None,
+            "scope": None,
+            "types": None,
+            "user_ratings_total": None,
+            "vicinity": None
+        }
+
+        # {},[0]
+
+
+
+        print("0.5")
+        businesses = pd.DataFrame(place_dataframe,[0])
+        print("1")
+        for place in data['results']:
+            Holder = place_dataframe
+            print("2")
+            print(place_dataframe)
+            for k,v in place_dataframe.items():
+                try:
+                    Holder[k] = place[k]
+                    print("2.5")
+                except:
+                    Holder[k] = None
+                    print("2.6")
+                else:
+                    pass
+            print("3")
+            businesses.loc[len(businesses)]=Holder
+        print(businesses['name'])
         #
-        # ]
-        filtered_businesses = [
-            place for place in data['results'] if (
-                    place.get('business_status') == 'OPERATIONAL' and
-                    not place.get('website')
-            )
+        # empty_df = json_normalize(empty_dict)
+        # filtered_businesses = json_normalize(dict)
+        # print(type(filtered_businesses))
+        # for place in data['results']:
+        #     holder = empty_df
+        #     if (place.get('business_status') == 'OPERATIONAL'):
+        #         print("Triggered")
+        #         to_add = json_normalize(place)
+        #         # filtered_businesses = filtered_businesses.append(pd.Series(place), ignore_index=True)
+        #         # test = filtered_businesses.merge(to_add, how='left', on='a')
+        #         test = filtered_businesses.merge(pd.Series(place,name = "Place" ), how='left', on='a')
+        #         print(test)
+        #         # # pd.concat([filtered_businesses,to_add])
+        #         # to_append = holder.add(to_add, axis='columns')
+                # print(to_append)
+                # print(to_append)
+                # print(len(filtered_businesses))
+                # print(len(to_add))
+                # print(to_add)
+                # # filtered_businesses.iloc[len(filtered_businesses)] = to_add
+                # filtered_businesses.loc[len(filtered_businesses)] = to_add
 
-        ]
 
-        return filtered_businesses
+
+
+        return businesses
 
     except requests.exceptions.RequestException as error:
         print(f'Error fetching nearby businesses: {error}')
@@ -261,38 +356,41 @@ def exception_finder(list_of_place_details):
 
 
 def main(kfp, sdfp):
-    # keyword_list = get_keyword_list(kfp)
-    # for item in keyword_list:
-    #     list_of_places = find_nearby_businesses(latitude, longitude, item)
-    #     update_json_file(list_of_places, sdfp)
-    #     print("")
+    keyword_list = get_keyword_list(kfp)
+    for item in keyword_list:
+        list_of_places = find_nearby_businesses(latitude, longitude, item)
+        update_json_file(list_of_places, sdfp)
+        print("")
 
 
 
     with open(sdfp, 'r') as json_file:
         existing_data = json.load(json_file)
-        print(len(existing_data))
-        print(existing_data[0])
+        df = pd.DataFrame(existing_data)
+        print(df)
+        # print(len(existing_data))
+        # print(existing_data[0])
         ind = 0
         holder = place.Place()
-        holder.business_status = existing_data[ind]['business_status']
-        holder.geometry = existing_data[ind]['geometry']
-        holder.icon = existing_data[ind]['icon']
-        holder.icon_background_color = existing_data[ind]['icon_background_color']
-        holder.icon_mask_base_uri = existing_data[ind]['icon_mask_base_uri']
-        holder.name = existing_data[ind]['name']
-        holder.opening_hours = existing_data[ind]['opening_hours']
-        holder.place_id = existing_data[ind]['place_id']
-        holder.plus_code = existing_data[ind]['plus_code']
-        holder.rating = existing_data[ind]['rating']
-        holder.reference = existing_data[ind]['reference']
-        holder.scope = existing_data[ind]['scope']
-        holder.types = existing_data[ind]['types']
-        holder.user_ratings_total = existing_data[ind]['user_ratings_total']
-        holder.vicinity = existing_data[ind]['vicinity']
-        print(holder)
-        # for index in existing_data:
-        #     print(index['name'])
+        dict = {
+        'business_status': [existing_data[ind]['business_status']],
+        'geometry' : [existing_data[ind]['geometry']],
+        'icon' : [existing_data[ind]['icon']],
+        'icon_background_color' : [existing_data[ind]['icon_background_color']],
+        'icon_mask_base_uri' : [existing_data[ind]['icon_mask_base_uri']],
+        'name' : [existing_data[ind]['name']],
+        'opening_hours' : [existing_data[ind]['opening_hours']],
+        'place_id' : [existing_data[ind]['place_id']],
+        'plus_code' : [existing_data[ind]['plus_code']],
+        'rating' : [existing_data[ind]['rating']],
+        'reference' : [existing_data[ind]['reference']],
+        'scope' : [existing_data[ind]['scope']],
+        'types' : [existing_data[ind]['types']],
+        'user_ratings_total' : [existing_data[ind]['user_ratings_total']],
+        'vicinity' : [existing_data[ind]['vicinity']],
+        }
+
+
 
 
     list_of_places_ids = create_place_id_list(sdfp)
