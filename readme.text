@@ -15,3 +15,6 @@ TO DO
     - convert to OOP -?
     - Comment
     - Prettify
+    - stop doing so many API requests
+
+    Make update_json_file accept a panda object to update the json file with and also make it create a panda dataframe
