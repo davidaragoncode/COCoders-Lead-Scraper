@@ -7,6 +7,7 @@ from pandas import json_normalize
 
 # Load Google Maps API key from environment variable
 GOOGLE_MAPS_API_KEY = os.environ['GOOGLE_MAPS_API_KEY']
+NEARBY_SEARCH_ENDPOINT = 'https://maps.googleapis.com/maps/api/place/nearbysearch/json'
 # read up on python interpretors
 chino_hills_machine_shop_search = (34.010770, -117.693511)
 
@@ -25,6 +26,7 @@ place_detail_params = {
     'fields': 'name,formatted_address,formatted_phone_number,website',
 }
 
+
 def get_keyword_list(file_path):
     keyword_list = []
     # opening the CSV file
@@ -36,10 +38,16 @@ def get_keyword_list(file_path):
     return keyword_list
 
 
-def find_nearby_businesses(location:tuple, keyword, fakeData:bool)->pd.DataFrame:
-    search_radius = 20000 #  meters
-    max_search_radius = 50000 #  meters
+def find_nearby_businesses(location: tuple, keyword: str, fakeData: bool) -> pd.DataFrame:
+    search_radius = 20000  # meters
+    max_search_radius = 50000  # meters
 
+    api_params = {
+        'location': location,
+        'radius': search_radius,
+        'key': GOOGLE_MAPS_API_KEY,
+        'keyword': keyword
+    }
 
     if fakeData:
 
@@ -47,12 +55,7 @@ def find_nearby_businesses(location:tuple, keyword, fakeData:bool)->pd.DataFrame
 
     else:
         try:
-            radius = search_radius
-            local_keyword = keyword # Adjust this keyword based on your criteria
-            print(local_keyword)
-            response = requests.get(
-                f'https://maps.googleapis.com/maps/api/place/nearbysearch/json?location={location[0]},{location[1]}&radius={radius}&keyword={local_keyword}&key={GOOGLE_MAPS_API_KEY}'
-            )
+            response = requests.get(NEARBY_SEARCH_ENDPOINT, params=api_params)
 
             response.raise_for_status()
             # print(response)
@@ -86,7 +89,55 @@ def find_nearby_businesses(location:tuple, keyword, fakeData:bool)->pd.DataFrame
                                      }
             return json_to_panda(empty_place_dataframe)
 
-        raise("find_nearby_businesses function failed to return something")
+        raise ("find_nearby_businesses function failed to return something")
+
+
+def find_nearby_businesses_next_page(location: tuple, token) -> pd.DataFrame:
+    search_radius = 20000  # meters
+    max_search_radius = 50000  # meters
+
+    api_params = {
+        'location': location,
+        'radius': search_radius,
+        'key': GOOGLE_MAPS_API_KEY,
+    }
+
+    try:
+        response = requests.get(NEARBY_SEARCH_ENDPOINT, params=api_params)
+
+        response.raise_for_status()
+        # print(response)
+        print("response.status_code =", response.status_code)
+        print("response.text= ", response.text)
+
+        data = response.json()
+        print(f"Results Length: {len(data['results'])}")
+
+        return data
+        # return json_to_panda(data)
+
+    except requests.exceptions.RequestException as error:
+        print(f'Error fetching nearby businesses: {error}')
+        empty_place_dataframe = {"business_status": None,
+                                 "geometry": None,
+                                 "icon": None,
+                                 "icon_background_color": None,
+                                 "icon_mask_base_uri": None,
+                                 "name": None,
+                                 "opening_hours": None,
+                                 "photos": None,
+                                 "place_id": None,
+                                 "plus_code": None,
+                                 "rating": None,
+                                 "reference": None,
+                                 "scope": None,
+                                 "types": None,
+                                 "user_ratings_total": None,
+                                 "vicinity": None
+                                 }
+        return json_to_panda(empty_place_dataframe)
+
+        raise ("find_nearby_businesses function failed to return something")
 
 
 # No idea what this is
@@ -156,8 +207,6 @@ def update_json_file(data_list: pd.DataFrame, json_file_path="data.json"):
         json.dump(existing_data, json_file, indent=2)
 
 
-
-
 def get_place_details(place_id):
     place_detail_params['place_id'] = place_id
     try:
@@ -186,16 +235,12 @@ def create_place_id_list(json_file_path):
     return return_list
 
 
-
-
 def print_data_names(json_file_path):
     with open(json_file_path, 'r') as json_file:
         existing_data = json.load(json_file)
         print(len(existing_data))
         for index in existing_data:
             print(index['name'])
-
-
 
 
 def json_to_panda(search_nearby_api_response: object) -> object:
@@ -230,7 +275,6 @@ def json_to_panda(search_nearby_api_response: object) -> object:
         businesses.loc[len(businesses)] = Holder
 
     return businesses
-
 
 
 # Finds a place based on specific keywords
@@ -346,7 +390,6 @@ def main(kfp, sdfp):
         print("in main open r")
         print(df)
 
-
     list_of_places_ids = create_place_id_list(sdfp)
 
     # print(get_place_details(list_of_places_ids[0]))
@@ -367,10 +410,13 @@ def big_search():
         print(f'Error: {error}')
 
 
-
-if input("Do you want to run a detailed search to find what businesses don't have websites in a very large area? (y/n)") == "y":
+if input(
+        "Do you want to run a detailed search to find what businesses don't have websites in a very large area? (y/n)") == "y":
     big_search()
 elif input("Do you want to read all place results for a specific keyword list in a smaller area? (y/n)") == "y":
-    search_results = json_to_panda(find_nearby_businesses(chino_hills_machine_shop_search,['Machine Shop'],False))
-    compression_opts = dict(method='zip',archive_name = 'out.csv')
-    search_results.to_csv('out.zip', index=False,compression = compression_opts)
+    data = find_nearby_businesses(chino_hills_machine_shop_search, ['Machine Shop'], False)
+    search_results = json_to_panda(data)
+    print(data)
+    # print(find_nearby_businesses_next_page(chino_hills_machine_shop_search, data['next_page_token']))
+    compression_opts = dict(method='zip', archive_name='out.csv')
+    search_results.to_csv('out.zip', index=False, compression=compression_opts)
