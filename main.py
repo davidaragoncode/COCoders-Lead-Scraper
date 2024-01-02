@@ -8,8 +8,11 @@ from pandas import json_normalize
 # Load Google Maps API key from environment variable
 GOOGLE_MAPS_API_KEY = os.environ['GOOGLE_MAPS_API_KEY']
 # read up on python interpretors
+chino_hills_machine_shop_search = (34.010770, -117.693511)
 
-keywords_file_path = 'keywords_short.csv'
+# keywords_file_path = 'keywords_short.csv'
+# keywords_file_path = 'keywords.csv'
+keywords_file_path = 'Machine_Shops.csv'
 stored_data_file_path = "data.json"
 exceptions_data_file_path = "exceptions.json"
 
@@ -33,52 +36,64 @@ def get_keyword_list(file_path):
     return keyword_list
 
 
-def find_nearby_businesses(latitude, longitude, keyword)->pd.DataFrame:
-    try:
-        radius = 50000  # 1 mile in meters
-        local_keyword = keyword  # Adjust this keyword based on your criteria
-        print(local_keyword)
-        response = requests.get(
-            f'https://maps.googleapis.com/maps/api/place/nearbysearch/json?location={latitude},{longitude}&radius={radius}&keyword={local_keyword}&key={GOOGLE_MAPS_API_KEY}'
-        )
-
-        response.raise_for_status()
-        # print(response)
-        # print("response.status_code =", response.status_code)
-        # print("response.text= ", response.text)
-
-        data = response.json()
-        print(f"Results Length: {len(data['results'])}")
-
-        return json_to_panda(data)
+def find_nearby_businesses(location:tuple, keyword, fakeData:bool)->pd.DataFrame:
+    search_radius = 20000 #  meters
+    max_search_radius = 50000 #  meters
 
 
+    if fakeData:
 
-    except requests.exceptions.RequestException as error:
-        print(f'Error fetching nearby businesses: {error}')
-        empty_place_dataframe = {"business_status": None,
-                                 "geometry": None,
-                                 "icon": None,
-                                 "icon_background_color": None,
-                                 "icon_mask_base_uri": None,
-                                 "name": None,
-                                 "opening_hours": None,
-                                 "photos": None,
-                                 "place_id": None,
-                                 "plus_code": None,
-                                 "rating": None,
-                                 "reference": None,
-                                 "scope": None,
-                                 "types": None,
-                                 "user_ratings_total": None,
-                                 "vicinity": None
-                                 }
-        return json_to_panda(empty_place_dataframe)
-        raise
+        print('add data faking')
+
+    else:
+        try:
+            radius = search_radius
+            local_keyword = keyword # Adjust this keyword based on your criteria
+            print(local_keyword)
+            response = requests.get(
+                f'https://maps.googleapis.com/maps/api/place/nearbysearch/json?location={location[0]},{location[1]}&radius={radius}&keyword={local_keyword}&key={GOOGLE_MAPS_API_KEY}'
+            )
+
+            response.raise_for_status()
+            # print(response)
+            # print("response.status_code =", response.status_code)
+            # print("response.text= ", response.text)
+
+            data = response.json()
+            print(f"Results Length: {len(data['results'])}")
+
+            return data
+            # return json_to_panda(data)
+
+        except requests.exceptions.RequestException as error:
+            print(f'Error fetching nearby businesses: {error}')
+            empty_place_dataframe = {"business_status": None,
+                                     "geometry": None,
+                                     "icon": None,
+                                     "icon_background_color": None,
+                                     "icon_mask_base_uri": None,
+                                     "name": None,
+                                     "opening_hours": None,
+                                     "photos": None,
+                                     "place_id": None,
+                                     "plus_code": None,
+                                     "rating": None,
+                                     "reference": None,
+                                     "scope": None,
+                                     "types": None,
+                                     "user_ratings_total": None,
+                                     "vicinity": None
+                                     }
+            return json_to_panda(empty_place_dataframe)
+
+        raise("find_nearby_businesses function failed to return something")
 
 
-def API_nearv(latitude, longitude, keyword)->pd.DataFrame:
-    try:
+# No idea what this is
+# def API_nearv(latitude, longitude, keyword)->pd.DataFrame:
+#     try:
+
+
 def update_json_file(data_list: pd.DataFrame, json_file_path="data.json"):
     """
     Update a JSON file with data from a list.
@@ -321,7 +336,7 @@ def exception_finder(list_of_place_details):
 def main(kfp, sdfp):
     keyword_list = get_keyword_list(kfp)
     for item in keyword_list:
-        list_of_places = find_nearby_businesses(latitude, longitude, item)
+        list_of_places = find_nearby_businesses(latitude, longitude, item, False)
         update_json_file(list_of_places, sdfp)
         print("")
 
@@ -352,5 +367,10 @@ def big_search():
         print(f'Error: {error}')
 
 
-if input("Are you sure you want to run big search? (y/n)") == "y":
+
+if input("Do you want to run a detailed search to find what businesses don't have websites in a very large area? (y/n)") == "y":
     big_search()
+elif input("Do you want to read all place results for a specific keyword list in a smaller area? (y/n)") == "y":
+    search_results = json_to_panda(find_nearby_businesses(chino_hills_machine_shop_search,['Machine Shop'],False))
+    compression_opts = dict(method='zip',archive_name = 'out.csv')
+    search_results.to_csv('out.zip', index=False,compression = compression_opts)
