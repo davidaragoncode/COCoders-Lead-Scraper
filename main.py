@@ -3,6 +3,7 @@ import requests
 import json
 import csv
 import pandas as pd
+import time
 from pandas import json_normalize
 
 # Load Google Maps API key from environment variable
@@ -43,7 +44,7 @@ def find_nearby_businesses(location: tuple, keyword: str, fakeData: bool) -> pd.
     max_search_radius = 50000  # meters
 
     api_params = {
-        'location': location,
+        'location': f"{location[0]},{location[1]}",
         'radius': search_radius,
         'key': GOOGLE_MAPS_API_KEY,
         'keyword': keyword
@@ -92,23 +93,26 @@ def find_nearby_businesses(location: tuple, keyword: str, fakeData: bool) -> pd.
         raise ("find_nearby_businesses function failed to return something")
 
 
-def find_nearby_businesses_next_page(location: tuple, token) -> pd.DataFrame:
+def find_nearby_businesses_next_page(location: tuple, token:str) -> pd.DataFrame:
     search_radius = 20000  # meters
     max_search_radius = 50000  # meters
 
     api_params = {
-        'location': location,
+        'location': f"{location[0]},{location[1]}",
         'radius': search_radius,
         'key': GOOGLE_MAPS_API_KEY,
+        'token': token
     }
+
+    # This is weird
 
     try:
         response = requests.get(NEARBY_SEARCH_ENDPOINT, params=api_params)
 
         response.raise_for_status()
         # print(response)
-        print("response.status_code =", response.status_code)
-        print("response.text= ", response.text)
+        # print("response.status_code =", response.status_code)
+        # print("response.text= ", response.text)
 
         data = response.json()
         print(f"Results Length: {len(data['results'])}")
@@ -415,8 +419,24 @@ if input(
     big_search()
 elif input("Do you want to read all place results for a specific keyword list in a smaller area? (y/n)") == "y":
     data = find_nearby_businesses(chino_hills_machine_shop_search, ['Machine Shop'], False)
-    search_results = json_to_panda(data)
-    print(data)
-    # print(find_nearby_businesses_next_page(chino_hills_machine_shop_search, data['next_page_token']))
+    time.sleep(60)
+    data2 = find_nearby_businesses_next_page(chino_hills_machine_shop_search, data['next_page_token'])
+    time.sleep(60)
+    data3 = find_nearby_businesses_next_page(chino_hills_machine_shop_search, data2['next_page_token'])
+    # print("data")
+    # print(data)
+    # print("data2")
+    # print(data2)
+    print(data3)
+    search_results = data['results']
+    print(len(search_results))
+    search_results = search_results + data2['results'] + data3['results']
+    # for index in search_results:
+    #     print(index)
+    print(len(search_results))
+
+
+    out = pd.DataFrame(search_results)
+    print(out)
     compression_opts = dict(method='zip', archive_name='out.csv')
-    search_results.to_csv('out.zip', index=False, compression=compression_opts)
+    out.to_csv('out.zip', index=False, compression=compression_opts)
