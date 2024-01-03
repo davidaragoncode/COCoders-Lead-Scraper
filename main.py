@@ -97,6 +97,10 @@ def find_nearby_businesses_next_page(location: tuple, token:str) -> pd.DataFrame
     search_radius = 20000  # meters
     max_search_radius = 50000  # meters
 
+    if token == None:
+        print("no additional results to display")
+        return None
+
     api_params = {
         'location': f"{location[0]},{location[1]}",
         'radius': search_radius,
@@ -418,25 +422,34 @@ if input(
         "Do you want to run a detailed search to find what businesses don't have websites in a very large area? (y/n)") == "y":
     big_search()
 elif input("Do you want to read all place results for a specific keyword list in a smaller area? (y/n)") == "y":
+
+
+# this start of this block creates a csv of results for a specific keyword
     data = find_nearby_businesses(chino_hills_machine_shop_search, ['Machine Shop'], False)
-    time.sleep(60)
-    data2 = find_nearby_businesses_next_page(chino_hills_machine_shop_search, data['next_page_token'])
-    time.sleep(60)
-    data3 = find_nearby_businesses_next_page(chino_hills_machine_shop_search, data2['next_page_token'])
-    # print("data")
-    # print(data)
-    # print("data2")
-    # print(data2)
-    print(data3)
     search_results = data['results']
-    print(len(search_results))
-    search_results = search_results + data2['results'] + data3['results']
-    # for index in search_results:
-    #     print(index)
-    print(len(search_results))
+    additional_tokens = True
+    i = 0
+    next_page_token = data.get('next_page_token')
+    while additional_tokens:
+        i+=1
+        print(len(search_results))
+        time.sleep(5)
+        holder = find_nearby_businesses_next_page(chino_hills_machine_shop_search, next_page_token)
+        if holder == None:
+            additional_tokens = False
+            break
+
+        search_results = search_results + holder['results']
+        next_page_token = holder.get('next_page_token')
+
+        if i > 10:
+            print("limit exit")
+            additional_tokens = False
+# probably should turn this into function
 
 
+    print("making out file")
     out = pd.DataFrame(search_results)
-    print(out)
     compression_opts = dict(method='zip', archive_name='out.csv')
     out.to_csv('out.zip', index=False, compression=compression_opts)
+
