@@ -101,7 +101,7 @@ def find_nearby_businesses_next_page(location: tuple, token:str) -> pd.DataFrame
         'location': f"{location[0]},{location[1]}",
         'radius': search_radius,
         'key': GOOGLE_MAPS_API_KEY,
-        'token': token
+        'pagetoken': token
     }
 
     # This is weird
