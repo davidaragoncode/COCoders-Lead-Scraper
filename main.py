@@ -4,6 +4,7 @@ import json
 import csv
 import pandas as pd
 import time
+from web_stuff import has_careers_page
 from pandas import json_normalize
 
 # Load Google Maps API key from environment variable
@@ -410,6 +411,34 @@ def main(kfp, sdfp):
     # previous main
 
 
+def specific_search(location:tuple, keyword_list :list[str], fakeData:bool):
+    search_results = []
+    for keyword in keyword_list:
+        # this start of this block creates a csv of results for a specific keyword
+        data = find_nearby_businesses(location, keyword, fakeData)
+        search_results = search_results + data['results']
+        additional_tokens = True
+        i = 0
+        next_page_token = data.get('next_page_token')
+        while additional_tokens:
+            i+=1
+            print(len(search_results))
+            time.sleep(5)
+            holder = find_nearby_businesses_next_page(chino_hills_machine_shop_search, next_page_token)
+            if holder == None:
+                additional_tokens = False
+                break
+
+            search_results = search_results + holder['results']
+            next_page_token = holder.get('next_page_token')
+
+            if i > 10:
+                print("limit exit")
+                additional_tokens = False
+        # probably should turn this into function
+    return search_results
+
+
 def big_search():
     try:
         main(keywords_file_path, stored_data_file_path)
@@ -423,33 +452,16 @@ if input(
     big_search()
 elif input("Do you want to read all place results for a specific keyword list in a smaller area? (y/n)") == "y":
 
-
-# this start of this block creates a csv of results for a specific keyword
-    data = find_nearby_businesses(chino_hills_machine_shop_search, ['Machine Shop'], False)
-    search_results = data['results']
-    additional_tokens = True
-    i = 0
-    next_page_token = data.get('next_page_token')
-    while additional_tokens:
-        i+=1
-        print(len(search_results))
-        time.sleep(5)
-        holder = find_nearby_businesses_next_page(chino_hills_machine_shop_search, next_page_token)
-        if holder == None:
-            additional_tokens = False
-            break
-
-        search_results = search_results + holder['results']
-        next_page_token = holder.get('next_page_token')
-
-        if i > 10:
-            print("limit exit")
-            additional_tokens = False
-# probably should turn this into function
-
-
+    # data = specific_search(chino_hills_machine_shop_search, ['Machine Shop'], False)
+    # print("making out file")
+    # out = pd.DataFrame(data)
+    # compression_opts = dict(method='zip', archive_name='out.csv')
+    # out.to_csv('out.zip', index=False, compression=compression_opts)
+    #
+    keyword_list = get_keyword_list('Engineering.csv')
+    data = specific_search(chino_hills_machine_shop_search, keyword_list, False)
     print("making out file")
-    out = pd.DataFrame(search_results)
+    out = pd.DataFrame(data)
     compression_opts = dict(method='zip', archive_name='out.csv')
     out.to_csv('out.zip', index=False, compression=compression_opts)
 
