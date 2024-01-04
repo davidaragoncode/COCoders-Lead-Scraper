@@ -40,6 +40,8 @@ def get_keyword_list(file_path):
 
 
 def find_nearby_businesses(location: tuple, keyword: str, fakeData: bool) -> pd.DataFrame:
+    
+# combine with next page to return maz results 
     search_radius = 20000  # meters
     max_search_radius = 50000  # meters
 
@@ -49,6 +51,7 @@ def find_nearby_businesses(location: tuple, keyword: str, fakeData: bool) -> pd.
         'key': GOOGLE_MAPS_API_KEY,
         'keyword': keyword
     }
+    #api_params.update({'pagetoken':data['next_page_token']})
 
     if fakeData:
 
