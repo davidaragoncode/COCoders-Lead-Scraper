@@ -10,7 +10,8 @@ from pandas import json_normalize
 # Load Google Maps API key from environment variable
 GOOGLE_MAPS_API_KEY = os.environ['GOOGLE_MAPS_API_KEY']
 NEARBY_SEARCH_ENDPOINT = 'https://maps.googleapis.com/maps/api/place/nearbysearch/json'
-# read up on python interpretors
+PLACE_DETAILS_ENDPOINT = 'https://maps.googleapis.com/maps/api/place/details/json'
+
 chino_hills_machine_shop_search = (34.010770, -117.693511)
 
 # keywords_file_path = 'keywords_short.csv'
@@ -21,7 +22,6 @@ exceptions_data_file_path = "exceptions.json"
 
 storage_frame = None
 
-place_details_base_url = 'https://maps.googleapis.com/maps/api/place/details/json'
 place_detail_params = {
     'key': GOOGLE_MAPS_API_KEY,
     'place_id': None,
@@ -30,6 +30,9 @@ place_detail_params = {
 
 
 def get_keyword_list(file_path):
+    # This function takes a keyword csv, single lines and make a list out of it.
+    # a, b, c, -> [a,b,c]
+
     keyword_list = []
     # opening the CSV file
     with open(file_path, mode='r') as file:
@@ -40,10 +43,17 @@ def get_keyword_list(file_path):
     return keyword_list
 
 
-def find_nearby_businesses(location: tuple, keyword: str, fakeData: bool) -> pd.DataFrame:
-    
-# combine with next page to return maz results 
-    search_radius = 20000  # meters
+def response_check(response):
+    print(response)
+    print("response.status_code =", response.status_code)
+    print("response.text= ", response.text)
+
+
+def search_keyword_at_a_location(location: tuple, keyword: str, fake_data = False, max_results = True, search_radius = 20000) -> dict:
+    # This is the main search function. Essentially just googles a keyword at a given location a returns results, not the response.
+    # consider integrating type
+    # combine with next page to return maz results
+
     max_search_radius = 50000  # meters
 
     api_params = {
@@ -52,118 +62,76 @@ def find_nearby_businesses(location: tuple, keyword: str, fakeData: bool) -> pd.
         'key': GOOGLE_MAPS_API_KEY,
         'keyword': keyword
     }
-    #api_params.update({'pagetoken':data['next_page_token']})
 
-    if fakeData:
+    empty_place_dataframe = {"business_status": None,
+                             "geometry": None,
+                             "icon": None,
+                             "icon_background_color": None,
+                             "icon_mask_base_uri": None,
+                             "name": None,
+                             "opening_hours": None,
+                             "photos": None,
+                             "place_id": None,
+                             "plus_code": None,
+                             "rating": None,
+                             "reference": None,
+                             "scope": None,
+                             "types": None,
+                             "user_ratings_total": None,
+                             "vicinity": None
+                             }
 
+    search_results = None
+
+    if fake_data:
         print('add data faking')
-
     else:
         try:
             response = requests.get(NEARBY_SEARCH_ENDPOINT, params=api_params)
-
             response.raise_for_status()
-            # print(response)
-            # print("response.status_code =", response.status_code)
-            # print("response.text= ", response.text)
-
+            # response_check(response)
             data = response.json()
             next_page_token = data.get('next_page_token')
-            npt = True 
+            search_results = data['results']
+            # check to see if you want to return max results (60)
+            if not max_results:
+                return search_results
+            # check to see if there are any additonal results
             if next_page_token == None:
-                return data 
-                #return data['results']
+                return search_results
+                # return data['results']
             else:
+                npt = True
                 while npt:
-                    api_params.update({'pagetoken':next_page_token})
-                    npt = False 
-            print(f"Results Length: {len(data['results'])}")
+                    #the delay below is actually required. Google needs a bit of time to respond
+                    time.sleep(2)
 
-            return data
+                    api_params.update({'pagetoken': next_page_token})
+                    #running search again to find additional results
+                    try:
+                        response = requests.get(NEARBY_SEARCH_ENDPOINT, params=api_params)
+                        response.raise_for_status()
+                        additional_data = response.json()
+                        search_results = search_results + additional_data['results']
+                        next_page_token = additional_data.get('next_page_token')
+
+                        # checking to see if there are even more results
+                        if next_page_token == None:
+                            npt = False
+                            return search_results
+
+                    except requests.exceptions.RequestException as error:
+                        print(f'Error additional page results: {error}')
+                        npt = False
+
+            return search_results
             # return json_to_panda(data)
 
         except requests.exceptions.RequestException as error:
             print(f'Error fetching nearby businesses: {error}')
-            empty_place_dataframe = {"business_status": None,
-                                     "geometry": None,
-                                     "icon": None,
-                                     "icon_background_color": None,
-                                     "icon_mask_base_uri": None,
-                                     "name": None,
-                                     "opening_hours": None,
-                                     "photos": None,
-                                     "place_id": None,
-                                     "plus_code": None,
-                                     "rating": None,
-                                     "reference": None,
-                                     "scope": None,
-                                     "types": None,
-                                     "user_ratings_total": None,
-                                     "vicinity": None
-                                     }
-            return json_to_panda(empty_place_dataframe)
+            return None
 
-        raise ("find_nearby_businesses function failed to return something")
-
-
-def find_nearby_businesses_next_page(location: tuple, token:str) -> pd.DataFrame:
-    search_radius = 20000  # meters
-    max_search_radius = 50000  # meters
-
-    if token == None:
-        print("no additional results to display")
-        return None
-
-    api_params = {
-        'location': f"{location[0]},{location[1]}",
-        'radius': search_radius,
-        'key': GOOGLE_MAPS_API_KEY,
-        'pagetoken': token
-    }
-
-    # This is weird
-
-    try:
-        response = requests.get(NEARBY_SEARCH_ENDPOINT, params=api_params)
-
-        response.raise_for_status()
-        # print(response)
-        # print("response.status_code =", response.status_code)
-        # print("response.text= ", response.text)
-
-        data = response.json()
-        print(f"Results Length: {len(data['results'])}")
-
-        return data
-        # return json_to_panda(data)
-
-    except requests.exceptions.RequestException as error:
-        print(f'Error fetching nearby businesses: {error}')
-        empty_place_dataframe = {"business_status": None,
-                                 "geometry": None,
-                                 "icon": None,
-                                 "icon_background_color": None,
-                                 "icon_mask_base_uri": None,
-                                 "name": None,
-                                 "opening_hours": None,
-                                 "photos": None,
-                                 "place_id": None,
-                                 "plus_code": None,
-                                 "rating": None,
-                                 "reference": None,
-                                 "scope": None,
-                                 "types": None,
-                                 "user_ratings_total": None,
-                                 "vicinity": None
-                                 }
-        return json_to_panda(empty_place_dataframe)
-
-        raise ("find_nearby_businesses function failed to return something")
-
-
-# No idea what this is
-# def API_nearv(latitude, longitude, keyword)->pd.DataFrame:
-#     try:
+        raise("search_keyword_at_a_location function failed to return something")
 
 
 def update_json_file(data_list: pd.DataFrame, json_file_path="data.json"):
@@ -231,7 +199,7 @@ def update_json_file(data_list: pd.DataFrame, json_file_path="data.json"):
 def get_place_details(place_id):
     place_detail_params['place_id'] = place_id
     try:
-        response = requests.get(place_details_base_url, params=place_detail_params)
+        response = requests.get(PLACE_DETAILS_ENDPOINT, params=place_detail_params)
         response.raise_for_status()
         data = response.json()
 
@@ -401,7 +369,7 @@ def exception_finder(list_of_place_details):
 def main(kfp, sdfp):
     keyword_list = get_keyword_list(kfp)
     for item in keyword_list:
-        list_of_places = find_nearby_businesses(latitude, longitude, item, False)
+        list_of_places = search_keyword_at_a_location(latitude, longitude, item, False)
         update_json_file(list_of_places, sdfp)
         print("")
 
@@ -423,17 +391,17 @@ def main(kfp, sdfp):
     # previous main
 
 
-def specific_search(location:tuple, keyword_list :list[str], fakeData:bool):
+def specific_search(location: tuple, keyword_list: list[str], fakeData: bool):
     search_results = []
     for keyword in keyword_list:
         # this start of this block creates a csv of results for a specific keyword
-        data = find_nearby_businesses(location, keyword, fakeData)
+        data = search_keyword_at_a_location(location, keyword, fakeData)
         search_results = search_results + data['results']
         additional_tokens = True
         i = 0
         next_page_token = data.get('next_page_token')
         while additional_tokens:
-            i+=1
+            i += 1
             print(len(search_results))
             time.sleep(5)
             holder = find_nearby_businesses_next_page(chino_hills_machine_shop_search, next_page_token)
@@ -470,10 +438,13 @@ elif input("Do you want to read all place results for a specific keyword list in
     # compression_opts = dict(method='zip', archive_name='out.csv')
     # out.to_csv('out.zip', index=False, compression=compression_opts)
     #
-    keyword_list = get_keyword_list('Engineering.csv')
+    keyword_list = get_keyword_list('Machine_Shops.csv')
     data = specific_search(chino_hills_machine_shop_search, keyword_list, False)
     print("making out file")
     out = pd.DataFrame(data)
     compression_opts = dict(method='zip', archive_name='out.csv')
     out.to_csv('out.zip', index=False, compression=compression_opts)
 
+elif input("simple? (y/n)") == "y":
+    list = search_keyword_at_a_location(chino_hills_machine_shop_search, 'tacos')
+    print(len(list))
